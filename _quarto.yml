@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  page-navigation: true
+  title: "Yulong He"
+  site-url: https://yulong1.github.io
+  favicon: images/site-logo.png
+  repo-url: https://github.com/hreyulog/yulong1.github.io
+  search: false
+  
+  page-footer:
+    left: |
+      [Yulong He](https://yulong1.github.io)<br>
+    right: |
+      [贺育隆](https://yulong1.github.io)<br>
+    
+  navbar: 
+    background: "#90a9d1"
+    right: 
+      - text: "English"
+        href: index.qmd
+      - text: "中文"
+        href: Chinese.qmd
+      # - text: "CV"
+      #   href: CV.pdf
+
+format:
+  html:
+    theme: styles.scss
+    toc: true            # 启用目录
+    toc-position: left  # 将目录放置在页面的右侧
+    toc-depth: 3         # 设置目录的深度，数字越大，目录越详细

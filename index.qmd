@@ -1,0 +1,102 @@
+---
+title: "Yulong He"
+image: images/yulong.jpg
+about:
+  id: hero-heading
+  template: jolla
+  image-width: 15em
+  image-shape: round
+  links:
+    - icon: mailbox
+      text: heyulong1998@gmail.com
+      href: mailto:heyulong1998@gmail.com
+    - icon: github
+      href: https://github.com/hreyulog
+    - text: <img src="images/google-scholar.svg" width="16px" height="16px" style="vertical-align:middle">
+      href: https://scholar.google.com/citations?user=q4gQxaIAAAAJ&hl=zh-CN
+    - icon: linkedin
+      href: https://www.linkedin.com/in/yulong-he-7ab337213/
+    - text: <img src="images/zhihu.svg" width="16px" height="16px" style="vertical-align:middle">
+      href: https://www.zhihu.com/people/heyulong1998
+    - text: <img src="images/researchgate.svg" width="16px" height="16px" style="vertical-align:middle">
+      href: https://www.researchgate.net/profile/Yulong-He-1
+---
+
+
+
+
+Yulong He is a PhD candidate in Theoretical Computer Science and Cybernetics at Saint Petersburg State University (Sep 2024 - Jun 2027), sponsored by the China Scholarship Council as a first-batch government-sponsored student. He completed both his Bachelor's and Master's degrees in Applied Mathematics and Computer Science at Saint Petersburg State University, both sponsored by the China Scholarship Council as first-batch government-sponsored students.
+
+He is currently a Machine Learning and Algorithm Engineer at Huawei Saint Petersburg Chebyshev Research Institute, and also a part-time Software Engineer at ITMO University AI Lab. His research interests include code embedding models, RAG systems, knowledge graphs, and large language model applications. He achieved the best result (61.22) on the CoIR Hybrid Code Benchmark 2024, and developed lightweight code models achieving 5x inference speedup.
+
+He has published papers in journals such as *Journal of Computational Science*, *Scientific Reports*, and *Mathematics*, with multiple papers under review. He has served as a reviewer for *Journal of Artificial Societies and Social Simulation (JASSS)* and *ICIC 2026*. He won the Chunhui Cup Chinese Overseas Students Innovation Competition twice (2021, 2023).
+
+
+
+## Education
+
+- 2024.9-2027.6 Saint Petersburg State University, Theoretical Computer Science and Cybernetics (PhD), CSC first-batch government-sponsored
+- 2022.9-2024.6 Saint Petersburg State University, Applied Mathematics and Computer Science (Master), CSC first-batch government-sponsored
+- 2018.9-2022.6 Saint Petersburg State University, Applied Mathematics and Computer Science (Bachelor)
+
+## Work Experience
+
+- 2025.11-Present ITMO University AI Lab, Software Engineer (Part-time)
+- 2021.8-Present Huawei Saint Petersburg Chebyshev Research Institute, Machine Learning and Algorithm Engineer
+
+## Research Interests
+
+  Opinion Dynamics, Code Embedding Models (Knowledge Distillation, Quantization, Data Augmentation), RAG Systems and Knowledge Graphs, Large Language Model Applications and Fine-tuning, Multi-Agent Systems
+
+## Projects
+
+- **Code Embedding Model** (2023-2025)
+  - Implemented knowledge distillation and data augmentation, achieved best result (61.22) on CoIR Hybrid Code Benchmark 2024
+  - Built multi-level model evaluation system, developed ArkTS language parser based on tree-sitter, collected and cleaned ArkTS dataset
+
+- **Local Code RAG** (2024-2025)
+  - Designed and trained XX-2.2-25M and XX-2.4-14M models, with only 16% and 21% accuracy drop, achieving 3x and 5x inference speedup
+  - Quantized models and successfully integrated into DevEco and CodeArts IDE
+
+- **Low-Code RAG Project** (2025)
+  - Built test dataset and integrated graph retrieval system, achieving Recall=0.236, Precision=0.333, F1=0.244
+  - Fine-tuned XX2.1-SPECIAL-XX6 model, achieving 519.86% inference speedup with only 9.87% MAP@5 drop
+  - Developed low-code Codebase, integrated GaussDB database
+
+- **Knowledge Graph-based Code Agent** (2025)
+  - Improved code generation accuracy from 25.22% to 41.30% on CoderEval dataset, achieving best result
+  - Designed localized RAG solution architecture, adopted by CBG team, participated in patent application writing
+
+- **PETAL SEARCH** (2021-2023)
+  - As key coordinator, responsible for HQ technical solution integration and adaptation locally
+  - Optimized Chinese search ranking model, improved MRR by 23%
+  - Replaced tokenizer binary tree with Trie tree in iQue project, nearly 2x performance improvement
+
+## Publications
+
+- **Social Life of Code: Modeling Evolution through Code Embedding and Opinion Dynamics**. *Journal of Computational Science*, 96, 102824, 2026. [Link](https://doi.org/10.1016/j.jocs.2026.102824)
+- **Lightweight bearing fault diagnosis via decoupled distillation and low rank adaptation**. *Scientific Reports*, 2025. [Link](https://doi.org/10.1038/s41598-025-06734-y)
+- **Research on Robust Audio-Visual Speech Recognition Algorithms**. *Mathematics*, 11(7), 1733, 2023. [Link](https://doi.org/10.3390/math11071733)
+- **ОБНАРУЖЕНИЕ АНОМАЛИЙ ВО ВРЕМЕННЫХ РЯДАХ С ПОМОЩЬЮ МЕТОДОВ ПРОГНОЗИРОВАНИЯ**. *Процессы управления и устойчивость*, 9(25), 2022. [Link](https://dspace.spbu.ru/bitstream/11701/37048/1/cps2022.pdf)
+- **Opinion Dynamics Models for Sentiment Evolution in Weibo Blogs**. 2025 (under review). [Link](https://arxiv.org/abs/2511.15303)
+- **Style2Code: A Style-Controllable Code Generation Framework**. 2025 (under review). [Link](https://arxiv.org/abs/2505.19442)
+- **Opinion dynamics and mutual influence with LLM agents through dialog simulation**. 2026 (under review). [Link](https://arxiv.org/abs/2602.12583)
+- **ArkTS-CodeSearch: A Open-Source ArkTS Dataset for Code Retrieval**. 2026 (under review, CORE A). [Link](https://arxiv.org/abs/2602.05550)
+- **Semantic vs. Structural Signals: Log-Probability and LLM-as-a-Judge for Reference-Free Code Evaluation**. (under review)
+- **Structured Multi-Criteria Evaluation of Large Language Models with Fuzzy Analytic Hierarchy Process and DualJudge**. (under review)
+
+## Academic Service
+
+- Teaching Assistant, "Statistical Decisions and Econometrics", Saint Petersburg State University, 2026
+- Reviewer, *Journal of Artificial Societies and Social Simulation (JASSS)*, 2026
+- Reviewer, *2026 International Conference on Intelligent Computing (ICIC 2026)*, 2026
+
+## Honors & Awards
+
+
+- 2023-2025 Excellent Officer, Deputy Director of External Relations, Director of External Relations, Honorary Vice President of Chinese Students Association in Saint Petersburg
+- 2021, 2023 Chunhui Cup Chinese Overseas Students Innovation Competition Winner
+- 2022-2025 Huawei Department July Timely Incentive Award, 2 Inter-departmental Thank-you Letters, Lab September Star of the Month
+- 2024 Wuxi "Taihu Cup" International Elite Innovation Competition Excellent Project
+- 2023 Youth Creativity and Sports Potential Cooperation Commendation
+- 2025 Multicultural Festival Commendation

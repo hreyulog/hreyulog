@@ -1,0 +1,101 @@
+---
+title: "贺育隆"
+image: images/yulong.jpg
+about:
+  id: hero-heading
+  template: jolla
+  image-width: 15em
+  image-shape: round
+  links:
+    - text: heyulong1998@gmail.com
+      href: mailto:heyulong1998@gmail.com
+    - icon: github
+      href: https://github.com/hreyulog
+    - text: <img src="images/google-scholar.svg" width="16px" height="16px" style="vertical-align:middle">
+      href: https://scholar.google.com/citations?user=q4gQxaIAAAAJ&hl=zh-CN
+    - icon: linkedin
+      href: https://www.linkedin.com/in/yulong-he-7ab337213/
+    - text: <img src="images/zhihu.svg" width="16px" height="16px" style="vertical-align:middle">
+      href: https://www.zhihu.com/people/heyulong1998
+    - text: <img src="images/researchgate.svg" width="16px" height="16px" style="vertical-align:middle">
+      href: https://www.researchgate.net/profile/Yulong-He-1
+---
+
+
+
+
+贺育隆，圣彼得堡国立大学理论计算机科学与控制论方向博士在读（2024.9-2027.6），国家留学基金委第一批公派留学生。本科、硕士均就读于圣彼得堡国立大学应用数学与计算机科学专业，均获国家留学基金委第一批公派资助。
+
+现为华为圣彼得堡切比雪夫研究所机器学习与算法工程师，同时兼任ITMO大学人工智能实验室软件开发工程师。研究方向包括代码嵌入模型、RAG系统、知识图谱与大语言模型应用。在CoIR Hybrid Code Benchmark 2024基准测试中取得最佳成绩（61.22），开发的轻量级代码模型实现5倍推理加速。
+
+在 *Journal of Computational Science* 、*Scientific Reports* 、*Mathematics*  等期刊发表论文，多篇论文在审。曾担任 *Journal of Artificial Societies and Social Simulation (JASSS)*、*ICIC 2026* 审稿人。曾获春晖杯中国留学人员创新创业大赛优胜奖两次（2021、2023）。
+
+
+
+## 教育经历
+
+- 2024.9-2027.6 圣彼得堡国立大学 理论计算机科学、控制论（博士），国家留学基金委第一批公派留学
+- 2022.9-2024.6 圣彼得堡国立大学 应用数学与计算机科学（硕士），国家留学基金委第一批公派留学
+- 2018.9-2022.6 圣彼得堡国立大学 应用数学与计算机科学（学士）
+
+## 工作经历
+
+- 2025.11-今 圣彼得堡国立信息技术机械与光学大学（ITMO）人工智能实验室 软件开发工程师（兼职）
+- 2021.8-今 华为圣彼得堡切比雪夫研究所 机器学习与算法工程师
+
+## 研究兴趣
+
+观点动力学、代码嵌入模型（知识蒸馏、量化、数据增强）、RAG系统与知识图谱、大语言模型应用与微调、多智能体系统
+
+## 项目经历
+
+- **代码嵌入模型**（2023-2025）
+  - 实现知识蒸馏与数据增强，在CoIR Hybrid Code Benchmark 2024取得最佳成绩（61.22）
+  - 构建多层级模型评估体系，基于tree-sitter开发ArkTS语言解析器，收集清洗ArkTS数据集
+
+- **本地代码RAG**（2024-2025）
+  - 设计训练XX-2.2-25M和XX-2.4-14M模型，精度仅下降16%和21%，实现3倍和5倍推理加速
+  - 对模型进行量化处理，成功集成至DevEco和CodeArts IDE
+
+- **低码RAG项目**（2025）
+  - 构建测试数据集并集成图检索系统，达到Recall=0.236, Precision=0.333, F1=0.244
+  - 对XX2.1-SPECIAL-XX6模型进行微调，在MAP@5仅下降9.87%的前提下，推理速度提升519.86%
+  - 开发低码Codebase，集成gaussdb数据库
+
+- **结合知识图谱的代码agent**（2025）
+  - 在CoderEval数据集上将代码生成准确率从25.22%提升至41.30%，成为最佳结果
+  - 设计本地化RAG解决方案架构，获得CBG团队采纳，参与撰写专利申请
+
+- **PETAL SEARCH**（2021-2023）
+  - 作为关键协调人，负责总部技术方案在本地的技术集成与适配
+  - 优化中文搜索排序模型，MRR提升23%
+  - 在iQue项目中将分词器二叉树替换为Trie树，性能提升近2倍
+
+## 发表论文
+
+- **Social Life of Code: Modeling Evolution through Code Embedding and Opinion Dynamics**. *Journal of Computational Science*, 96, 102824, 2026. [Link](https://doi.org/10.1016/j.jocs.2026.102824)
+- **Lightweight bearing fault diagnosis via decoupled distillation and low rank adaptation**. *Scientific Reports* , 2025. [Link](https://doi.org/10.1038/s41598-025-06734-y)
+- **Research on Robust Audio-Visual Speech Recognition Algorithms**. *Mathematics*, 11(7), 1733 , 2023. [Link](https://doi.org/10.3390/math11071733)
+- **ОБНАРУЖЕНИЕ АНОМАЛИЙ ВО ВРЕМЕННЫХ РЯДАХ С ПОМОЩЬЮ МЕТОДОВ ПРОГНОЗИРОВАНИЯ**. *Процессы управления и устойчивость*, 9(25), 2022. [Link](https://dspace.spbu.ru/bitstream/11701/37048/1/cps2022.pdf)
+- **Opinion Dynamics Models for Sentiment Evolution in Weibo Blogs**. 2025 (under review). [Link](https://arxiv.org/abs/2511.15303)
+- **Style2Code: A Style-Controllable Code Generation Framework**. 2025 (under review). [Link](https://arxiv.org/abs/2505.19442)
+- **Opinion dynamics and mutual influence with LLM agents through dialog simulation**. 2026 (under review). [Link](https://arxiv.org/abs/2602.12583)
+- **ArkTS-CodeSearch: A Open-Source ArkTS Dataset for Code Retrieval**. 2026 (under review, CORE A). [Link](https://arxiv.org/abs/2602.05550)
+- **Semantic vs. Structural Signals: Log-Probability and LLM-as-a-Judge for Reference-Free Code Evaluation**. (under review)
+- **Structured Multi-Criteria Evaluation of Large Language Models with Fuzzy Analytic Hierarchy Process and DualJudge**. (under review)
+
+## 学术服务
+
+- 《Statistical Decisions and Econometrics》课程助教，圣彼得堡国立大学，2026年
+- 《Journal of Artificial Societies and Social Simulation (JASSS)》审稿人，2026年
+- 《2026 International Conference on Intelligent Computing (ICIC 2026)》审稿人，2026年
+
+## 荣誉奖项
+
+
+- 2023-2025 圣彼得堡中国留学人员联合会优秀干事、外联部副部长、外联部部长、荣誉副主席
+- 2021、2023 春晖杯中国留学人员创新创业大赛优胜奖
+- 2022-2025 华为 部门七月及时激励奖、跨部门感谢信2封、实验室九月月度之星
+- 2024 无锡"太湖杯"国际精英创新创业大赛高校赛优秀项目
+- 2023 青年创造力与体育潜力合作表彰状（圣彼得堡市维堡区政府）
+- 2025 多民族文化节表彰状（圣彼得堡市斯特里尔那镇政府）
