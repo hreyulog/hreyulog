@@ -39,7 +39,7 @@
     "href": "index.html#publications",
     "title": "Yulong He",
     "section": "Publications",
-    "text": "Publications\n\nSocial Life of Code: Modeling Evolution through Code Embedding and Opinion Dynamics. Journal of Computational Science, 96, 102824, 2026. Link\nLightweight bearing fault diagnosis via decoupled distillation and low rank adaptation. Scientific Reports, 2025. Link\nResearch on Robust Audio-Visual Speech Recognition Algorithms. Mathematics, 11(7), 1733, 2023. Link\nОБНАРУЖЕНИЕ АНОМАЛИЙ ВО ВРЕМЕННЫХ РЯДАХ С ПОМОЩЬЮ МЕТОДОВ ПРОГНОЗИРОВАНИЯ. Процессы управления и устойчивость, 9(25), 2022. Link\nOpinion Dynamics Models for Sentiment Evolution in Weibo Blogs. 2025 (under review). Link\nStyle2Code: A Style-Controllable Code Generation Framework. 2025 (under review). Link\nOpinion dynamics and mutual influence with LLM agents through dialog simulation. 2026 (under review). Link\nArkTS-CodeSearch: A Open-Source ArkTS Dataset for Code Retrieval. 2026 (under review, CORE A). Link\nSemantic vs. Structural Signals: Log-Probability and LLM-as-a-Judge for Reference-Free Code Evaluation. (under review)\nStructured Multi-Criteria Evaluation of Large Language Models with Fuzzy Analytic Hierarchy Process and DualJudge. (under review)"
+    "text": "Publications\n\nSocial Life of Code: Modeling Evolution through Code Embedding and Opinion Dynamics. Y He, N Verbin, S Kovalchuk. Journal of Computational Science, 96, 102824, 2026. Link\nLightweight bearing fault diagnosis via decoupled distillation and low rank adaptation. O Petrosian, P Li, Y He, J Liu, Z Sun, G Fu, L Meng. Scientific Reports, 2025. Link\nResearch on Robust Audio-Visual Speech Recognition Algorithms. W Yang, P Li, W Yang, Y Liu, Y He, O Petrosian, A Davydenko. Mathematics, 11(7), 1733, 2023. Link\nОБНАРУЖЕНИЕ АНОМАЛИЙ ВО ВРЕМЕННЫХ РЯДАХ С ПОМОЩЬЮ МЕТОДОВ ПРОГНОЗИРОВАНИЯ. НЭ ДЕВРИШЕВ, Ю ХЭ, ОЛ ПЕТРОСЯН. Процессы управления и устойчивость, 9(25), 2022. Link\nOpinion Dynamics Models for Sentiment Evolution in Weibo Blogs. Y He, AV Proskurnikov, A Sedakov. 2025.11 (under review). Link\nStyle2Code: A Style-Controllable Code Generation Framework. D Zhang, S Kovalchuk, YL He, NA Arias, B Li. 2025.5 (under review). Link\nOpinion dynamics and mutual influence with LLM agents through dialog simulation. Y He, D Zhang, S Kovalchuk, P Li, A Sedakov. 2026.1 (under review). Link\nArkTS-CodeSearch: A Open-Source ArkTS Dataset for Code Retrieval. Y He, A Ermakov, S Kovalchuk, A Aliev, D Shalymov. 2026.2 (under review). Link\nStructured Multi-Criteria Evaluation of Large Language Models with Fuzzy Analytic Hierarchy Process and DualJudge. Y He, I Smirnov, D Fedrushkov, S Kovalchuk, I Revin. 2026.4 (under review). Link"
   },
   {
     "objectID": "index.html#academic-service",
@@ -54,20 +54,6 @@
     "title": "Yulong He",
     "section": "Honors & Awards",
     "text": "Honors & Awards\n\n2023-2025 Excellent Officer, Deputy Director of External Relations, Director of External Relations, Honorary Vice President of Chinese Students Association in Saint Petersburg\n2021, 2023 Chunhui Cup Chinese Overseas Students Innovation Competition Winner\n2022-2025 Huawei Department July Timely Incentive Award, 2 Inter-departmental Thank-you Letters, Lab September Star of the Month\n2024 Wuxi “Taihu Cup” International Elite Innovation Competition Excellent Project\n2023 Youth Creativity and Sports Potential Cooperation Commendation\n2025 Multicultural Festival Commendation"
-  },
-  {
-    "objectID": "readme.html",
-    "href": "readme.html",
-    "title": "Yulong He",
-    "section": "",
-    "text": "我的 个人主页 是基于 Chi Zhang (github) 的个人主页修改而来的。\n你可以 Fork 本仓库，然后酌情修改你的个人信息，编译后即可生成你的个人主页。这种方法无需注册域名，也不用学习 HTML 和 CSS 等前端知识，直接使用 GitHub Pages 即可完成个人主页的搭建。\n具体制作过程参见：\n\n连小白, 2025, 50 分钟搞定个人主页：Fork 模板 + GitHub Pages + Quarto 完整教程.\n\n本仓库的使用方法：\n\n你可以点击本页右上方的 ⭐Star 按钮来收藏本仓库，方便日后查阅；\n也可以点击 Use this template 按钮来快速 Fork 本仓库。\n你制作个人主页期间有任何问题，可以在 Discussions 提问和讨论。\n\n\n\n主页 | 课程 | 视频 | 推文 | 资料"
-  },
-  {
-    "objectID": "readme.html#如何生成个人主页",
-    "href": "readme.html#如何生成个人主页",
-    "title": "Yulong He",
-    "section": "",
-    "text": "我的 个人主页 是基于 Chi Zhang (github) 的个人主页修改而来的。\n你可以 Fork 本仓库，然后酌情修改你的个人信息，编译后即可生成你的个人主页。这种方法无需注册域名，也不用学习 HTML 和 CSS 等前端知识，直接使用 GitHub Pages 即可完成个人主页的搭建。\n具体制作过程参见：\n\n连小白, 2025, 50 分钟搞定个人主页：Fork 模板 + GitHub Pages + Quarto 完整教程.\n\n本仓库的使用方法：\n\n你可以点击本页右上方的 ⭐Star 按钮来收藏本仓库，方便日后查阅；\n也可以点击 Use this template 按钮来快速 Fork 本仓库。\n你制作个人主页期间有任何问题，可以在 Discussions 提问和讨论。\n\n\n\n主页 | 课程 | 视频 | 推文 | 资料"
   },
   {
     "objectID": "Chinese.html",
@@ -109,7 +95,7 @@
     "href": "Chinese.html#发表论文",
     "title": "贺育隆",
     "section": "发表论文",
-    "text": "发表论文\n\nSocial Life of Code: Modeling Evolution through Code Embedding and Opinion Dynamics. Journal of Computational Science, 96, 102824, 2026. Link\nLightweight bearing fault diagnosis via decoupled distillation and low rank adaptation. Scientific Reports , 2025. Link\nResearch on Robust Audio-Visual Speech Recognition Algorithms. Mathematics, 11(7), 1733 , 2023. Link\nОБНАРУЖЕНИЕ АНОМАЛИЙ ВО ВРЕМЕННЫХ РЯДАХ С ПОМОЩЬЮ МЕТОДОВ ПРОГНОЗИРОВАНИЯ. Процессы управления и устойчивость, 9(25), 2022. Link\nOpinion Dynamics Models for Sentiment Evolution in Weibo Blogs. 2025 (under review). Link\nStyle2Code: A Style-Controllable Code Generation Framework. 2025 (under review). Link\nOpinion dynamics and mutual influence with LLM agents through dialog simulation. 2026 (under review). Link\nArkTS-CodeSearch: A Open-Source ArkTS Dataset for Code Retrieval. 2026 (under review, CORE A). Link\nSemantic vs. Structural Signals: Log-Probability and LLM-as-a-Judge for Reference-Free Code Evaluation. (under review)\nStructured Multi-Criteria Evaluation of Large Language Models with Fuzzy Analytic Hierarchy Process and DualJudge. (under review)"
+    "text": "发表论文\n\nSocial Life of Code: Modeling Evolution through Code Embedding and Opinion Dynamics. Y He, N Verbin, S Kovalchuk. Journal of Computational Science, 96, 102824, 2026. Link\nLightweight bearing fault diagnosis via decoupled distillation and low rank adaptation. O Petrosian, P Li, Y He, J Liu, Z Sun, G Fu, L Meng. Scientific Reports, 2025. Link\nResearch on Robust Audio-Visual Speech Recognition Algorithms. W Yang, P Li, W Yang, Y Liu, Y He, O Petrosian, A Davydenko. Mathematics, 11(7), 1733, 2023. Link\nОБНАРУЖЕНИЕ АНОМАЛИЙ ВО ВРЕМЕННЫХ РЯДАХ С ПОМОЩЬЮ МЕТОДОВ ПРОГНОЗИРОВАНИЯ. НЭ ДЕВРИШЕВ, Ю ХЭ, ОЛ ПЕТРОСЯН. Процессы управления и устойчивость, 9(25), 2022. Link\nOpinion Dynamics Models for Sentiment Evolution in Weibo Blogs. Y He, AV Proskurnikov, A Sedakov. 2025.11 (under review). Link\nStyle2Code: A Style-Controllable Code Generation Framework. D Zhang, S Kovalchuk, YL He, NA Arias, B Li. 2025.5 (under review). Link\nOpinion dynamics and mutual influence with LLM agents through dialog simulation. Y He, D Zhang, S Kovalchuk, P Li, A Sedakov. 2026.1 (under review). Link\nArkTS-CodeSearch: A Open-Source ArkTS Dataset for Code Retrieval. Y He, A Ermakov, S Kovalchuk, A Aliev, D Shalymov. 2026.2 (under review). Link\nStructured Multi-Criteria Evaluation of Large Language Models with Fuzzy Analytic Hierarchy Process and DualJudge. Y He, I Smirnov, D Fedrushkov, S Kovalchuk, I Revin. 2026.4(under review). Link"
   },
   {
     "objectID": "Chinese.html#学术服务",

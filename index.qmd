@@ -74,16 +74,16 @@ He has published papers in journals such as *Journal of Computational Science*, 
 
 ## Publications
 
-- **Social Life of Code: Modeling Evolution through Code Embedding and Opinion Dynamics**. *Journal of Computational Science*, 96, 102824, 2026. [Link](https://doi.org/10.1016/j.jocs.2026.102824)
-- **Lightweight bearing fault diagnosis via decoupled distillation and low rank adaptation**. *Scientific Reports*, 2025. [Link](https://doi.org/10.1038/s41598-025-06734-y)
-- **Research on Robust Audio-Visual Speech Recognition Algorithms**. *Mathematics*, 11(7), 1733, 2023. [Link](https://doi.org/10.3390/math11071733)
-- **ОБНАРУЖЕНИЕ АНОМАЛИЙ ВО ВРЕМЕННЫХ РЯДАХ С ПОМОЩЬЮ МЕТОДОВ ПРОГНОЗИРОВАНИЯ**. *Процессы управления и устойчивость*, 9(25), 2022. [Link](https://dspace.spbu.ru/bitstream/11701/37048/1/cps2022.pdf)
-- **Opinion Dynamics Models for Sentiment Evolution in Weibo Blogs**. 2025 (under review). [Link](https://arxiv.org/abs/2511.15303)
-- **Style2Code: A Style-Controllable Code Generation Framework**. 2025 (under review). [Link](https://arxiv.org/abs/2505.19442)
-- **Opinion dynamics and mutual influence with LLM agents through dialog simulation**. 2026 (under review). [Link](https://arxiv.org/abs/2602.12583)
-- **ArkTS-CodeSearch: A Open-Source ArkTS Dataset for Code Retrieval**. 2026 (under review, CORE A). [Link](https://arxiv.org/abs/2602.05550)
-- **Semantic vs. Structural Signals: Log-Probability and LLM-as-a-Judge for Reference-Free Code Evaluation**. (under review)
-- **Structured Multi-Criteria Evaluation of Large Language Models with Fuzzy Analytic Hierarchy Process and DualJudge**. (under review)
+- **Social Life of Code: Modeling Evolution through Code Embedding and Opinion Dynamics**.<br> **Y He**, N Verbin, S Kovalchuk. *Journal of Computational Science*, 96, 102824, 2026. [Link](https://doi.org/10.1016/j.jocs.2026.102824)
+- **Lightweight bearing fault diagnosis via decoupled distillation and low rank adaptation**.<br> O Petrosian, P Li, **Y He**, J Liu, Z Sun, G Fu, L Meng. *Scientific Reports*, 2025. [Link](https://doi.org/10.1038/s41598-025-06734-y)
+- **Research on Robust Audio-Visual Speech Recognition Algorithms**.<br> W Yang, P Li, W Yang, Y Liu, **Y He**, O Petrosian, A Davydenko. *Mathematics*, 11(7), 1733, 2023. [Link](https://doi.org/10.3390/math11071733)
+- **ОБНАРУЖЕНИЕ АНОМАЛИЙ ВО ВРЕМЕННЫХ РЯДАХ С ПОМОЩЬЮ МЕТОДОВ ПРОГНОЗИРОВАНИЯ**.<br> НЭ ДЕВРИШЕВ, **Ю ХЭ**, ОЛ ПЕТРОСЯН. *Процессы управления и устойчивость*, 9(25), 2022. [Link](https://dspace.spbu.ru/bitstream/11701/37048/1/cps2022.pdf)
+- **Opinion Dynamics Models for Sentiment Evolution in Weibo Blogs**.<br> **Y He**, AV Proskurnikov, A Sedakov. 2025.11 (under review). [Link](https://arxiv.org/abs/2511.15303)
+- **Style2Code: A Style-Controllable Code Generation Framework**.<br> D Zhang, S Kovalchuk, **YL He**, NA Arias, B Li. 2025.5 (under review). [Link](https://arxiv.org/abs/2505.19442)
+- **Opinion dynamics and mutual influence with LLM agents through dialog simulation**.<br> **Y He**, D Zhang, S Kovalchuk, P Li, A Sedakov. 2026.1 (under review). [Link](https://arxiv.org/abs/2602.12583)
+- **ArkTS-CodeSearch: A Open-Source ArkTS Dataset for Code Retrieval**.<br> **Y He**, A Ermakov, S Kovalchuk, A Aliev, D Shalymov. 2026.2 (under review). [Link](https://arxiv.org/abs/2602.05550)
+- **Structured Multi-Criteria Evaluation of Large Language Models with Fuzzy Analytic Hierarchy Process and DualJudge**.<br> **Y He**, I Smirnov, D Fedrushkov, S Kovalchuk, I Revin. 2026.4 (under review). [Link](https://arxiv.org/abs/2604.03742)
+
 
 ## Academic Service
 
