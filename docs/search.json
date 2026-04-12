@@ -32,7 +32,7 @@
     "href": "index.html#projects",
     "title": "Yulong He",
     "section": "Projects",
-    "text": "Projects\n\nCode Embedding Model (2023-2025)\n\nImplemented knowledge distillation and data augmentation, achieved best result (61.22) on CoIR Hybrid Code Benchmark 2024\nBuilt multi-level model evaluation system, developed ArkTS language parser based on tree-sitter, collected and cleaned ArkTS dataset\n\nLocal Code RAG (2024-2025)\n\nDesigned and trained XX-2.2-25M and XX-2.4-14M models, with only 16% and 21% accuracy drop, achieving 3x and 5x inference speedup\nQuantized models and successfully integrated into DevEco and CodeArts IDE\n\nLow-Code RAG Project (2025)\n\nBuilt test dataset and integrated graph retrieval system, achieving Recall=0.236, Precision=0.333, F1=0.244\nFine-tuned XX2.1-SPECIAL-XX6 model, achieving 519.86% inference speedup with only 9.87% MAP@5 drop\nDeveloped low-code Codebase, integrated GaussDB database\n\nKnowledge Graph-based Code Agent (2025)\n\nImproved code generation accuracy from 25.22% to 41.30% on CoderEval dataset, achieving best result\nDesigned localized RAG solution architecture, adopted by CBG team, participated in patent application writing\n\nPETAL SEARCH (2021-2023)\n\nAs key coordinator, responsible for HQ technical solution integration and adaptation locally\nOptimized Chinese search ranking model, improved MRR by 23%\nReplaced tokenizer binary tree with Trie tree in iQue project, nearly 2x performance improvement"
+    "text": "Projects\n\nCode Embedding Model (2023-2025)\n\nImplemented knowledge distillation and data augmentation, achieved best result (61.22) on CoIR Hybrid Code Benchmark 2024\nBuilt multi-level model evaluation system, developed ArkTS language parser based on tree-sitter, collected and cleaned ArkTS dataset\nDesigned and trained XX-2.2-25M and XX-2.4-14M models, with only 16% and 21% accuracy drop, achieving 3x and 5x inference speedup\nQuantized models and successfully integrated into DevEco and CodeArts IDE\n\nLow-Code RAG Project (2025)\n\nBuilt test dataset and integrated graph retrieval system, achieving Recall=0.236, Precision=0.333, F1=0.244\nFine-tuned XX2.1-SPECIAL-XX6 model, achieving 519.86% inference speedup with only 9.87% MAP@5 drop\nDeveloped low-code Codebase, integrated GaussDB database\n\nKnowledge Graph-based Code Agent (2025)\n\nImproved code generation accuracy from 25.22% to 41.30% on CoderEval dataset, achieving best result\nDesigned localized RAG solution architecture, adopted by CBG team, participated in patent application writing\n\nPETAL SEARCH (2021-2023)\n\nAs key coordinator, responsible for HQ technical solution integration and adaptation locally\nOptimized Chinese search ranking model, improved MRR by 23%\nReplaced tokenizer binary tree with Trie tree in iQue project, nearly 2x performance improvement"
   },
   {
     "objectID": "index.html#publications",
@@ -53,14 +53,14 @@
     "href": "index.html#honors-awards",
     "title": "Yulong He",
     "section": "Honors & Awards",
-    "text": "Honors & Awards\n\n2023-2025 Excellent Officer, Deputy Director of External Relations, Director of External Relations, Honorary Vice President of Chinese Students Association in Saint Petersburg\n2021, 2023 Chunhui Cup Chinese Overseas Students Innovation Competition Winner\n2022-2025 Huawei Department July Timely Incentive Award, 2 Inter-departmental Thank-you Letters, Lab September Star of the Month\n2024 Wuxi “Taihu Cup” International Elite Innovation Competition Excellent Project\n2023 Youth Creativity and Sports Potential Cooperation Commendation\n2025 Multicultural Festival Commendation"
+    "text": "Honors & Awards\n\n2023-2025 Excellent Officer, Deputy Director of External Relations, Director of External Relations, Honorary Vice President of Chinese Students Association in Saint Petersburg\n2021, 2023 Chunhui Cup Chinese Overseas Students Innovation Competition Winner\n2022-2025 Huawei Department Timely Incentive Award, 2 Inter-departmental Thank-you Letters, Lab Star of the Month\n2024 Wuxi “Taihu Cup” International Elite Innovation Competition Excellent Project\n2023 Youth Creativity and Sports Potential Cooperation Commendation (Vyborg District Government, Saint Petersburg)\n2025 Multicultural Festival Commendation (Strelna District Government, Saint Petersburg)"
   },
   {
     "objectID": "Chinese.html",
     "href": "Chinese.html",
     "title": "贺育隆",
     "section": "",
-    "text": "贺育隆，圣彼得堡国立大学理论计算机科学与控制论方向博士在读（2024.9-2027.6），国家留学基金委第一批公派留学生。本科、硕士均就读于圣彼得堡国立大学应用数学与计算机科学专业，均获国家留学基金委第一批公派资助。\n现为华为圣彼得堡切比雪夫研究所机器学习与算法工程师，同时兼任ITMO大学人工智能实验室软件开发工程师。研究方向包括代码嵌入模型、RAG系统、知识图谱与大语言模型应用。在CoIR Hybrid Code Benchmark 2024基准测试中取得最佳成绩（61.22），开发的轻量级代码模型实现5倍推理加速。\n在 Journal of Computational Science 、Scientific Reports 、Mathematics 等期刊发表论文，多篇论文在审。曾担任 Journal of Artificial Societies and Social Simulation (JASSS)、ICIC 2026 审稿人。曾获春晖杯中国留学人员创新创业大赛优胜奖两次（2021、2023）。"
+    "text": "贺育隆，圣彼得堡国立大学理论计算机科学与控制论方向博士在读（2024.9-2027.6）。本科、硕士均就读于圣彼得堡国立大学应用数学与计算机科学专业，硕士、博士获国家留学基金委第一批公派资助。\n现为华为圣彼得堡切比雪夫研究所机器学习与算法工程师，同时兼任ITMO大学人工智能实验室软件开发工程师。研究方向包括代码嵌入模型、RAG系统、知识图谱与大语言模型应用。在CoIR Hybrid Code Benchmark 2024基准测试中取得最佳成绩（61.22），开发的轻量级代码模型实现5倍推理加速。\n在 Journal of Computational Science 、Scientific Reports 、Mathematics 等期刊发表论文，多篇论文在审。曾担任 Journal of Artificial Societies and Social Simulation (JASSS)、ICIC 2026 审稿人。曾获春晖杯中国留学人员创新创业大赛优胜奖两次（2021、2023）。"
   },
   {
     "objectID": "Chinese.html#教育经历",
@@ -88,14 +88,14 @@
     "href": "Chinese.html#项目经历",
     "title": "贺育隆",
     "section": "项目经历",
-    "text": "项目经历\n\n代码嵌入模型（2023-2025）\n\n实现知识蒸馏与数据增强，在CoIR Hybrid Code Benchmark 2024取得最佳成绩（61.22）\n构建多层级模型评估体系，基于tree-sitter开发ArkTS语言解析器，收集清洗ArkTS数据集\n\n本地代码RAG（2024-2025）\n\n设计训练XX-2.2-25M和XX-2.4-14M模型，精度仅下降16%和21%，实现3倍和5倍推理加速\n对模型进行量化处理，成功集成至DevEco和CodeArts IDE\n\n低码RAG项目（2025）\n\n构建测试数据集并集成图检索系统，达到Recall=0.236, Precision=0.333, F1=0.244\n对XX2.1-SPECIAL-XX6模型进行微调，在MAP@5仅下降9.87%的前提下，推理速度提升519.86%\n开发低码Codebase，集成gaussdb数据库\n\n结合知识图谱的代码agent（2025）\n\n在CoderEval数据集上将代码生成准确率从25.22%提升至41.30%，成为最佳结果\n设计本地化RAG解决方案架构，获得CBG团队采纳，参与撰写专利申请\n\nPETAL SEARCH（2021-2023）\n\n作为关键协调人，负责总部技术方案在本地的技术集成与适配\n优化中文搜索排序模型，MRR提升23%\n在iQue项目中将分词器二叉树替换为Trie树，性能提升近2倍"
+    "text": "项目经历\n\n代码嵌入模型（2023-2025）\n\n实现知识蒸馏与数据增强，在CoIR Hybrid Code Benchmark 2024取得最佳成绩（61.22）\n构建多层级模型评估体系，基于tree-sitter开发ArkTS语言解析器，收集清洗ArkTS数据集\n设计训练XX-2.2-25M和XX-2.4-14M模型，精度仅下降16%和21%，实现3倍和5倍推理加速\n对模型进行量化处理，成功交付至DevEco和CodeArts IDE\n\n低码RAG项目（2025）\n\n构建测试数据集并集成图检索系统，达到Recall=0.236, Precision=0.333, F1=0.244\n对XX2.1-SPECIAL-XX6模型进行微调，在MAP@5仅下降9.87%的前提下，推理速度提升519.86%\n开发低码Codebase，集成gaussdb数据库\n\n结合知识图谱的代码agent（2025）\n\n在CoderEval数据集上将代码生成准确率从25.22%提升至41.30%，成为最佳结果\n设计本地化RAG解决方案架构，获得CBG团队采纳，参与撰写专利申请\n\nPETAL SEARCH搜索排序（2021-2023）\n\n作为关键协调人，负责总部技术方案在本地的技术集成与适配\n优化中文搜索排序模型，MRR提升23%\n在iQue项目中将分词器二叉树替换为Trie树，性能提升近2倍"
   },
   {
     "objectID": "Chinese.html#发表论文",
     "href": "Chinese.html#发表论文",
     "title": "贺育隆",
     "section": "发表论文",
-    "text": "发表论文\n\nSocial Life of Code: Modeling Evolution through Code Embedding and Opinion Dynamics. Y He, N Verbin, S Kovalchuk. Journal of Computational Science, 96, 102824, 2026. Link\nLightweight bearing fault diagnosis via decoupled distillation and low rank adaptation. O Petrosian, P Li, Y He, J Liu, Z Sun, G Fu, L Meng. Scientific Reports, 2025. Link\nResearch on Robust Audio-Visual Speech Recognition Algorithms. W Yang, P Li, W Yang, Y Liu, Y He, O Petrosian, A Davydenko. Mathematics, 11(7), 1733, 2023. Link\nОБНАРУЖЕНИЕ АНОМАЛИЙ ВО ВРЕМЕННЫХ РЯДАХ С ПОМОЩЬЮ МЕТОДОВ ПРОГНОЗИРОВАНИЯ. НЭ ДЕВРИШЕВ, Ю ХЭ, ОЛ ПЕТРОСЯН. Процессы управления и устойчивость, 9(25), 2022. Link\nOpinion Dynamics Models for Sentiment Evolution in Weibo Blogs. Y He, AV Proskurnikov, A Sedakov. 2025.11 (under review). Link\nStyle2Code: A Style-Controllable Code Generation Framework. D Zhang, S Kovalchuk, YL He, NA Arias, B Li. 2025.5 (under review). Link\nOpinion dynamics and mutual influence with LLM agents through dialog simulation. Y He, D Zhang, S Kovalchuk, P Li, A Sedakov. 2026.1 (under review). Link\nArkTS-CodeSearch: A Open-Source ArkTS Dataset for Code Retrieval. Y He, A Ermakov, S Kovalchuk, A Aliev, D Shalymov. 2026.2 (under review). Link\nStructured Multi-Criteria Evaluation of Large Language Models with Fuzzy Analytic Hierarchy Process and DualJudge. Y He, I Smirnov, D Fedrushkov, S Kovalchuk, I Revin. 2026.4(under review). Link"
+    "text": "发表论文\n\nSocial Life of Code: Modeling Evolution through Code Embedding and Opinion Dynamics. Y He, N Verbin, S Kovalchuk. Journal of Computational Science, 96, 102824, 2026. Link\nLightweight bearing fault diagnosis via decoupled distillation and low rank adaptation. O Petrosian, P Li, Y He, J Liu, Z Sun, G Fu, L Meng. Scientific Reports, 2025. Link\nResearch on Robust Audio-Visual Speech Recognition Algorithms. W Yang, P Li, W Yang, Y Liu, Y He, O Petrosian, A Davydenko. Mathematics, 11(7), 1733, 2023. Link\nОБНАРУЖЕНИЕ АНОМАЛИЙ ВО ВРЕМЕННЫХ РЯДАХ С ПОМОЩЬЮ МЕТОДОВ ПРОГНОЗИРОВАНИЯ. НЭ ДЕВРИШЕВ, Ю ХЭ, ОЛ ПЕТРОСЯН. Процессы управления и устойчивость, 9(25), 2022. Link\nOpinion Dynamics Models for Sentiment Evolution in Weibo Blogs. Y He, AV Proskurnikov, A Sedakov. 2025.11 (under review). Link\nStyle2Code: A Style-Controllable Code Generation Framework. D Zhang, S Kovalchuk, YL He, NA Arias, B Li. 2025.5 (under review). Link\nOpinion dynamics and mutual influence with LLM agents through dialog simulation. Y He, D Zhang, S Kovalchuk, P Li, A Sedakov. 2026.1 (under review). Link\nArkTS-CodeSearch: A Open-Source ArkTS Dataset for Code Retrieval. Y He, A Ermakov, S Kovalchuk, A Aliev, D Shalymov. 2026.2 (under review). Link\nStructured Multi-Criteria Evaluation of Large Language Models with Fuzzy Analytic Hierarchy Process and DualJudge. Y He, I Smirnov, D Fedrushkov, S Kovalchuk, I Revin. 2026.4 (under review). Link"
   },
   {
     "objectID": "Chinese.html#学术服务",
@@ -109,6 +109,62 @@
     "href": "Chinese.html#荣誉奖项",
     "title": "贺育隆",
     "section": "荣誉奖项",
-    "text": "荣誉奖项\n\n2023-2025 圣彼得堡中国留学人员联合会优秀干事、外联部副部长、外联部部长、荣誉副主席\n2021、2023 春晖杯中国留学人员创新创业大赛优胜奖\n2022-2025 华为 部门七月及时激励奖、跨部门感谢信2封、实验室九月月度之星\n2024 无锡”太湖杯”国际精英创新创业大赛高校赛优秀项目\n2023 青年创造力与体育潜力合作表彰状（圣彼得堡市维堡区政府）\n2025 多民族文化节表彰状（圣彼得堡市斯特里尔那镇政府）"
+    "text": "荣誉奖项\n\n2023-2025 圣彼得堡中国留学人员联合会优秀干事、外联部部长、荣誉副主席\n2021、2023 春晖杯中国留学人员创新创业大赛优胜奖\n2022-2025 华为 部门及时激励奖、跨部门感谢信2封、实验室月度之星\n2024 无锡”太湖杯”国际精英创新创业大赛高校赛优秀项目\n2023 青年创造力与体育潜力合作表彰状（圣彼得堡市维堡区政府）\n2025 多民族文化节表彰状（圣彼得堡市斯特里尔那镇政府）"
+  },
+  {
+    "objectID": "Russian.html",
+    "href": "Russian.html",
+    "title": "Хэ Юйлун",
+    "section": "",
+    "text": "Хэ Юйлун — аспирант кафедры теоретической информатики и кибернетики Санкт-Петербургского государственного университета (сентябрь 2024 — июнь 2027). Получил степень бакалавра и магистра по специальности «Прикладная математика и информатика» в Санкт-Петербургском государственном университете. Обучение в магистратуре и аспирантуре финансируется Китайским советом по стипендиям (первая категория государственной поддержки).\nВ настоящее время работает инженером по машинному обучению и алгоритмам в Институте Чебышева Huawei Санкт-Петербург, а также инженером-программистом в Лаборатории искусственного интеллекта Университета ИТМО. Направления исследований включают модели эмбеддинга кода, системы RAG, графы знаний и приложения больших языковых моделей. Достиг лучшего результата (61.22) на бенчмарке CoIR Hybrid Code Benchmark 2024, разработал легковесные модели кода с 5-кратным ускорением инференса.\nОпубликовал статьи в журналах Journal of Computational Science, Scientific Reports, Mathematics и других, несколько статей находятся на рассмотрении. Был рецензентом журнала Journal of Artificial Societies and Social Simulation (JASSS) и конференции ICIC 2026. Дважды стал лауреатом конкурса инноваций и предпринимательства для китайских студентов за рубежом «Чуньхуэй» (2021, 2023)."
+  },
+  {
+    "objectID": "Russian.html#образование",
+    "href": "Russian.html#образование",
+    "title": "Хэ Юйлун",
+    "section": "Образование",
+    "text": "Образование\n\n2024.9-2027.6 Санкт-Петербургский государственный университет, Теоретическая информатика и кибернетика (аспирантура), государственная стипендия КНР (первая категория)\n2022.9-2024.6 Санкт-Петербургский государственный университет, Прикладная математика и информатика (магистратура), государственная стипендия КНР (первая категория)\n2018.9-2022.6 Санкт-Петербургский государственный университет, Прикладная математика и информатика (бакалавриат)"
+  },
+  {
+    "objectID": "Russian.html#опыт-работы",
+    "href": "Russian.html#опыт-работы",
+    "title": "Хэ Юйлун",
+    "section": "Опыт работы",
+    "text": "Опыт работы\n\n2025.11-н.в. Университет ИТМО, Лаборатория искусственного интеллекта, инженер-программист (по совместительству)\n2021.8-н.в. Институт Чебышева Huawei Санкт-Петербург, инженер по машинному обучению и алгоритмам"
+  },
+  {
+    "objectID": "Russian.html#научные-интересы",
+    "href": "Russian.html#научные-интересы",
+    "title": "Хэ Юйлун",
+    "section": "Научные интересы",
+    "text": "Научные интересы\nДинамика мнений, модели эмбеддинга кода (дистилляция знаний, квантизация, аугментация данных), системы RAG и графы знаний, приложения и дообучение больших языковых моделей, мультиагентные системы"
+  },
+  {
+    "objectID": "Russian.html#проекты",
+    "href": "Russian.html#проекты",
+    "title": "Хэ Юйлун",
+    "section": "Проекты",
+    "text": "Проекты\n\nМодель эмбеддинга кода (2023-2025)\n\nРеализована дистилляция знаний и аугментация данных, достигнут лучший результат (61.22) на бенчмарке CoIR Hybrid Code Benchmark 2024\nПостроена многоуровневая система оценки моделей, разработан парсер языка ArkTS на основе tree-sitter, собран и очищен датасет ArkTS\nРазработаны и обучены модели XX-2.2-25M и XX-2.4-14M, падение точности составило лишь 16% и 21%, достигнуто 3-кратное и 5-кратное ускорение инференса\nВыполнена квантизация моделей, успешная интеграция в DevEco и CodeArts IDE\n\nПроект Low-Code RAG (2025)\n\nСоздан тестовый датасет и интегрирована система графового поиска, достигнуты Recall=0.236, Precision=0.333, F1=0.244\nДообучена модель XX2.1-SPECIAL-XX6, достигнуто ускорение инференса на 519.86% при падении MAP@5 лишь на 9.87%\nРазработана кодовая база Low-Code, интегрирована база данных GaussDB\n\nАгент генерации кода на основе графа знаний (2025)\n\nПовышена точность генерации кода с 25.22% до 41.30% на датасете CoderEval, достигнут лучший результат\nРазработана архитектура локализованного решения RAG, принята командой CBG, участво в написании заявки на патент\n\nPETAL SEARCH (2021-2023)\n\nВ качестве ключевого координатора отвечал за интеграцию и адаптацию технических решений штаб-квартиры на локальном уровне\nОптимизирована модель ранжирования китайского поиска, MRR улучшен на 23%\nВ проекте iQue бинарное дерево токенизатора заменено на префиксное дерево (Trie), производительность улучшена почти в 2 раза"
+  },
+  {
+    "objectID": "Russian.html#публикации",
+    "href": "Russian.html#публикации",
+    "title": "Хэ Юйлун",
+    "section": "Публикации",
+    "text": "Публикации\n\nSocial Life of Code: Modeling Evolution through Code Embedding and Opinion Dynamics. Y He, N Verbin, S Kovalchuk. Journal of Computational Science, 96, 102824, 2026. Link\nLightweight bearing fault diagnosis via decoupled distillation and low rank adaptation. O Petrosian, P Li, Y He, J Liu, Z Sun, G Fu, L Meng. Scientific Reports, 2025. Link\nResearch on Robust Audio-Visual Speech Recognition Algorithms. W Yang, P Li, W Yang, Y Liu, Y He, O Petrosian, A Davydenko. Mathematics, 11(7), 1733, 2023. Link\nОБНАРУЖЕНИЕ АНОМАЛИЙ ВО ВРЕМЕННЫХ РЯДАХ С ПОМОЩЬЮ МЕТОДОВ ПРОГНОЗИРОВАНИЯ. НЭ ДЕВРИШЕВ, Ю ХЭ, ОЛ ПЕТРОСЯН. Процессы управления и устойчивость, 9(25), 2022. Link\nOpinion Dynamics Models for Sentiment Evolution in Weibo Blogs. Y He, AV Proskurnikov, A Sedakov. 2025.11 (на рассмотрении). Link\nStyle2Code: A Style-Controllable Code Generation Framework. D Zhang, S Kovalchuk, YL He, NA Arias, B Li. 2025.5 (на рассмотрении). Link\nOpinion dynamics and mutual influence with LLM agents through dialog simulation. Y He, D Zhang, S Kovalchuk, P Li, A Sedakov. 2026.1 (на рассмотрении). Link\nArkTS-CodeSearch: A Open-Source ArkTS Dataset for Code Retrieval. Y He, A Ermakov, S Kovalchuk, A Aliev, D Shalymov. 2026.2 (на рассмотрении). Link\nStructured Multi-Criteria Evaluation of Large Language Models with Fuzzy Analytic Hierarchy Process and DualJudge. Y He, I Smirnov, D Fedrushkov, S Kovalchuk, I Revin. 2026.4 (на рассмотрении). Link"
+  },
+  {
+    "objectID": "Russian.html#академическая-деятельность",
+    "href": "Russian.html#академическая-деятельность",
+    "title": "Хэ Юйлун",
+    "section": "Академическая деятельность",
+    "text": "Академическая деятельность\n\nАссистент курса «Статистические решения и эконометрика», Санкт-Петербургский государственный университет, 2026\nРецензент журнала Journal of Artificial Societies and Social Simulation (JASSS), 2026\nРецензент конференции 2026 International Conference on Intelligent Computing (ICIC 2026), 2026"
+  },
+  {
+    "objectID": "Russian.html#награды-и-достижения",
+    "href": "Russian.html#награды-и-достижения",
+    "title": "Хэ Юйлун",
+    "section": "Награды и достижения",
+    "text": "Награды и достижения\n\n2023-2025 Отличный сотрудник, заместитель начальника отдела внешних связей, начальник отдела внешних связей, почётный вице-президент Ассоциации китайских студентов в Санкт-Петербурге\n2021, 2023 Лауреат конкурса инноваций и предпринимательства для китайских студентов за рубежом «Чуньхуэй»\n2022-2025 Премия за своевременные достижения отдела Huawei, 2 благодарственных письма от других отделов, звезда месяца лаборатории\n2024 Отличный проект международного конкурса инноваций «Кубок Тайху» в Уси\n2023 Благодарность за сотрудничество в области молодёжного творчества и спортивного потенциала (администрация Выборгского района Санкт-Петербурга)\n2025 Благодарность фестиваля мультикультур (администрация Стрельны Санкт-Петербурга)"
   }
 ]

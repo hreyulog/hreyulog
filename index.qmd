@@ -7,8 +7,7 @@ about:
   image-width: 15em
   image-shape: round
   links:
-    - icon: mailbox
-      text: heyulong1998@gmail.com
+    - text: heyulong1998@gmail.com
       href: mailto:heyulong1998@gmail.com
     - icon: github
       href: https://github.com/hreyulog
@@ -46,15 +45,13 @@ He has published papers in journals such as *Journal of Computational Science*, 
 
 ## Research Interests
 
-  Opinion Dynamics, Code Embedding Models (Knowledge Distillation, Quantization, Data Augmentation), RAG Systems and Knowledge Graphs, Large Language Model Applications and Fine-tuning, Multi-Agent Systems
+Opinion Dynamics, Code Embedding Models (Knowledge Distillation, Quantization, Data Augmentation), RAG Systems and Knowledge Graphs, Large Language Model Applications and Fine-tuning, Multi-Agent Systems
 
 ## Projects
 
 - **Code Embedding Model** (2023-2025)
   - Implemented knowledge distillation and data augmentation, achieved best result (61.22) on CoIR Hybrid Code Benchmark 2024
   - Built multi-level model evaluation system, developed ArkTS language parser based on tree-sitter, collected and cleaned ArkTS dataset
-
-- **Local Code RAG** (2024-2025)
   - Designed and trained XX-2.2-25M and XX-2.4-14M models, with only 16% and 21% accuracy drop, achieving 3x and 5x inference speedup
   - Quantized models and successfully integrated into DevEco and CodeArts IDE
 
@@ -85,6 +82,7 @@ He has published papers in journals such as *Journal of Computational Science*, 
 - **Structured Multi-Criteria Evaluation of Large Language Models with Fuzzy Analytic Hierarchy Process and DualJudge**.<br> **Y He**, I Smirnov, D Fedrushkov, S Kovalchuk, I Revin. 2026.4 (under review). [Link](https://arxiv.org/abs/2604.03742)
 
 
+
 ## Academic Service
 
 - Teaching Assistant, "Statistical Decisions and Econometrics", Saint Petersburg State University, 2026
@@ -96,7 +94,7 @@ He has published papers in journals such as *Journal of Computational Science*, 
 
 - 2023-2025 Excellent Officer, Deputy Director of External Relations, Director of External Relations, Honorary Vice President of Chinese Students Association in Saint Petersburg
 - 2021, 2023 Chunhui Cup Chinese Overseas Students Innovation Competition Winner
-- 2022-2025 Huawei Department July Timely Incentive Award, 2 Inter-departmental Thank-you Letters, Lab September Star of the Month
+- 2022-2025 Huawei Department Timely Incentive Award, 2 Inter-departmental Thank-you Letters, Lab Star of the Month
 - 2024 Wuxi "Taihu Cup" International Elite Innovation Competition Excellent Project
-- 2023 Youth Creativity and Sports Potential Cooperation Commendation
-- 2025 Multicultural Festival Commendation
+- 2023 Youth Creativity and Sports Potential Cooperation Commendation (Vyborg District Government, Saint Petersburg)
+- 2025 Multicultural Festival Commendation (Strelna District Government, Saint Petersburg)

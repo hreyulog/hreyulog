@@ -23,8 +23,8 @@ website:
         href: index.qmd
       - text: "中文"
         href: Chinese.qmd
-      # - text: "CV"
-      #   href: CV.pdf
+      - text: "Русский"
+        href: Russian.qmd
 
 format:
   html:
