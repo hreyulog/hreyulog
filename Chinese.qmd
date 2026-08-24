@@ -11,6 +11,8 @@ about:
       href: mailto:heyulong1998@gmail.com
     - icon: github
       href: https://github.com/hreyulog
+    - text: <img src="images/huggingface.svg" width="16px" height="16px" style="vertical-align:middle">
+      href: https://huggingface.co/hreyulog
     - text: <img src="images/google-scholar.svg" width="16px" height="16px" style="vertical-align:middle">
       href: https://scholar.google.com/citations?user=q4gQxaIAAAAJ&hl=zh-CN
     - icon: linkedin
@@ -26,9 +28,9 @@ about:
 
 贺育隆，圣彼得堡国立大学理论计算机科学与控制论方向博士在读（2024.9-2027.6）。本科、硕士均就读于圣彼得堡国立大学应用数学与计算机科学专业，硕士、博士获国家留学基金委第一批公派资助。
 
-现为华为圣彼得堡切比雪夫研究所机器学习与算法工程师，同时兼任ITMO大学人工智能实验室软件开发工程师。研究方向包括代码嵌入模型、RAG系统、知识图谱与大语言模型应用。在CoIR Hybrid Code Benchmark 2024基准测试中取得最佳成绩（61.22），开发的轻量级代码模型实现5倍推理加速。
+现为华为圣彼得堡切比雪夫研究所机器学习与算法工程师，曾任ITMO大学人工智能实验室软件开发工程师。研究方向包括代码嵌入模型、RAG系统、知识图谱与大语言模型应用。在CoIR Hybrid Code Benchmark 2024基准测试中取得最佳成绩（61.22），开发的轻量级代码模型实现5倍推理加速。
 
-在 *Journal of Computational Science* 、*Scientific Reports* 、*Mathematics*  等期刊发表论文，多篇论文在审。曾担任 *Journal of Artificial Societies and Social Simulation (JASSS)*、*ICIC 2026* 审稿人。曾获春晖杯中国留学人员创新创业大赛优胜奖两次（2021、2023）。
+在 *Journal of Computational Science* 、*Scientific Reports* 、*Mathematics*  等期刊发表论文，多篇论文在审。曾担任 *Scientific Reports* 、*JASSS*、*ICIC 2026* 审稿人。曾获春晖杯中国留学人员创新创业大赛优胜奖两次（2021、2023）。
 
 
 
@@ -40,7 +42,7 @@ about:
 
 ## 工作经历
 
-- 2025.11-今 圣彼得堡国立信息技术机械与光学大学（ITMO）人工智能实验室 软件开发工程师（兼职）
+- 2025.11-2026.8 圣彼得堡国立信息技术机械与光学大学（ITMO）人工智能实验室 软件开发工程师（兼职）
 - 2021.8-今 华为圣彼得堡切比雪夫研究所 机器学习与算法工程师
 
 ## 研究兴趣
@@ -73,28 +75,28 @@ about:
 
 - **Social Life of Code: Modeling Evolution through Code Embedding and Opinion Dynamics**.<br> **Y He**, N Verbin, S Kovalchuk. *Journal of Computational Science*, 96, 102824, 2026. [Link](https://doi.org/10.1016/j.jocs.2026.102824)
 - **Lightweight bearing fault diagnosis via decoupled distillation and low rank adaptation**.<br> O Petrosian, P Li, **Y He**, J Liu, Z Sun, G Fu, L Meng. *Scientific Reports*, 2025. [Link](https://doi.org/10.1038/s41598-025-06734-y)
-- **Research on Robust Audio-Visual Speech Recognition Algorithms**.<br> W Yang, P Li, W Yang, Y Liu, **Y He**, O Petrosian, A Davydenko. *Mathematics*, 11(7), 1733, 2023. [Link](https://doi.org/10.3390/math11071733)
-- **ОБНАРУЖЕНИЕ АНОМАЛИЙ ВО ВРЕМЕННЫХ РЯДАХ С ПОМОЩЬЮ МЕТОДОВ ПРОГНОЗИРОВАНИЯ**.<br> НЭ ДЕВРИШЕВ, **Ю ХЭ**, ОЛ ПЕТРОСЯН. *Процессы управления и устойчивость*, 9(25), 2022. [Link](https://dspace.spbu.ru/bitstream/11701/37048/1/cps2022.pdf)
 - **Opinion Dynamics Models for Sentiment Evolution in Weibo Blogs**.<br> **Y He**, AV Proskurnikov, A Sedakov. 2025.11 (under review). [Link](https://arxiv.org/abs/2511.15303)
+- **Semantic vs. Structural Signals: Log-Probability and LLM-as-a-Judge for Reference-Free Code Evaluation**.<br> Dmitriy Fedrushkov, **Y He**, I Smirnov, A Aliev, S Kovalchuk. *Proceedings of the Fifth Workshop on Generation, Evaluation and Metrics (GEM)*, pages 574–581, San Diego, California, USA, 2026. [Link](https://aclanthology.org/2026.gem-main.55/)
+- **Research on Robust Audio-Visual Speech Recognition Algorithms**.<br> W Yang, P Li, W Yang, Y Liu, **Y He**, O Petrosian, A Davydenko. *Mathematics*, 11(7), 1733, 2023. [Link](https://doi.org/10.3390/math11071733)
+- **Обнаружение аномалий во временных рядах с помощью методов прогнозирования**.<br> НЭ ДЕВРИШЕВ, **Ю ХЭ**, ОЛ ПЕТРОСЯН. *Процессы управления и устойчивость*, 9(25), 2022. [Link](https://dspace.spbu.ru/bitstream/11701/37048/1/cps2022.pdf)
 - **Style2Code: A Style-Controllable Code Generation Framework**.<br> D Zhang, S Kovalchuk, **YL He**, NA Arias, B Li. 2025.5 (under review). [Link](https://arxiv.org/abs/2505.19442)
 - **Opinion dynamics and mutual influence with LLM agents through dialog simulation**.<br> **Y He**, D Zhang, S Kovalchuk, P Li, A Sedakov. 2026.1 (under review). [Link](https://arxiv.org/abs/2602.12583)
 - **ArkTS-CodeSearch: A Open-Source ArkTS Dataset for Code Retrieval**.<br> **Y He**, A Ermakov, S Kovalchuk, A Aliev, D Shalymov. 2026.2 (under review). [Link](https://arxiv.org/abs/2602.05550)
 - **Structured Multi-Criteria Evaluation of Large Language Models with Fuzzy Analytic Hierarchy Process and DualJudge**.<br> **Y He**, I Smirnov, D Fedrushkov, S Kovalchuk, I Revin. 2026.4 (under review). [Link](https://arxiv.org/abs/2604.03742)
-
+- **Modeling Stylistic Co-evolution in Symbolic Music Heritage Collections**.<br> **Y He**, I Smirnov, Y Li. 2026.5 (under review). [Link](https://arxiv.org/abs/2607.23957)
 
 
 ## 学术服务
 
 - 《Statistical Decisions and Econometrics》课程助教，圣彼得堡国立大学，2026年
-- 《Journal of Artificial Societies and Social Simulation (JASSS)》审稿人，2026年
-- 《2026 International Conference on Intelligent Computing (ICIC 2026)》审稿人，2026年
+- 《Scientific Reports》、《Journal of Artificial Societies and Social Simulation (JASSS)》、《2026 International Conference on Intelligent Computing (ICIC 2026)》、审稿，2026年
 
 ## 荣誉奖项
 
 
 - 2023-2025 圣彼得堡中国留学人员联合会优秀干事、外联部部长、荣誉副主席
 - 2021、2023 春晖杯中国留学人员创新创业大赛优胜奖
-- 2022-2025 华为 部门及时激励奖、跨部门感谢信2封、实验室月度之星
+- 2022-2025 华为 部门及时激励奖2次、跨部门感谢信2封、实验室月度之星
 - 2024 无锡"太湖杯"国际精英创新创业大赛高校赛优秀项目
 - 2023 青年创造力与体育潜力合作表彰状（圣彼得堡市维堡区政府）
 - 2025 多民族文化节表彰状（圣彼得堡市斯特里尔那镇政府）

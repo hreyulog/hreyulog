@@ -11,6 +11,8 @@ about:
       href: mailto:heyulong1998@gmail.com
     - icon: github
       href: https://github.com/hreyulog
+    - text: <img src="images/huggingface.svg" width="16px" height="16px" style="vertical-align:middle">
+      href: https://huggingface.co/hreyulog
     - text: <img src="images/google-scholar.svg" width="16px" height="16px" style="vertical-align:middle">
       href: https://scholar.google.com/citations?user=q4gQxaIAAAAJ&hl=zh-CN
     - icon: linkedin
@@ -74,7 +76,7 @@ about:
 - **Social Life of Code: Modeling Evolution through Code Embedding and Opinion Dynamics**.<br> **Y He**, N Verbin, S Kovalchuk. *Journal of Computational Science*, 96, 102824, 2026. [Link](https://doi.org/10.1016/j.jocs.2026.102824)
 - **Lightweight bearing fault diagnosis via decoupled distillation and low rank adaptation**.<br> O Petrosian, P Li, **Y He**, J Liu, Z Sun, G Fu, L Meng. *Scientific Reports*, 2025. [Link](https://doi.org/10.1038/s41598-025-06734-y)
 - **Research on Robust Audio-Visual Speech Recognition Algorithms**.<br> W Yang, P Li, W Yang, Y Liu, **Y He**, O Petrosian, A Davydenko. *Mathematics*, 11(7), 1733, 2023. [Link](https://doi.org/10.3390/math11071733)
-- **ОБНАРУЖЕНИЕ АНОМАЛИЙ ВО ВРЕМЕННЫХ РЯДАХ С ПОМОЩЬЮ МЕТОДОВ ПРОГНОЗИРОВАНИЯ**.<br> НЭ ДЕВРИШЕВ, **Ю ХЭ**, ОЛ ПЕТРОСЯН. *Процессы управления и устойчивость*, 9(25), 2022. [Link](https://dspace.spbu.ru/bitstream/11701/37048/1/cps2022.pdf)
+- **Обнаружение аномалий во временных рядах с помощью методов прогнозирования**.<br> НЭ ДЕВРИШЕВ, **Ю ХЭ**, ОЛ ПЕТРОСЯН. *Процессы управления и устойчивость*, 9(25), 2022. [Link](https://dspace.spbu.ru/bitstream/11701/37048/1/cps2022.pdf)
 - **Opinion Dynamics Models for Sentiment Evolution in Weibo Blogs**.<br> **Y He**, AV Proskurnikov, A Sedakov. 2025.11 (на рассмотрении). [Link](https://arxiv.org/abs/2511.15303)
 - **Style2Code: A Style-Controllable Code Generation Framework**.<br> D Zhang, S Kovalchuk, **YL He**, NA Arias, B Li. 2025.5 (на рассмотрении). [Link](https://arxiv.org/abs/2505.19442)
 - **Opinion dynamics and mutual influence with LLM agents through dialog simulation**.<br> **Y He**, D Zhang, S Kovalchuk, P Li, A Sedakov. 2026.1 (на рассмотрении). [Link](https://arxiv.org/abs/2602.12583)
