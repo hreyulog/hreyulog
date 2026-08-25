@@ -13,6 +13,8 @@ website:
   page-footer:
     left: |
       [Yulong He](https://yulong1.github.io)<br>
+    center: |
+      PV <span id="busuanzi_site_pv">-</span> · UV <span id="busuanzi_site_uv">-</span><br>
     right: |
       [贺育隆](https://yulong1.github.io)<br>
     
@@ -29,6 +31,7 @@ website:
 format:
   html:
     theme: styles.scss
+    include-after-body: _includes/busuanzi.html
     toc: true            # 启用目录
     toc-position: left  # 将目录放置在页面的右侧
     toc-depth: 3         # 设置目录的深度，数字越大，目录越详细
