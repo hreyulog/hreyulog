@@ -73,9 +73,9 @@ Opinion Dynamics, Code Embedding Models (Knowledge Distillation, Quantization, D
 
 ## Publications
 
+- **Mapping sentiment dependencies among online influencer communities on Weibo**.<br> **Y He**, AV Proskurnikov, A Sedakov. *Social Network Analysis and Mining*, 2026. [Link](https://doi.org/10.1007/s13278-026-01645-w)
 - **Social Life of Code: Modeling Evolution through Code Embedding and Opinion Dynamics**.<br> **Y He**, N Verbin, S Kovalchuk. *Journal of Computational Science*, 96, 102824, 2026. [Link](https://doi.org/10.1016/j.jocs.2026.102824)
 - **Lightweight bearing fault diagnosis via decoupled distillation and low rank adaptation**.<br> O Petrosian, P Li, **Y He**, J Liu, Z Sun, G Fu, L Meng. *Scientific Reports*, 2025. [Link](https://doi.org/10.1038/s41598-025-06734-y)
-- **Mapping sentiment dependencies among online influencer communities on Weibo**.<br> **He, Y.**, Proskurnikov, A.V. & Sedakov, A. *Social Network Analysis and Mining*, 2026. [Link](https://doi.org/10.1007/s13278-026-01645-w)
 - **Semantic vs. Structural Signals: Log-Probability and LLM-as-a-Judge for Reference-Free Code Evaluation**.<br> Dmitriy Fedrushkov, **Y He**, I Smirnov, A Aliev, S Kovalchuk. *Proceedings of the Fifth Workshop on Generation, Evaluation and Metrics (GEM)*, pages 574-581, San Diego, California, USA, 2026. [Link](https://aclanthology.org/2026.gem-main.55/)
 - **Research on Robust Audio-Visual Speech Recognition Algorithms**.<br> W Yang, P Li, W Yang, Y Liu, **Y He**, O Petrosian, A Davydenko. *Mathematics*, 11(7), 1733, 2023. [Link](https://doi.org/10.3390/math11071733)
 - **Обнаружение аномалий во временных рядах с помощью методов прогнозирования**.<br> НЭ ДЕВРИШЕВ, **Ю ХЭ**, ОЛ ПЕТРОСЯН. *Процессы управления и устойчивость*, 9(25), 2022. [Link](https://dspace.spbu.ru/bitstream/11701/37048/1/cps2022.pdf)
