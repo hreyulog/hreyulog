@@ -28,13 +28,11 @@ website:
     center: |
       PV <span id="busuanzi_site_pv">-</span> · UV <span id="busuanzi_site_uv">-</span><br>
     right: |
-      [贺育隆](https://hreyulog.github.io)<br>
+      [贺育隆](https://hreyulog.github.io) · [研究笔记](/wiki/index.qmd)<br>
     
   navbar: 
     background: "#90a9d1"
     right: 
-      - text: "研究与技术思考"
-        href: wiki/index.qmd
       - text: "English"
         href: index.qmd
       - text: "中文"
