@@ -1,0 +1,110 @@
+.research-wiki {
+  --ink: #242b2c;
+  --muted: #596563;
+  --rule: #dce3e0;
+  --accent: #176352;
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "PingFang SC", sans-serif;
+  font-size: 17px;
+  line-height: 1.9;
+  letter-spacing: 0;
+  background: #fff;
+}
+.research-wiki h1, .research-wiki h2, .research-wiki h3 {
+  color: var(--ink);
+  font-family: inherit;
+  letter-spacing: 0;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+.research-wiki h1 { font-size: 34px; font-weight: 700; }
+.research-wiki h2 { font-size: 23px; margin-top: 2.2rem; }
+.research-wiki h3 { font-size: 19px; }
+.research-wiki a { color: var(--accent); text-underline-offset: 4px; }
+.research-wiki a:hover { color: #0b4538; text-decoration: underline; }
+.research-wiki p, .research-wiki li { overflow-wrap: anywhere; }
+.research-wiki .navbar { background: #f5f7f6; border-bottom: 1px solid var(--rule); }
+.research-wiki .navbar a { color: var(--ink); }
+.research-wiki .navbar a:hover, .research-wiki .navbar a.active { color: var(--accent); }
+.research-wiki .navbar-brand { font-weight: 650; }
+.research-wiki #title-block-header { margin: 2rem 0 1rem; }
+.research-wiki #title-block-header .description { display: none; }
+.research-wiki main { max-width: 1120px; width: 100%; min-width: 0; }
+.research-wiki main p { margin-bottom: 1.2rem; }
+.research-wiki .wiki-nav { display: flex; flex-wrap: wrap; gap: 12px 25px; padding: 0 0 20px; border-bottom: 1px solid var(--rule); font-size: 14px; }
+.research-wiki .wiki-nav a:last-child { margin-left: auto; }
+.research-wiki .note-meta { display: flex; flex-wrap: wrap; gap: 8px 18px; color: var(--muted); font-size: 13px; padding: 20px 0 14px; }
+.research-wiki .note-meta span:first-child { color: var(--accent); font-weight: 650; }
+.research-wiki .wiki-intro { display: grid; grid-template-columns: minmax(0, 1fr) 160px; gap: 40px; padding: 32px 0 20px; align-items: center; }
+.research-wiki .wiki-byline { color: var(--accent); font-size: 14px; font-weight: 650; margin-bottom: 12px; }
+.research-wiki .wiki-lead { font-size: 28px; font-weight: 650; line-height: 1.6; margin-bottom: 16px; }
+.research-wiki .wiki-description { font-size: 16px; color: var(--muted); max-width: 720px; }
+.research-wiki .author-portrait { margin: 0; text-align: center; }
+.research-wiki .author-portrait img { width: 144px; height: 144px; object-fit: cover; border-radius: 4px; }
+.research-wiki .author-portrait figcaption { font-size: 12px; color: var(--muted); margin-top: 9px; }
+.research-wiki .wiki-facts { display: flex; flex-wrap: wrap; gap: 12px 32px; font-size: 14px; padding-bottom: 26px; border-bottom: 1px solid var(--rule); }
+.research-wiki .wiki-facts strong { font-size: 20px; font-weight: 650; padding-right: 3px; }
+.research-wiki .wiki-facts span:last-child { margin-left: auto; color: var(--muted); }
+.research-wiki .reading-path { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 21px 0; border-bottom: 1px solid var(--rule); }
+.research-wiki .reading-path h2 { font-size: 15px; margin: 0; border: 0; padding: 0; }
+.research-wiki .reading-path > div { display: flex; flex-wrap: wrap; gap: 16px 35px; font-size: 14px; }
+.research-wiki .reading-path i { margin-left: 16px; }
+.research-wiki .wiki-filters { display: grid; grid-template-columns: minmax(0, 1fr) 220px 42px; align-items: end; gap: 16px; padding-top: 28px; }
+.research-wiki .wiki-filters label { display: block; font-size: 13px; color: var(--muted); margin-bottom: 6px; }
+.research-wiki .search-field > div { position: relative; }
+.research-wiki .search-field i { position: absolute; top: 8px; left: 12px; color: var(--muted); }
+.research-wiki input, .research-wiki select, .research-wiki button { font: inherit; font-size: 15px; letter-spacing: 0; }
+.research-wiki input, .research-wiki select { width: 100%; height: 44px; background: #fff; color: var(--ink); border: 1px solid #a9b6b0; border-radius: 4px; }
+.research-wiki input { padding: 7px 32px 7px 38px; }
+.research-wiki select { padding: 7px 10px; }
+.research-wiki .clear-search { width: 42px; height: 44px; background: #f2f5f3; border: 1px solid #b6c4bd; border-radius: 4px; color: var(--ink); }
+.research-wiki .clear-search:hover { background: #e7efeb; }
+.research-wiki :is(a, input, select, button):focus-visible { outline: 3px solid #247a64; outline-offset: 4px; }
+.research-wiki .result-count { color: var(--muted); font-size: 13px; margin: 16px 0 4px; }
+.research-wiki .note-row { display: grid; grid-template-columns: 46px minmax(0, 1fr) 76px; gap: 20px; padding: 28px 0; border-bottom: 1px solid var(--rule); align-items: start; }
+.research-wiki .note-number { font-size: 22px; font-variant-numeric: tabular-nums; color: #86928c; line-height: 1.5; }
+.research-wiki .note-kicker { display: flex; gap: 16px; flex-wrap: wrap; font-size: 12px; color: var(--muted); }
+.research-wiki .note-kicker span:first-child { color: var(--accent); font-weight: 650; }
+.research-wiki .note-row[data-topic="代码智能"] .note-kicker span:first-child { color: #205798; }
+.research-wiki .note-row[data-topic="高效机器学习"] .note-kicker span:first-child { color: #923d4f; }
+.research-wiki .note-row h2 { border: 0; font-size: 22px; margin: 7px 0; padding: 0; }
+.research-wiki .note-row h2 a { color: var(--ink); }
+.research-wiki .note-row p { font-size: 15px; color: var(--muted); margin: 0; }
+.research-wiki .note-time { font-size: 12px; color: var(--muted); padding-top: 4px; white-space: nowrap; }
+.research-wiki .note-time i { display: block; text-align: right; font-size: 20px; margin-top: 14px; }
+.research-wiki .no-results { padding: 36px 0; color: var(--muted); }
+.research-wiki .wiki-bottom { padding: 30px 0; font-size: 13px; color: var(--muted); }
+.research-wiki .wiki-bottom p { margin-bottom: 8px; }
+.research-wiki #quarto-margin-sidebar { font-size: 13px; }
+.research-wiki #TOC a.active { color: var(--accent) !important; border-left-color: var(--accent) !important; }
+.research-wiki [hidden] { display: none !important; }
+@media (max-width: 767px) {
+  .research-wiki h1 { font-size: 28px; }
+  .research-wiki h2 { font-size: 21px; }
+  .research-wiki .wiki-intro { grid-template-columns: minmax(0, 1fr) 56px; gap: 14px; align-items: center; padding-top: 22px; }
+  .research-wiki .wiki-intro > div { display: contents; }
+  .research-wiki .wiki-byline { grid-row: 1; margin: 0; }
+  .research-wiki .author-portrait { grid-column: 2; grid-row: 1; }
+  .research-wiki .author-portrait img { width: 56px; height: 60px; }
+  .research-wiki .author-portrait figcaption { display: none; }
+  .research-wiki .wiki-lead { font-size: 21px; grid-column: 1 / -1; margin: 0; }
+  .research-wiki .wiki-description { font-size: 15px; grid-column: 1 / -1; margin: 0; }
+  .research-wiki .wiki-nav { gap: 10px 18px; font-size: 13px; }
+  .research-wiki .wiki-nav a:last-child { margin-left: 0; }
+  .research-wiki .wiki-facts { gap: 8px 22px; font-size: 13px; }
+  .research-wiki .wiki-facts span:last-child { margin-left: 0; }
+  .research-wiki .reading-path { align-items: flex-start; flex-direction: column; gap: 12px; }
+  .research-wiki .reading-path > div { gap: 12px 20px; }
+  .research-wiki .reading-path i { margin-left: 8px; }
+  .research-wiki .wiki-filters { grid-template-columns: minmax(0, 1fr) 42px; gap: 12px; }
+  .research-wiki .search-field { grid-column: 1 / -1; }
+  .research-wiki .note-row { grid-template-columns: 27px minmax(0, 1fr); gap: 12px; padding: 23px 0; }
+  .research-wiki .note-row h2 { font-size: 19px; }
+  .research-wiki .note-number { font-size: 18px; }
+  .research-wiki .note-time { display: none; }
+}
+@media print {
+  .research-wiki .wiki-nav, .research-wiki .wiki-filters, .research-wiki .note-meta a { display: none; }
+  .research-wiki main { max-width: none; }
+  .research-wiki a { color: #222; }
+}

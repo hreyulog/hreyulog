@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN" xml:lang="zh-CN"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="贺育隆的中文研究 Wiki：从已发表论文理解观点动力学、代码智能、高效机器学习与可靠评测。">
 
-<title>贺育隆 – Yulong He</title>
+<title>研究与技术思考 – Yulong He</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,70 +24,72 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<link href="./images/yulong.jpg" rel="icon" type="image/jpeg">
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-d7fcc3ff7e490f12cb1c45aad4d93599.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-19714133e70e38bcc17ffc719090a730.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<link href="../images/yulong.jpg" rel="icon" type="image/jpeg">
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-d7fcc3ff7e490f12cb1c45aad4d93599.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-8649822c2764226d50282a5db0fee678.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "没有结果",
+    "search-matching-documents-text": "匹配的文档",
+    "search-copy-link-title": "复制搜索链接",
+    "search-hide-matches-text": "隐藏其它匹配结果",
+    "search-more-match-text": "更多匹配结果",
+    "search-more-matches-text": "更多匹配结果",
+    "search-clear-button-title": "清除",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "取消",
+    "search-submit-button-title": "提交",
+    "search-label": "搜索"
   }
 }</script>
 
 
-<link rel="canonical" href="https://hreyulog.github.io/Chinese.html">
+<link rel="stylesheet" href="wiki.css">
+<link rel="canonical" href="https://hreyulog.github.io/wiki/">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed research-wiki quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Yulong He</span>
     </a>
   </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="展开或折叠导航栏" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./wiki/index.html"> 
+    <a class="nav-link active" href="../wiki/index.html" aria-current="page"> 
 <span class="menu-text">研究与技术思考</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">English</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./Chinese.html" aria-current="page"> 
+    <a class="nav-link" href="../Chinese.html"> 
 <span class="menu-text">中文</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Russian.html"> 
+    <a class="nav-link" href="../Russian.html"> 
 <span class="menu-text">Русский</span></a>
   </li>  
 </ul>
@@ -97,154 +100,126 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-  <ul>
-  <li><a href="#教育经历" id="toc-教育经历" class="nav-link active" data-scroll-target="#教育经历">教育经历</a></li>
-  <li><a href="#工作经历" id="toc-工作经历" class="nav-link" data-scroll-target="#工作经历">工作经历</a></li>
-  <li><a href="#研究兴趣" id="toc-研究兴趣" class="nav-link" data-scroll-target="#研究兴趣">研究兴趣</a></li>
-  <li><a href="#项目经历" id="toc-项目经历" class="nav-link" data-scroll-target="#项目经历">项目经历</a></li>
-  <li><a href="#发表论文" id="toc-发表论文" class="nav-link" data-scroll-target="#发表论文">发表论文</a></li>
-  <li><a href="#学术服务" id="toc-学术服务" class="nav-link" data-scroll-target="#学术服务">学术服务</a></li>
-  <li><a href="#荣誉奖项" id="toc-荣誉奖项" class="nav-link" data-scroll-target="#荣誉奖项">荣誉奖项</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<div class="quarto-about-jolla">
-  <img src="images/yulong.jpg" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">贺育隆</h1>
+<h1 class="title">研究与技术思考</h1>
 </div>
-<div class="quarto-title-meta">
+
+<div>
+  <div class="description">
+    贺育隆的中文研究 Wiki：从已发表论文理解观点动力学、代码智能、高效机器学习与可靠评测。
   </div>
-</header><main class="content" id="quarto-document-content">
-
-<p>贺育隆，圣彼得堡国立大学理论计算机科学与控制论方向博士在读（2024.9-2027.6）。本科、硕士均就读于圣彼得堡国立大学应用数学与计算机科学专业，硕士、博士获国家留学基金委第一批公派资助。</p>
-<p>现为华为圣彼得堡切比雪夫研究所机器学习与算法工程师，曾任ITMO大学人工智能实验室软件开发工程师。研究方向包括代码嵌入模型、RAG系统、知识图谱与大语言模型应用。在CoIR Hybrid Code Benchmark 2024基准测试中取得最佳成绩（61.22），开发的轻量级代码模型实现5倍推理加速。</p>
-<p>在 <em>Journal of Computational Science</em> 、<em>Scientific Reports</em> 、<em>Mathematics</em> 等期刊发表论文，多篇论文在审。曾担任 <em>Scientific Reports</em> 、<em>JASSS</em>、<em>ICIC 2026</em> 审稿人。曾获春晖杯中国留学人员创新创业大赛优胜奖两次（2021、2023）。</p>
-<section id="教育经历" class="level2">
-<h2 data-anchor-id="教育经历">教育经历</h2>
-<ul>
-<li>2024.9-2027.6 圣彼得堡国立大学 理论计算机科学、控制论（博士），国家留学基金委第一批公派留学</li>
-<li>2022.9-2024.6 圣彼得堡国立大学 应用数学与计算机科学（硕士），国家留学基金委第一批公派留学</li>
-<li>2018.9-2022.6 圣彼得堡国立大学 应用数学与计算机科学（学士）</li>
-</ul>
-</section>
-<section id="工作经历" class="level2">
-<h2 data-anchor-id="工作经历">工作经历</h2>
-<ul>
-<li>2025.11-2026.8 圣彼得堡国立信息技术机械与光学大学（ITMO）人工智能实验室 软件开发工程师（兼职）</li>
-<li>2021.8-今 华为圣彼得堡切比雪夫研究所 机器学习与算法工程师</li>
-</ul>
-</section>
-<section id="研究兴趣" class="level2">
-<h2 data-anchor-id="研究兴趣">研究兴趣</h2>
-<p>观点动力学、代码嵌入模型（知识蒸馏、量化、数据增强）、RAG系统与知识图谱、大语言模型应用与微调、多智能体系统</p>
-</section>
-<section id="项目经历" class="level2">
-<h2 data-anchor-id="项目经历">项目经历</h2>
-<ul>
-<li><strong>代码嵌入模型</strong>（2023-2025）
-<ul>
-<li>实现知识蒸馏与数据增强，在CoIR Hybrid Code Benchmark 2024取得最佳成绩（61.22）</li>
-<li>构建多层级模型评估体系，基于tree-sitter开发ArkTS语言解析器，收集清洗ArkTS数据集</li>
-<li>设计训练XX-2.2-25M和XX-2.4-14M模型，精度仅下降16%和21%，实现3倍和5倍推理加速</li>
-<li>对模型进行量化处理，成功交付至DevEco和CodeArts IDE</li>
-</ul></li>
-<li><strong>低码RAG项目</strong>（2025）
-<ul>
-<li>构建测试数据集并集成图检索系统，达到Recall=0.236, Precision=0.333, F1=0.244</li>
-<li>对XX2.1-SPECIAL-XX6模型进行微调，在MAP@5仅下降9.87%的前提下，推理速度提升519.86%</li>
-<li>开发低码Codebase，集成gaussdb数据库</li>
-</ul></li>
-<li><strong>结合知识图谱的代码agent</strong>（2025）
-<ul>
-<li>在CoderEval数据集上将代码生成准确率从25.22%提升至41.30%，成为最佳结果</li>
-<li>设计本地化RAG解决方案架构，获得CBG团队采纳，参与撰写专利申请</li>
-</ul></li>
-<li><strong>PETAL SEARCH搜索排序</strong>（2021-2023）
-<ul>
-<li>作为关键协调人，负责总部技术方案在本地的技术集成与适配</li>
-<li>优化中文搜索排序模型，MRR提升23%</li>
-<li>在iQue项目中将分词器二叉树替换为Trie树，性能提升近2倍</li>
-</ul></li>
-</ul>
-</section>
-<section id="发表论文" class="level2">
-<h2 data-anchor-id="发表论文">发表论文</h2>
-<ul>
-<li><strong>Mapping sentiment dependencies among online influencer communities on Weibo</strong>.<br> <strong>Y He</strong>, AV Proskurnikov, A Sedakov. <em>Social Network Analysis and Mining</em>, 2026. <a href="https://doi.org/10.1007/s13278-026-01645-w">Link</a></li>
-<li><strong>Social Life of Code: Modeling Evolution through Code Embedding and Opinion Dynamics</strong>.<br> <strong>Y He</strong>, N Verbin, S Kovalchuk. <em>Journal of Computational Science</em>, 96, 102824, 2026. <a href="https://doi.org/10.1016/j.jocs.2026.102824">Link</a></li>
-<li><strong>Lightweight bearing fault diagnosis via decoupled distillation and low rank adaptation</strong>.<br> O Petrosian, P Li, <strong>Y He</strong>, J Liu, Z Sun, G Fu, L Meng. <em>Scientific Reports</em>, 2025. <a href="https://doi.org/10.1038/s41598-025-06734-y">Link</a></li>
-<li><strong>Semantic vs.&nbsp;Structural Signals: Log-Probability and LLM-as-a-Judge for Reference-Free Code Evaluation</strong>.<br> Dmitriy Fedrushkov, <strong>Y He</strong>, I Smirnov, A Aliev, S Kovalchuk. <em>Proceedings of the Fifth Workshop on Generation, Evaluation and Metrics (GEM)</em>, pages 574–581, San Diego, California, USA, 2026. <a href="https://aclanthology.org/2026.gem-main.55/">Link</a></li>
-<li><strong>Research on Robust Audio-Visual Speech Recognition Algorithms</strong>.<br> W Yang, P Li, W Yang, Y Liu, <strong>Y He</strong>, O Petrosian, A Davydenko. <em>Mathematics</em>, 11(7), 1733, 2023. <a href="https://doi.org/10.3390/math11071733">Link</a></li>
-<li><strong>Обнаружение аномалий во временных рядах с помощью методов прогнозирования</strong>.<br> НЭ ДЕВРИШЕВ, <strong>Ю ХЭ</strong>, ОЛ ПЕТРОСЯН. <em>Процессы управления и устойчивость</em>, 9(25), 2022. <a href="https://dspace.spbu.ru/bitstream/11701/37048/1/cps2022.pdf">Link</a></li>
-<li><strong>Style2Code: A Style-Controllable Code Generation Framework</strong>.<br> D Zhang, S Kovalchuk, <strong>YL He</strong>, NA Arias, B Li. 2025.5 (under review). <a href="https://arxiv.org/abs/2505.19442">Link</a></li>
-<li><strong>Opinion dynamics and mutual influence with LLM agents through dialog simulation</strong>.<br> <strong>Y He</strong>, D Zhang, S Kovalchuk, P Li, A Sedakov. 2026.1 (under review). <a href="https://arxiv.org/abs/2602.12583">Link</a></li>
-<li><strong>ArkTS-CodeSearch: A Open-Source ArkTS Dataset for Code Retrieval</strong>.<br> <strong>Y He</strong>, A Ermakov, S Kovalchuk, A Aliev, D Shalymov. 2026.2 (under review). <a href="https://arxiv.org/abs/2602.05550">Link</a></li>
-<li><strong>Structured Multi-Criteria Evaluation of Large Language Models with Fuzzy Analytic Hierarchy Process and DualJudge</strong>.<br> <strong>Y He</strong>, I Smirnov, D Fedrushkov, S Kovalchuk, I Revin. 2026.4 (under review). <a href="https://arxiv.org/abs/2604.03742">Link</a></li>
-<li><strong>Modeling Stylistic Co-evolution in Symbolic Music Heritage Collections</strong>.<br> <strong>Y He</strong>, I Smirnov, Y Li. 2026.5 (under review). <a href="https://arxiv.org/abs/2607.23957">Link</a></li>
-</ul>
-</section>
-<section id="学术服务" class="level2">
-<h2 data-anchor-id="学术服务">学术服务</h2>
-<ul>
-<li>《Statistical Decisions and Econometrics》课程助教，圣彼得堡国立大学，2026年</li>
-<li>《Scientific Reports》、《Journal of Artificial Societies and Social Simulation (JASSS)》、《2026 International Conference on Intelligent Computing (ICIC 2026)》、审稿，2026年</li>
-</ul>
-</section>
-<section id="荣誉奖项" class="level2">
-<h2 data-anchor-id="荣誉奖项">荣誉奖项</h2>
-<ul>
-<li>2023-2025 圣彼得堡中国留学人员联合会优秀干事、外联部部长、荣誉副主席</li>
-<li>2021、2023 春晖杯中国留学人员创新创业大赛优胜奖</li>
-<li>2022-2025 华为 部门及时激励奖2次、跨部门感谢信2封、实验室月度之星</li>
-<li>2024 无锡”太湖杯”国际精英创新创业大赛高校赛优秀项目</li>
-<li>2023 青年创造力与体育潜力合作表彰状（圣彼得堡市维堡区政府）</li>
-<li>2025 多民族文化节表彰状（圣彼得堡市斯特里尔那镇政府）</li>
-</ul>
-
-
-</section>
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="mailto:heyulong1998@gmail.com" class="about-link" rel="" target="">
-     <span class="about-link-text">heyulong1998@gmail.com</span>
-  </a>
-  <a href="https://github.com/hreyulog" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://huggingface.co/hreyulog" class="about-link" rel="" target="">
-     <span class="about-link-text"><img src="images/huggingface.svg" width="16px" height="16px" style="vertical-align:middle"></span>
-  </a>
-  <a href="https://scholar.google.com/citations?user=q4gQxaIAAAAJ&amp;hl=zh-CN" class="about-link" rel="" target="">
-     <span class="about-link-text"><img src="images/google-scholar.svg" width="16px" height="16px" style="vertical-align:middle"></span>
-  </a>
-  <a href="https://www.linkedin.com/in/yulong-he-7ab337213/" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://www.zhihu.com/people/heyulong1998" class="about-link" rel="" target="">
-     <span class="about-link-text"><img src="images/zhihu.svg" width="16px" height="16px" style="vertical-align:middle"></span>
-  </a>
-  <a href="https://www.researchgate.net/profile/Yulong-He-1" class="about-link" rel="" target="">
-     <span class="about-link-text"><img src="images/researchgate.svg" width="16px" height="16px" style="vertical-align:middle"></span>
-  </a>
 </div>
-</div>
- <!-- /main -->
+
+
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<nav class="wiki-nav" aria-label="研究页面导航"><a href="index.html">研究索引</a><a href="publications.html">已发表论文</a><a href="access.html">数据与引用</a><a href="../Chinese.html">个人主页 <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></nav>
+<section class="wiki-intro" aria-label="研究概览">
+  <div><p class="wiki-byline">贺育隆 · 研究笔记</p><p class="wiki-lead">从复杂数据中建立表示，<br>用可检验的方法形成判断。</p><p class="wiki-description">关注观点动力学、代码智能与高效机器学习。这里从已发表论文出发，记录问题如何被定义、方法为什么这样选，以及结论的适用边界。</p></div>
+  <figure class="author-portrait figure"><img src="../images/yulong.jpg" width="144" height="144" alt="贺育隆的个人照片" class="figure-img"><figcaption>贺育隆 / Yulong He</figcaption></figure>
+</section>
+<div class="wiki-facts"><span><strong>6</strong> 篇已发表论文</span><span><strong>7</strong> 篇中文解读</span><span>更新于 2026-09-06</span></div>
+<section class="reading-path" aria-labelledby="path-title"><h2 id="path-title" class="anchored">从这里开始</h2><div><a href="research-approach.html">研究方法<i class="bi bi-arrow-up-right" aria-hidden="true"></i></a><a href="code-evaluation.html">代码评测<i class="bi bi-arrow-up-right" aria-hidden="true"></i></a><a href="publications.html">论文与出处<i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></div></section>
+<section class="note-index" aria-label="文章索引">
+<form class="wiki-filters" role="search" id="wiki-search" hidden="">
+  <div class="search-field"><label for="query">搜索文章</label><div><i class="bi bi-search" aria-hidden="true"></i><input id="query" name="q" type="search" placeholder="主题、方法或关键词" autocomplete="off"></div></div>
+  <div class="topic-field"><label for="topic">研究主题</label><select id="topic" name="topic"><option value="">全部主题</option><option>研究方法</option><option>观点动力学</option><option>代码智能</option><option>高效机器学习</option><option>多模态与时序</option></select></div>
+  <button class="clear-search" type="reset" aria-label="重置筛选" title="重置筛选"><i class="bi bi-arrow-counterclockwise" aria-hidden="true"></i></button>
+</form>
+<p id="result-count" class="result-count" role="status" aria-live="polite">全部 7 篇文章</p>
+<article class="note-row" data-note="research-approach" data-topic="研究方法"><span class="note-number" aria-hidden="true">01</span><div class="note-copy"><div class="note-kicker"><span>研究方法</span><span>研究总览</span></div><h2 class="anchored"><a href="research-approach.html">从数据到判断：我的研究方法</a></h2><p>将表示学习、可解释建模与可靠评测串起来：先定义问题，再讨论模型是否真的解决了问题。</p></div><span class="note-time">4 分钟<i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></article>
+<article class="note-row" data-note="weibo-dynamics" data-topic="观点动力学"><span class="note-number" aria-hidden="true">02</span><div class="note-copy"><div class="note-kicker"><span>观点动力学</span><span>2026 · 期刊论文</span></div><h2 class="anchored"><a href="weibo-dynamics.html">评论情绪之外：如何理解社区之间的相互依赖</a></h2><p>把评论文本变成社区状态，再用动力学模型理解情绪变化。关键在于明确观测对象与解释边界。</p></div><span class="note-time">3 分钟<i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></article>
+<article class="note-row" data-note="code-dynamics" data-topic="代码智能"><span class="note-number" aria-hidden="true">03</span><div class="note-copy"><div class="note-kicker"><span>代码智能</span><span>2026 · 期刊论文</span></div><h2 class="anchored"><a href="code-dynamics.html">代码不仅是文本，也是协作留下的轨迹</a></h2><p>代码嵌入不只服务检索。把它放回时间和协作关系中，可以研究软件演化中的趋同与分化。</p></div><span class="note-time">3 分钟<i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></article>
+<article class="note-row" data-note="code-evaluation" data-topic="代码智能"><span class="note-number" aria-hidden="true">04</span><div class="note-copy"><div class="note-kicker"><span>代码智能</span><span>2026 · 研讨会论文</span></div><h2 class="anchored"><a href="code-evaluation.html">评测代码：看起来合理，不等于真的正确</a></h2><p>为什么大模型打分与代码对数概率会给出不同判断？从已发表实验理解评测信号的适用范围。</p></div><span class="note-time">3 分钟<i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></article>
+<article class="note-row" data-note="efficient-models" data-topic="高效机器学习"><span class="note-number" aria-hidden="true">05</span><div class="note-copy"><div class="note-kicker"><span>高效机器学习</span><span>2025 · 期刊论文</span></div><h2 class="anchored"><a href="efficient-models.html">轻量化不是单纯把模型变小</a></h2><p>从轴承故障诊断出发，理解知识蒸馏、低秩适配与质量约束之间的关系。</p></div><span class="note-time">3 分钟<i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></article>
+<article class="note-row" data-note="multimodal-robustness" data-topic="多模态与时序"><span class="note-number" aria-hidden="true">06</span><div class="note-copy"><div class="note-kicker"><span>多模态与时序</span><span>2023 · 期刊论文</span></div><h2 class="anchored"><a href="multimodal-robustness.html">多一个模态，什么时候才真正有用</a></h2><p>从视听语音识别的复现与比较出发，讨论信息互补、噪声条件和跨数据集泛化。</p></div><span class="note-time">3 分钟<i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></article>
+<article class="note-row" data-note="anomaly-detection" data-topic="多模态与时序"><span class="note-number" aria-hidden="true">07</span><div class="note-copy"><div class="note-kicker"><span>多模态与时序</span><span>2022 · 会议论文集论文</span></div><h2 class="anchored"><a href="anomaly-detection.html">预测得准，为什么仍可能找错异常</a></h2><p>时间序列预测与异常检测有不同的目标。模型选择需要对齐最终任务，而不是只优化中间指标。</p></div><span class="note-time">3 分钟<i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></article>
+<p id="no-results" class="no-results" hidden="">没有匹配的文章。请更换关键词或研究主题。</p>
+</section>
+<footer class="wiki-bottom"><p>论文结果属于共同作者的合作成果；文中的方法归纳与工程思考不代表新增实验结论。</p><a href="access.html">数据与引用</a> · <a href="../llms.txt">机器可读索引</a></footer>
+<script src="search.js" defer=""></script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "贺育隆 · 研究与技术思考",
+  "inLanguage": "zh-CN",
+  "url": "https://hreyulog.github.io/wiki/",
+  "author": {
+    "@type": "Person",
+    "name": "贺育隆",
+    "alternateName": "Yulong He",
+    "url": "https://hreyulog.github.io"
+  },
+  "hasPart": [
+    {
+      "@type": "Article",
+      "name": "从数据到判断：我的研究方法",
+      "url": "https://hreyulog.github.io/wiki/research-approach.html"
+    },
+    {
+      "@type": "Article",
+      "name": "评论情绪之外：如何理解社区之间的相互依赖",
+      "url": "https://hreyulog.github.io/wiki/weibo-dynamics.html"
+    },
+    {
+      "@type": "Article",
+      "name": "代码不仅是文本，也是协作留下的轨迹",
+      "url": "https://hreyulog.github.io/wiki/code-dynamics.html"
+    },
+    {
+      "@type": "Article",
+      "name": "评测代码：看起来合理，不等于真的正确",
+      "url": "https://hreyulog.github.io/wiki/code-evaluation.html"
+    },
+    {
+      "@type": "Article",
+      "name": "轻量化不是单纯把模型变小",
+      "url": "https://hreyulog.github.io/wiki/efficient-models.html"
+    },
+    {
+      "@type": "Article",
+      "name": "多一个模态，什么时候才真正有用",
+      "url": "https://hreyulog.github.io/wiki/multimodal-robustness.html"
+    },
+    {
+      "@type": "Article",
+      "name": "预测得准，为什么仍可能找错异常",
+      "url": "https://hreyulog.github.io/wiki/anomaly-detection.html"
+    }
+  ]
+}</script>
+
+
+
+</main> <!-- /main -->
 <script defer="" data-api="https://busuanzi.9420.ltd/api" src="https://busuanzi.9420.ltd/js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -261,12 +236,12 @@ ul.task-list li input[type="checkbox"] {
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
+      button.setAttribute("title", "已复制");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
+        button.setAttribute("data-bs-title", "已复制");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",

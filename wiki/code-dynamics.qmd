@@ -1,0 +1,81 @@
+---
+title: "代码不仅是文本，也是协作留下的轨迹"
+description: "代码嵌入不只服务检索。把它放回时间和协作关系中，可以研究软件演化中的趋同与分化。"
+---
+
+```{=html}
+<nav class="wiki-nav" aria-label="研究页面导航"><a href="index.html">研究索引</a><a href="publications.html">已发表论文</a><a href="access.html">数据与引用</a><a href="../Chinese.html">个人主页 <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></nav>
+```
+
+```{=html}
+<div class="note-meta"><span>代码智能</span><span>贺育隆</span><time datetime="2026-09-06">2026-09-06</time><span>约 3 分钟</span><a href="raw/code-dynamics.md" download><i class="bi bi-file-earmark-text" aria-hidden="true"></i> 纯文本</a></div>
+```
+
+一个代码仓库不仅保存程序，也保存了协作的历史。只看提交次数，很难知道技术方向在怎样变化；只看单个版本的代码，又容易丢失演化过程。
+
+## 把代码表示放回时间中
+
+《Social life of code》将代码变化的语义表示与观点动力学结合，用于分析开源软件项目的演化及潜在协作模式。论文的切入点，是把代码嵌入从静态特征扩展为理解协作变化的工具。[已发表论文](https://doi.org/10.1016/j.jocs.2026.102824)
+
+这里的“观点”是建模语言，不意味着一段代码等于一个开发者完整的思想。代码受到需求、接口、既有实现和评审过程的共同约束。它是能够被观测到的技术产物，而不是心理状态的直接读数。
+
+## 为什么组合两类方法
+
+表示学习擅长处理代码的复杂形式，动力学模型则提供相对清楚的关系结构。两者组合后的吸引力在于：既不完全依赖手工统计，也不把所有变化交给一个难以解释的预测器。
+
+这也引入了一项责任：必须解释表示空间中的变化意味着什么。两个向量变近，可能与实现方式趋同有关，也可能受到文件类型、任务分工或数据构成变化的影响。嵌入距离需要结合上下文解释，而不应自动被命名为“合作质量”。
+
+## 从论文结果到工程判断
+
+论文讨论了不同开源仓库中的趋同、分化以及具有不同影响特征的协作模式。[出版社摘要](https://www.sciencedirect.com/science/article/pii/S1877750326000426)
+
+我更看重的方法启发是：研究软件系统时，代码语义、时间结构和协作关系可以相互补充。只优化一个静态任务，可能看不到演化中的变化；只统计活动量，也可能把“忙碌”误当成“方向上的作用”。
+
+## 不把分析变成人员标签
+
+我不倾向于把这类模型直接用于开发者绩效排名。模型刻画的是特定观测与假设下的关系，不能完整衡量设计、维护、沟通和知识传递。合理的用途应是提出可继续检查的问题，而不是根据一个权重替代对工程过程的理解。
+
+这项工作的技术主线，是代码表示与可解释建模的结合；评价模型的标准，则应同时包含表示是否合理、时间结构是否保留，以及解释是否超出了数据。
+
+## 依据文献
+
+### 代码的社会性：结合代码嵌入与观点动力学理解软件演化
+
+Yulong He, Nikita Verbin, Sergey Kovalchuk. **Social life of code: Modeling evolution through code embedding and opinion dynamics**. *Journal of Computational Science, 96, 102824*, 2026.
+
+期刊论文 · 已发表。 [原始文献](https://doi.org/10.1016/j.jocs.2026.102824)
+
+
+## 延伸阅读
+
+- [评论情绪之外：如何理解社区之间的相互依赖](weibo-dynamics.qmd)
+- [评测代码：看起来合理，不等于真的正确](code-evaluation.qmd)
+
+```{=html}
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "代码不仅是文本，也是协作留下的轨迹",
+  "description": "代码嵌入不只服务检索。把它放回时间和协作关系中，可以研究软件演化中的趋同与分化。",
+  "inLanguage": "zh-CN",
+  "author": {
+    "@type": "Person",
+    "name": "贺育隆",
+    "alternateName": "Yulong He",
+    "url": "https://hreyulog.github.io"
+  },
+  "datePublished": "2026-09-06",
+  "dateModified": "2026-09-06",
+  "mainEntityOfPage": "https://hreyulog.github.io/wiki/code-dynamics.html",
+  "url": "https://hreyulog.github.io/wiki/code-dynamics.html",
+  "articleSection": "代码智能",
+  "citation": [
+    "https://doi.org/10.1016/j.jocs.2026.102824"
+  ],
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://hreyulog.github.io/wiki/raw/code-dynamics.md",
+    "encodingFormat": "text/markdown"
+  }
+}</script>
+```

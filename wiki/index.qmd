@@ -1,0 +1,87 @@
+---
+title: "研究与技术思考"
+description: "贺育隆的中文研究 Wiki：从已发表论文理解观点动力学、代码智能、高效机器学习与可靠评测。"
+toc: false
+page-layout: full
+---
+
+```{=html}
+<nav class="wiki-nav" aria-label="研究页面导航"><a href="index.html">研究索引</a><a href="publications.html">已发表论文</a><a href="access.html">数据与引用</a><a href="../Chinese.html">个人主页 <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></nav>
+<section class="wiki-intro" aria-label="研究概览">
+  <div><p class="wiki-byline">贺育隆 · 研究笔记</p><p class="wiki-lead">从复杂数据中建立表示，<br>用可检验的方法形成判断。</p><p class="wiki-description">关注观点动力学、代码智能与高效机器学习。这里从已发表论文出发，记录问题如何被定义、方法为什么这样选，以及结论的适用边界。</p></div>
+  <figure class="author-portrait"><img src="../images/yulong.jpg" width="144" height="144" alt="贺育隆的个人照片"><figcaption>贺育隆 / Yulong He</figcaption></figure>
+</section>
+<div class="wiki-facts"><span><strong>6</strong> 篇已发表论文</span><span><strong>7</strong> 篇中文解读</span><span>更新于 2026-09-06</span></div>
+<section class="reading-path" aria-labelledby="path-title"><h2 id="path-title">从这里开始</h2><div><a href="research-approach.html">研究方法<i class="bi bi-arrow-up-right" aria-hidden="true"></i></a><a href="code-evaluation.html">代码评测<i class="bi bi-arrow-up-right" aria-hidden="true"></i></a><a href="publications.html">论文与出处<i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></div></section>
+<section class="note-index" aria-label="文章索引">
+<form class="wiki-filters" role="search" id="wiki-search" hidden>
+  <div class="search-field"><label for="query">搜索文章</label><div><i class="bi bi-search" aria-hidden="true"></i><input id="query" name="q" type="search" placeholder="主题、方法或关键词" autocomplete="off"></div></div>
+  <div class="topic-field"><label for="topic">研究主题</label><select id="topic" name="topic"><option value="">全部主题</option><option>研究方法</option><option>观点动力学</option><option>代码智能</option><option>高效机器学习</option><option>多模态与时序</option></select></div>
+  <button class="clear-search" type="reset" aria-label="重置筛选" title="重置筛选"><i class="bi bi-arrow-counterclockwise" aria-hidden="true"></i></button>
+</form>
+<p id="result-count" class="result-count" role="status" aria-live="polite">全部 7 篇文章</p>
+<article class="note-row" data-note="research-approach" data-topic="研究方法"><span class="note-number" aria-hidden="true">01</span><div class="note-copy"><div class="note-kicker"><span>研究方法</span><span>研究总览</span></div><h2><a href="research-approach.html">从数据到判断：我的研究方法</a></h2><p>将表示学习、可解释建模与可靠评测串起来：先定义问题，再讨论模型是否真的解决了问题。</p></div><span class="note-time">4 分钟<i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></article>
+<article class="note-row" data-note="weibo-dynamics" data-topic="观点动力学"><span class="note-number" aria-hidden="true">02</span><div class="note-copy"><div class="note-kicker"><span>观点动力学</span><span>2026 · 期刊论文</span></div><h2><a href="weibo-dynamics.html">评论情绪之外：如何理解社区之间的相互依赖</a></h2><p>把评论文本变成社区状态，再用动力学模型理解情绪变化。关键在于明确观测对象与解释边界。</p></div><span class="note-time">3 分钟<i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></article>
+<article class="note-row" data-note="code-dynamics" data-topic="代码智能"><span class="note-number" aria-hidden="true">03</span><div class="note-copy"><div class="note-kicker"><span>代码智能</span><span>2026 · 期刊论文</span></div><h2><a href="code-dynamics.html">代码不仅是文本，也是协作留下的轨迹</a></h2><p>代码嵌入不只服务检索。把它放回时间和协作关系中，可以研究软件演化中的趋同与分化。</p></div><span class="note-time">3 分钟<i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></article>
+<article class="note-row" data-note="code-evaluation" data-topic="代码智能"><span class="note-number" aria-hidden="true">04</span><div class="note-copy"><div class="note-kicker"><span>代码智能</span><span>2026 · 研讨会论文</span></div><h2><a href="code-evaluation.html">评测代码：看起来合理，不等于真的正确</a></h2><p>为什么大模型打分与代码对数概率会给出不同判断？从已发表实验理解评测信号的适用范围。</p></div><span class="note-time">3 分钟<i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></article>
+<article class="note-row" data-note="efficient-models" data-topic="高效机器学习"><span class="note-number" aria-hidden="true">05</span><div class="note-copy"><div class="note-kicker"><span>高效机器学习</span><span>2025 · 期刊论文</span></div><h2><a href="efficient-models.html">轻量化不是单纯把模型变小</a></h2><p>从轴承故障诊断出发，理解知识蒸馏、低秩适配与质量约束之间的关系。</p></div><span class="note-time">3 分钟<i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></article>
+<article class="note-row" data-note="multimodal-robustness" data-topic="多模态与时序"><span class="note-number" aria-hidden="true">06</span><div class="note-copy"><div class="note-kicker"><span>多模态与时序</span><span>2023 · 期刊论文</span></div><h2><a href="multimodal-robustness.html">多一个模态，什么时候才真正有用</a></h2><p>从视听语音识别的复现与比较出发，讨论信息互补、噪声条件和跨数据集泛化。</p></div><span class="note-time">3 分钟<i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></article>
+<article class="note-row" data-note="anomaly-detection" data-topic="多模态与时序"><span class="note-number" aria-hidden="true">07</span><div class="note-copy"><div class="note-kicker"><span>多模态与时序</span><span>2022 · 会议论文集论文</span></div><h2><a href="anomaly-detection.html">预测得准，为什么仍可能找错异常</a></h2><p>时间序列预测与异常检测有不同的目标。模型选择需要对齐最终任务，而不是只优化中间指标。</p></div><span class="note-time">3 分钟<i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></article>
+<p id="no-results" class="no-results" hidden>没有匹配的文章。请更换关键词或研究主题。</p>
+</section>
+<footer class="wiki-bottom"><p>论文结果属于共同作者的合作成果；文中的方法归纳与工程思考不代表新增实验结论。</p><a href="access.html">数据与引用</a> · <a href="../llms.txt">机器可读索引</a></footer>
+<script src="search.js" defer></script>
+```
+
+```{=html}
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "贺育隆 · 研究与技术思考",
+  "inLanguage": "zh-CN",
+  "url": "https://hreyulog.github.io/wiki/",
+  "author": {
+    "@type": "Person",
+    "name": "贺育隆",
+    "alternateName": "Yulong He",
+    "url": "https://hreyulog.github.io"
+  },
+  "hasPart": [
+    {
+      "@type": "Article",
+      "name": "从数据到判断：我的研究方法",
+      "url": "https://hreyulog.github.io/wiki/research-approach.html"
+    },
+    {
+      "@type": "Article",
+      "name": "评论情绪之外：如何理解社区之间的相互依赖",
+      "url": "https://hreyulog.github.io/wiki/weibo-dynamics.html"
+    },
+    {
+      "@type": "Article",
+      "name": "代码不仅是文本，也是协作留下的轨迹",
+      "url": "https://hreyulog.github.io/wiki/code-dynamics.html"
+    },
+    {
+      "@type": "Article",
+      "name": "评测代码：看起来合理，不等于真的正确",
+      "url": "https://hreyulog.github.io/wiki/code-evaluation.html"
+    },
+    {
+      "@type": "Article",
+      "name": "轻量化不是单纯把模型变小",
+      "url": "https://hreyulog.github.io/wiki/efficient-models.html"
+    },
+    {
+      "@type": "Article",
+      "name": "多一个模态，什么时候才真正有用",
+      "url": "https://hreyulog.github.io/wiki/multimodal-robustness.html"
+    },
+    {
+      "@type": "Article",
+      "name": "预测得准，为什么仍可能找错异常",
+      "url": "https://hreyulog.github.io/wiki/anomaly-detection.html"
+    }
+  ]
+}</script>
+```

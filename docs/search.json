@@ -1,5 +1,166 @@
 [
   {
+    "objectID": "wiki/weibo-dynamics.html",
+    "href": "wiki/weibo-dynamics.html",
+    "title": "评论情绪之外：如何理解社区之间的相互依赖",
+    "section": "",
+    "text": "研究索引已发表论文数据与引用个人主页\n给一条评论打上情绪标签，并不能直接回答“社区之间如何相互关联”。前者是文本分类问题，后者还涉及时间、群体边界以及动态关系。"
+  },
+  {
+    "objectID": "wiki/weibo-dynamics.html#从个体评论到社区状态",
+    "href": "wiki/weibo-dynamics.html#从个体评论到社区状态",
+    "title": "评论情绪之外：如何理解社区之间的相互依赖",
+    "section": "从个体评论到社区状态",
+    "text": "从个体评论到社区状态\n这篇已在线发表的研究，跟踪微博科技博主及其评论受众，将评论级情感聚合成社区情感时间序列，再利用观点动力学模型估计社区之间的有向依赖关系。研究对象不是一个静态关注网络，而是不同社区的情感如何随时间共同变化。论文原文\n这种做法把自然语言处理和可解释建模连接起来：情感识别提供观测，社区聚合确定分析尺度，动力学模型描述状态如何依赖自身及其他社区的历史。"
+  },
+  {
+    "objectID": "wiki/weibo-dynamics.html#为什么需要明确群体边界",
+    "href": "wiki/weibo-dynamics.html#为什么需要明确群体边界",
+    "title": "评论情绪之外：如何理解社区之间的相互依赖",
+    "section": "为什么需要明确群体边界",
+    "text": "为什么需要明确群体边界\n我认为，这类研究最容易被忽略的地方，是“谁的情绪被观测到了”。发表评论的人并不等于全部粉丝，更不等于所有看过内容的人。因此，社区状态应理解为已观测评论受众的集体情感表征，不能直接扩展为全体用户的内心态度。\n这不是文字上的保守，而是决定解释是否成立的建模选择。聚合可以降低个体表达的复杂度，但同时会弱化个体差异。分析尺度改变以后，结论也必须留在相应尺度上。"
+  },
+  {
+    "objectID": "wiki/weibo-dynamics.html#论文得到什么又没有证明什么",
+    "href": "wiki/weibo-dynamics.html#论文得到什么又没有证明什么",
+    "title": "评论情绪之外：如何理解社区之间的相互依赖",
+    "section": "论文得到什么，又没有证明什么",
+    "text": "论文得到什么，又没有证明什么\n论文报告了稀疏且不对称的社区依赖结构，以及留出数据上两期前瞻预测的表现。这些结果支持用结构化的社区关系理解情感轨迹。发表版本与状态\n我的方法认识是：模型中的有向关系，首先是给定数据和假设下的动态依赖。共同新闻事件、受众重叠和平台机制，都可能影响社区的共同变化。没有额外的识别设计，就不应把模型权重等同于已被证明的因果影响。"
+  },
+  {
+    "objectID": "wiki/weibo-dynamics.html#技术价值在哪里",
+    "href": "wiki/weibo-dynamics.html#技术价值在哪里",
+    "title": "评论情绪之外：如何理解社区之间的相互依赖",
+    "section": "技术价值在哪里",
+    "text": "技术价值在哪里\n对我来说，价值不只是一张网络图，而是完整的数据到解释链条：文本测量是否可靠，群体如何定义，时间信息如何进入模型，结果如何验证。这样的思路适用于需要把非结构化数据转化为可解释动态指标的问题，但迁移到新平台或新主题时，仍需重新检验测量与模型假设。"
+  },
+  {
+    "objectID": "wiki/weibo-dynamics.html#依据文献",
+    "href": "wiki/weibo-dynamics.html#依据文献",
+    "title": "评论情绪之外：如何理解社区之间的相互依赖",
+    "section": "依据文献",
+    "text": "依据文献\n\n微博影响者社区之间的情感依赖关系\nYulong He, Anton V. Proskurnikov, Artem Sedakov. Mapping sentiment dependencies among online influencer communities on Weibo. Social Network Analysis and Mining, 2026.\n期刊论文 · 已在线发表。2026 年 9 月 1 日在线发表；出版社目前标记为早期在线版本，已具有永久 DOI。 原始文献"
+  },
+  {
+    "objectID": "wiki/weibo-dynamics.html#延伸阅读",
+    "href": "wiki/weibo-dynamics.html#延伸阅读",
+    "title": "评论情绪之外：如何理解社区之间的相互依赖",
+    "section": "延伸阅读",
+    "text": "延伸阅读\n\n代码不仅是文本，也是协作留下的轨迹\n从数据到判断：我的研究方法"
+  },
+  {
+    "objectID": "wiki/publications.html",
+    "href": "wiki/publications.html",
+    "title": "已发表论文",
+    "section": "",
+    "text": "研究索引已发表论文数据与引用个人主页 \n这里只收录已发表的合作成果，按年份列出。中文标题用于导读，引用时请使用原始题名与完整作者名单。\n\n微博影响者社区之间的情感依赖关系\nYulong He, Anton V. Proskurnikov, Artem Sedakov. Mapping sentiment dependencies among online influencer communities on Weibo. Social Network Analysis and Mining, 2026.\n期刊论文 · 已在线发表。2026 年 9 月 1 日在线发表；出版社目前标记为早期在线版本，已具有永久 DOI。 原始文献\n中文解读\n\n\n代码的社会性：结合代码嵌入与观点动力学理解软件演化\nYulong He, Nikita Verbin, Sergey Kovalchuk. Social life of code: Modeling evolution through code embedding and opinion dynamics. Journal of Computational Science, 96, 102824, 2026.\n期刊论文 · 已发表。 原始文献\n中文解读\n\n\n语义与结构信号：无参考答案的代码评测\nDmitriy Fedrushkov, Yulong He, Ivan Smirnov, Artem Aliev, Sergey Kovalchuk. Semantic vs. Structural Signals: Log-Probability and LLM-as-a-Judge for Reference-Free Code Evaluation. Proceedings of the Fifth Workshop on Generation, Evaluation and Metrics (GEM), 574–581, 2026.\n研讨会论文 · 已发表。 原始文献\n中文解读\n\n\n解耦蒸馏与低秩适配下的轻量化轴承故障诊断\nOvanes Petrosian, Pengyi Li, Yulong He, Jiarui Liu, Zhaoruikun Sun, Guofeng Fu, Liping Meng. Lightweight bearing fault diagnosis via decoupled distillation and low rank adaptation. Scientific Reports, 15, 36136, 2025.\n期刊论文 · 已发表。 原始文献\n中文解读\n\n\n鲁棒视听语音识别算法研究\nWenfeng Yang, Pengyi Li, Wei Yang, Yuxing Liu, Yulong He, Ovanes Petrosian, Aleksandr Davydenko. Research on Robust Audio-Visual Speech Recognition Algorithms. Mathematics, 11(7), 1733, 2023.\n期刊论文 · 已发表。 原始文献\n中文解读\n\n\n利用预测方法检测时间序列异常\nН. Э. Девришев, Ю. Хэ, О. Л. Петросян. Обнаружение аномалий во временных рядах с помощью методов прогнозирования. Процессы управления и устойчивость, 9(25), 2022.\n会议论文集论文 · 已发表。 原始文献 · 机构书目\n中文解读"
+  },
+  {
+    "objectID": "wiki/index.html",
+    "href": "wiki/index.html",
+    "title": "研究与技术思考",
+    "section": "",
+    "text": "研究索引已发表论文数据与引用个人主页 \n\n  贺育隆 · 研究笔记从复杂数据中建立表示，用可检验的方法形成判断。关注观点动力学、代码智能与高效机器学习。这里从已发表论文出发，记录问题如何被定义、方法为什么这样选，以及结论的适用边界。\n  贺育隆 / Yulong He\n\n6 篇已发表论文7 篇中文解读更新于 2026-09-06\n从这里开始研究方法代码评测论文与出处\n\n\n  搜索文章\n  研究主题全部主题研究方法观点动力学代码智能高效机器学习多模态与时序\n  \n\n全部 7 篇文章\n01研究方法研究总览从数据到判断：我的研究方法将表示学习、可解释建模与可靠评测串起来：先定义问题，再讨论模型是否真的解决了问题。4 分钟\n02观点动力学2026 · 期刊论文评论情绪之外：如何理解社区之间的相互依赖把评论文本变成社区状态，再用动力学模型理解情绪变化。关键在于明确观测对象与解释边界。3 分钟\n03代码智能2026 · 期刊论文代码不仅是文本，也是协作留下的轨迹代码嵌入不只服务检索。把它放回时间和协作关系中，可以研究软件演化中的趋同与分化。3 分钟\n04代码智能2026 · 研讨会论文评测代码：看起来合理，不等于真的正确为什么大模型打分与代码对数概率会给出不同判断？从已发表实验理解评测信号的适用范围。3 分钟\n05高效机器学习2025 · 期刊论文轻量化不是单纯把模型变小从轴承故障诊断出发，理解知识蒸馏、低秩适配与质量约束之间的关系。3 分钟\n06多模态与时序2023 · 期刊论文多一个模态，什么时候才真正有用从视听语音识别的复现与比较出发，讨论信息互补、噪声条件和跨数据集泛化。3 分钟\n07多模态与时序2022 · 会议论文集论文预测得准，为什么仍可能找错异常时间序列预测与异常检测有不同的目标。模型选择需要对齐最终任务，而不是只优化中间指标。3 分钟\n没有匹配的文章。请更换关键词或研究主题。\n\n论文结果属于共同作者的合作成果；文中的方法归纳与工程思考不代表新增实验结论。数据与引用 · 机器可读索引"
+  },
+  {
+    "objectID": "wiki/code-evaluation.html",
+    "href": "wiki/code-evaluation.html",
+    "title": "评测代码：看起来合理，不等于真的正确",
+    "section": "",
+    "text": "研究索引已发表论文数据与引用个人主页\n没有现成参考答案，或者执行测试成本较高时，怎样评价一段生成代码？让另一个大模型给分是一种办法，利用模型对代码的生成概率也是一种办法。问题在于：它们测量的是同一件事吗？"
+  },
+  {
+    "objectID": "wiki/code-evaluation.html#两种信号两种观察角度",
+    "href": "wiki/code-evaluation.html#两种信号两种观察角度",
+    "title": "评测代码：看起来合理，不等于真的正确",
+    "section": "两种信号，两种观察角度",
+    "text": "两种信号，两种观察角度\n在 GEM 2026 发表的合著论文中，我们比较了显式的大模型评判与任务条件下的代码对数概率。前者直接判断任务和解答是否匹配，后者提供不依赖显式打分指令的统计信号。论文与公开全文\n论文在 HumanEval-X 上观察到，两者对生成代码和最小变异代码的表现不同：显式评判在生成解答上更有优势，却难以稳定区分正确解答与轻微修改后的错误版本；对数概率在后一种成对区分中更有辨别力。这是实验范围内的互补性，不是“概率可以证明代码正确”。"
+  },
+  {
+    "objectID": "wiki/code-evaluation.html#一个总体分数会隐藏什么",
+    "href": "wiki/code-evaluation.html#一个总体分数会隐藏什么",
+    "title": "评测代码：看起来合理，不等于真的正确",
+    "section": "一个总体分数会隐藏什么",
+    "text": "一个总体分数会隐藏什么\n我的理解是，候选排序与局部错误识别不是同一项能力。模型可能善于选出整体更合理的解答，却漏掉只改动一个边界条件的错误。也可能对局部结构变化敏感，但难以完整理解需求。\n因此，评测器不能仅靠一个相关系数或总准确率来描述。需要区分它面对的是怎样的候选集合、怎样的错误，以及最终要支持哪一种选择。"
+  },
+  {
+    "objectID": "wiki/code-evaluation.html#如何把这种认识带入评测设计",
+    "href": "wiki/code-evaluation.html#如何把这种认识带入评测设计",
+    "title": "评测代码：看起来合理，不等于真的正确",
+    "section": "如何把这种认识带入评测设计",
+    "text": "如何把这种认识带入评测设计\n我会把代码质量判断拆开讨论：需求语义是否满足，局部逻辑是否正确，结果能否通过执行验证，以及评判在不同输入上是否稳定。不同信号可以提供证据，但不应该未经校准就相加成一个“综合正确率”。\n有测试条件时，应保留执行证据；没有测试条件时，应明确非执行式信号的局限。论文并未证明某一种信号能够普遍替代测试，也没有证明任意组合就一定改善效果。"
+  },
+  {
+    "objectID": "wiki/code-evaluation.html#我从这项工作中更重视什么",
+    "href": "wiki/code-evaluation.html#我从这项工作中更重视什么",
+    "title": "评测代码：看起来合理，不等于真的正确",
+    "section": "我从这项工作中更重视什么",
+    "text": "我从这项工作中更重视什么\n评测本身也是一个建模问题。选择评测器，与选择被评测的模型一样，需要理解数据分布、目标和失效方式。对工程决策而言，知道一个分数在什么情况下不可靠，和知道它平均有多高同样重要。"
+  },
+  {
+    "objectID": "wiki/code-evaluation.html#依据文献",
+    "href": "wiki/code-evaluation.html#依据文献",
+    "title": "评测代码：看起来合理，不等于真的正确",
+    "section": "依据文献",
+    "text": "依据文献\n\n语义与结构信号：无参考答案的代码评测\nDmitriy Fedrushkov, Yulong He, Ivan Smirnov, Artem Aliev, Sergey Kovalchuk. Semantic vs. Structural Signals: Log-Probability and LLM-as-a-Judge for Reference-Free Code Evaluation. Proceedings of the Fifth Workshop on Generation, Evaluation and Metrics (GEM), 574–581, 2026.\n研讨会论文 · 已发表。 原始文献"
+  },
+  {
+    "objectID": "wiki/code-evaluation.html#延伸阅读",
+    "href": "wiki/code-evaluation.html#延伸阅读",
+    "title": "评测代码：看起来合理，不等于真的正确",
+    "section": "延伸阅读",
+    "text": "延伸阅读\n\n预测得准，为什么仍可能找错异常\n从数据到判断：我的研究方法"
+  },
+  {
+    "objectID": "wiki/anomaly-detection.html",
+    "href": "wiki/anomaly-detection.html",
+    "title": "预测得准，为什么仍可能找错异常",
+    "section": "",
+    "text": "研究索引已发表论文数据与引用个人主页\n用正常历史预测未来，再把偏离预测的部分标记为异常，是一条直观的思路。但这里其实有两个问题：怎样预测，以及怎样把误差转化成异常判断。"
+  },
+  {
+    "objectID": "wiki/anomaly-detection.html#预测只是第一步",
+    "href": "wiki/anomaly-detection.html#预测只是第一步",
+    "title": "预测得准，为什么仍可能找错异常",
+    "section": "预测只是第一步",
+    "text": "预测只是第一步\n2022 年的这篇合著论文比较了神经网络和梯度提升等预测方法，并在时间序列异常检测任务中分析其表现。研究使用的基准由多个独立单变量序列组成，每条序列包含一个异常区段。公开论文全文\n论文不仅比较预测器，还讨论了用窗口内累计偏差定位异常。这样的设计提醒我：异常分数的构造，本身就是方法的一部分，不能隐藏在预测模型之后。"
+  },
+  {
+    "objectID": "wiki/anomaly-detection.html#中间目标与最终目标会不一致",
+    "href": "wiki/anomaly-detection.html#中间目标与最终目标会不一致",
+    "title": "预测得准，为什么仍可能找错异常",
+    "section": "中间目标与最终目标会不一致",
+    "text": "中间目标与最终目标会不一致\n论文结果显示，预测能力较强的模型不一定具有更好的异常识别表现。过于灵活的预测器可能削弱异常的残差信号；预测不足又可能让正常变化产生大量误差。这个观察限于论文的任务和样本，不能据此认定某种模型家族普遍不适合检测异常。\n我的理解是，异常检测关心的是“正常与异常能否被分开”，而不是无差别地逼近所有观测。即使两种方法的平均误差相近，它们在关键异常区段上的行为也可能不同。"
+  },
+  {
+    "objectID": "wiki/anomaly-detection.html#一个容易被基准设置掩盖的问题",
+    "href": "wiki/anomaly-detection.html#一个容易被基准设置掩盖的问题",
+    "title": "预测得准，为什么仍可能找错异常",
+    "section": "一个容易被基准设置掩盖的问题",
+    "text": "一个容易被基准设置掩盖的问题\n如果预先知道每条序列恰有一个异常区段，就可以把问题处理成定位任务。实际监测中，异常可能不存在，也可能反复出现，此时还需要考虑阈值、误报和检测延迟。论文基准的结果，不能直接证明系统已具备连续在线告警能力。\n这一区别是我从早期工作中保留下来的重要提醒：先检查基准给了哪些先验，再讨论结果能否迁移。"
+  },
+  {
+    "objectID": "wiki/anomaly-detection.html#为什么今天仍然值得讨论",
+    "href": "wiki/anomaly-detection.html#为什么今天仍然值得讨论",
+    "title": "预测得准，为什么仍可能找错异常",
+    "section": "为什么今天仍然值得讨论",
+    "text": "为什么今天仍然值得讨论\n在代码评测和其他机器学习任务中，也存在类似的中间指标问题。一个方便优化的数字，很容易逐渐替代真正关心的目标。对我而言，这项研究的持续价值在于形成一种习惯：从最终决策倒推评价方式，再选择模型，而不是先选模型再寻找能展示优势的指标。"
+  },
+  {
+    "objectID": "wiki/anomaly-detection.html#依据文献",
+    "href": "wiki/anomaly-detection.html#依据文献",
+    "title": "预测得准，为什么仍可能找错异常",
+    "section": "依据文献",
+    "text": "依据文献\n\n利用预测方法检测时间序列异常\nН. Э. Девришев, Ю. Хэ, О. Л. Петросян. Обнаружение аномалий во временных рядах с помощью методов прогнозирования. Процессы управления и устойчивость, 9(25), 2022.\n会议论文集论文 · 已发表。 原始文献 · 机构书目"
+  },
+  {
+    "objectID": "wiki/anomaly-detection.html#延伸阅读",
+    "href": "wiki/anomaly-detection.html#延伸阅读",
+    "title": "预测得准，为什么仍可能找错异常",
+    "section": "延伸阅读",
+    "text": "延伸阅读\n\n评测代码：看起来合理，不等于真的正确\n多一个模态，什么时候才真正有用"
+  },
+  {
     "objectID": "Russian.html",
     "href": "Russian.html",
     "title": "Хэ Юйлун",
@@ -54,6 +215,62 @@
     "title": "Хэ Юйлун",
     "section": "Награды и достижения",
     "text": "Награды и достижения\n\n2023-2025 Отличный сотрудник, заместитель начальника отдела внешних связей, начальник отдела внешних связей, почётный вице-президент Ассоциации китайских студентов в Санкт-Петербурге\n2021, 2023 Лауреат конкурса инноваций и предпринимательства для китайских студентов за рубежом «Чуньхуэй»\n2022-2025 Премия за своевременные достижения отдела Huawei дважды, 2 благодарственных письма от других отделов, звезда месяца лаборатории\n2024 Отличный проект международного конкурса инноваций «Кубок Тайху» в Уси\n2023 Благодарность за сотрудничество в области молодёжного творчества и спортивного потенциала (администрация Выборгского района Санкт-Петербурга)\n2025 Благодарность фестиваля мультикультур (администрация Стрельны Санкт-Петербурга)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Yulong He",
+    "section": "",
+    "text": "Yulong He is a PhD candidate in Theoretical Computer Science and Cybernetics at Saint Petersburg State University (Sep 2024 - Jun 2027), sponsored by the China Scholarship Council as a first-batch government-sponsored student. He completed both his Bachelor’s and Master’s degrees in Applied Mathematics and Computer Science at Saint Petersburg State University, both sponsored by the China Scholarship Council as first-batch government-sponsored students.\nHe is currently a Machine Learning and Algorithm Engineer at Huawei Saint Petersburg Chebyshev Research Institute, and previously served as a Software Engineer at ITMO University AI Lab. His research interests include code embedding models, RAG systems, knowledge graphs, and large language model applications. He achieved the best result (61.22) on the CoIR Hybrid Code Benchmark 2024, and developed lightweight code models achieving 5x inference speedup.\nHe has published papers in journals such as Journal of Computational Science, Scientific Reports, and Mathematics, with multiple papers under review. He has served as a reviewer for Scientific Reports 、JASSS and ICIC 2026. He won the Chunhui Cup Chinese Overseas Students Innovation Competition twice (2021, 2023)."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Yulong He",
+    "section": "Education",
+    "text": "Education\n\n2024.9-2027.6 Saint Petersburg State University, Theoretical Computer Science and Cybernetics (PhD), CSC first-batch government-sponsored\n2022.9-2024.6 Saint Petersburg State University, Applied Mathematics and Computer Science (Master), CSC first-batch government-sponsored\n2018.9-2022.6 Saint Petersburg State University, Applied Mathematics and Computer Science (Bachelor)"
+  },
+  {
+    "objectID": "index.html#work-experience",
+    "href": "index.html#work-experience",
+    "title": "Yulong He",
+    "section": "Work Experience",
+    "text": "Work Experience\n\n2025.11-2026.8 ITMO University AI Lab, Software Engineer (Part-time)\n2021.8-Present Huawei Saint Petersburg Chebyshev Research Institute, Machine Learning and Algorithm Engineer"
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Yulong He",
+    "section": "Research Interests",
+    "text": "Research Interests\nOpinion Dynamics, Code Embedding Models (Knowledge Distillation, Quantization, Data Augmentation), RAG Systems and Knowledge Graphs, Large Language Model Applications and Fine-tuning, Multi-Agent Systems"
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Yulong He",
+    "section": "Projects",
+    "text": "Projects\n\nCode Embedding Model (2023-2025)\n\nImplemented knowledge distillation and data augmentation, achieved best result (61.22) on CoIR Hybrid Code Benchmark 2024\nBuilt multi-level model evaluation system, developed ArkTS language parser based on tree-sitter, collected and cleaned ArkTS dataset\nDesigned and trained XX-2.2-25M and XX-2.4-14M models, with only 16% and 21% accuracy drop, achieving 3x and 5x inference speedup\nQuantized models and successfully integrated into DevEco and CodeArts IDE\n\nLow-Code RAG Project (2025)\n\nBuilt test dataset and integrated graph retrieval system, achieving Recall=0.236, Precision=0.333, F1=0.244\nFine-tuned XX2.1-SPECIAL-XX6 model, achieving 519.86% inference speedup with only 9.87% MAP@5 drop\nDeveloped low-code Codebase, integrated GaussDB database\n\nKnowledge Graph-based Code Agent (2025)\n\nImproved code generation accuracy from 25.22% to 41.30% on CoderEval dataset, achieving best result\nDesigned localized RAG solution architecture, adopted by CBG team, participated in patent application writing\n\nPETAL SEARCH (2021-2023)\n\nAs key coordinator, responsible for HQ technical solution integration and adaptation locally\nOptimized Chinese search ranking model, improved MRR by 23%\nReplaced tokenizer binary tree with Trie tree in iQue project, nearly 2x performance improvement"
+  },
+  {
+    "objectID": "index.html#publications",
+    "href": "index.html#publications",
+    "title": "Yulong He",
+    "section": "Publications",
+    "text": "Publications\n\nMapping sentiment dependencies among online influencer communities on Weibo. Y He, AV Proskurnikov, A Sedakov. Social Network Analysis and Mining, 2026. Link\nSocial Life of Code: Modeling Evolution through Code Embedding and Opinion Dynamics. Y He, N Verbin, S Kovalchuk. Journal of Computational Science, 96, 102824, 2026. Link\nLightweight bearing fault diagnosis via decoupled distillation and low rank adaptation. O Petrosian, P Li, Y He, J Liu, Z Sun, G Fu, L Meng. Scientific Reports, 2025. Link\nSemantic vs. Structural Signals: Log-Probability and LLM-as-a-Judge for Reference-Free Code Evaluation. Dmitriy Fedrushkov, Y He, I Smirnov, A Aliev, S Kovalchuk. Proceedings of the Fifth Workshop on Generation, Evaluation and Metrics (GEM), pages 574-581, San Diego, California, USA, 2026. Link\nResearch on Robust Audio-Visual Speech Recognition Algorithms. W Yang, P Li, W Yang, Y Liu, Y He, O Petrosian, A Davydenko. Mathematics, 11(7), 1733, 2023. Link\nОбнаружение аномалий во временных рядах с помощью методов прогнозирования. НЭ ДЕВРИШЕВ, Ю ХЭ, ОЛ ПЕТРОСЯН. Процессы управления и устойчивость, 9(25), 2022. Link\nStyle2Code: A Style-Controllable Code Generation Framework. D Zhang, S Kovalchuk, YL He, NA Arias, B Li. 2025.5 (under review). Link\nOpinion dynamics and mutual influence with LLM agents through dialog simulation. Y He, D Zhang, S Kovalchuk, P Li, A Sedakov. 2026.1 (under review). Link\nArkTS-CodeSearch: A Open-Source ArkTS Dataset for Code Retrieval. Y He, A Ermakov, S Kovalchuk, A Aliev, D Shalymov. 2026.2 (under review). Link\nStructured Multi-Criteria Evaluation of Large Language Models with Fuzzy Analytic Hierarchy Process and DualJudge. Y He, I Smirnov, D Fedrushkov, S Kovalchuk, I Revin. 2026.4 (under review). Link\nModeling Stylistic Co-evolution in Symbolic Music Heritage Collections. Y He, I Smirnov, Y Li. 2026.5 (under review). Link"
+  },
+  {
+    "objectID": "index.html#academic-service",
+    "href": "index.html#academic-service",
+    "title": "Yulong He",
+    "section": "Academic Service",
+    "text": "Academic Service\n\nTeaching Assistant, “Statistical Decisions and Econometrics”, Saint Petersburg State University, 2026\nReviewer, Scientific Reports, 2026\nReviewer, Journal of Artificial Societies and Social Simulation (JASSS), 2026\nReviewer, 2026 International Conference on Intelligent Computing (ICIC 2026), 2026"
+  },
+  {
+    "objectID": "index.html#honors-awards",
+    "href": "index.html#honors-awards",
+    "title": "Yulong He",
+    "section": "Honors & Awards",
+    "text": "Honors & Awards\n\n2023-2025 Excellent Officer, Deputy Director of External Relations, Director of External Relations, Honorary Vice President of Chinese Students Association in Saint Petersburg\n2021, 2023 Chunhui Cup Chinese Overseas Students Innovation Competition Winner\n2022-2025 Huawei Department Timely Incentive Award twice, 2 Inter-departmental Thank-you Letters, Lab Star of the Month\n2024 Wuxi “Taihu Cup” International Elite Innovation Competition Excellent Project\n2023 Youth Creativity and Sports Potential Cooperation Commendation (Vyborg District Government, Saint Petersburg)\n2025 Multicultural Festival Commendation (Strelna District Government, Saint Petersburg)"
   },
   {
     "objectID": "Chinese.html",
@@ -112,59 +329,241 @@
     "text": "荣誉奖项\n\n2023-2025 圣彼得堡中国留学人员联合会优秀干事、外联部部长、荣誉副主席\n2021、2023 春晖杯中国留学人员创新创业大赛优胜奖\n2022-2025 华为 部门及时激励奖2次、跨部门感谢信2封、实验室月度之星\n2024 无锡”太湖杯”国际精英创新创业大赛高校赛优秀项目\n2023 青年创造力与体育潜力合作表彰状（圣彼得堡市维堡区政府）\n2025 多民族文化节表彰状（圣彼得堡市斯特里尔那镇政府）"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Yulong He",
+    "objectID": "wiki/access.html",
+    "href": "wiki/access.html",
+    "title": "数据与引用",
     "section": "",
-    "text": "Yulong He is a PhD candidate in Theoretical Computer Science and Cybernetics at Saint Petersburg State University (Sep 2024 - Jun 2027), sponsored by the China Scholarship Council as a first-batch government-sponsored student. He completed both his Bachelor’s and Master’s degrees in Applied Mathematics and Computer Science at Saint Petersburg State University, both sponsored by the China Scholarship Council as first-batch government-sponsored students.\nHe is currently a Machine Learning and Algorithm Engineer at Huawei Saint Petersburg Chebyshev Research Institute, and previously served as a Software Engineer at ITMO University AI Lab. His research interests include code embedding models, RAG systems, knowledge graphs, and large language model applications. He achieved the best result (61.22) on the CoIR Hybrid Code Benchmark 2024, and developed lightweight code models achieving 5x inference speedup.\nHe has published papers in journals such as Journal of Computational Science, Scientific Reports, and Mathematics, with multiple papers under review. He has served as a reviewer for Scientific Reports 、JASSS and ICIC 2026. He won the Chunhui Cup Chinese Overseas Students Innovation Competition twice (2021, 2023)."
+    "text": "研究索引已发表论文数据与引用个人主页\n本页提供研究文章的可引用文本与结构化目录。网页、纯文本与数据索引使用同一套公开内容。"
   },
   {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Yulong He",
-    "section": "Education",
-    "text": "Education\n\n2024.9-2027.6 Saint Petersburg State University, Theoretical Computer Science and Cybernetics (PhD), CSC first-batch government-sponsored\n2022.9-2024.6 Saint Petersburg State University, Applied Mathematics and Computer Science (Master), CSC first-batch government-sponsored\n2018.9-2022.6 Saint Petersburg State University, Applied Mathematics and Computer Science (Bachelor)"
+    "objectID": "wiki/access.html#公开范围",
+    "href": "wiki/access.html#公开范围",
+    "title": "数据与引用",
+    "section": "公开范围",
+    "text": "公开范围\n收录六篇已发表论文及相关中文解读，不收录未发表项目、内部材料或原始对话。此处是经过主题整理的研究笔记，不是完整聊天记录或个人档案。论文的发表状态与事实以所链接的出版社、论文集及机构记录为准。最近核对日期：2026-09-06。"
   },
   {
-    "objectID": "index.html#work-experience",
-    "href": "index.html#work-experience",
-    "title": "Yulong He",
-    "section": "Work Experience",
-    "text": "Work Experience\n\n2025.11-2026.8 ITMO University AI Lab, Software Engineer (Part-time)\n2021.8-Present Huawei Saint Petersburg Chebyshev Research Institute, Machine Learning and Algorithm Engineer"
+    "objectID": "wiki/access.html#读取入口",
+    "href": "wiki/access.html#读取入口",
+    "title": "数据与引用",
+    "section": "读取入口",
+    "text": "读取入口\n\n简要目录：文章地址、主题与公开范围。\n完整纯文本：全部七篇解读及其依据文献。\n结构化索引：文章正文、摘要、关联文章和完整论文元数据。\n论文目录纯文本：原始题名与作者名单。\n\n每篇文章也有独立的 Markdown 地址，位于本目录的 raw/ 下，不需要登录。"
   },
   {
-    "objectID": "index.html#research-interests",
-    "href": "index.html#research-interests",
-    "title": "Yulong He",
-    "section": "Research Interests",
-    "text": "Research Interests\nOpinion Dynamics, Code Embedding Models (Knowledge Distillation, Quantization, Data Augmentation), RAG Systems and Knowledge Graphs, Large Language Model Applications and Fine-tuning, Multi-Agent Systems"
+    "objectID": "wiki/access.html#引用与归属",
+    "href": "wiki/access.html#引用与归属",
+    "title": "数据与引用",
+    "section": "引用与归属",
+    "text": "引用与归属\n引用研究结果时，应引用原始论文并保留所有作者；引用这里的方法归纳时，可以引用对应文章链接与更新日期。中文解读不是原论文的逐字翻译。个人思考与论文已报告的发现分别表述，不应把前者提取为已验证的实验结果。"
   },
   {
-    "objectID": "index.html#projects",
-    "href": "index.html#projects",
-    "title": "Yulong He",
-    "section": "Projects",
-    "text": "Projects\n\nCode Embedding Model (2023-2025)\n\nImplemented knowledge distillation and data augmentation, achieved best result (61.22) on CoIR Hybrid Code Benchmark 2024\nBuilt multi-level model evaluation system, developed ArkTS language parser based on tree-sitter, collected and cleaned ArkTS dataset\nDesigned and trained XX-2.2-25M and XX-2.4-14M models, with only 16% and 21% accuracy drop, achieving 3x and 5x inference speedup\nQuantized models and successfully integrated into DevEco and CodeArts IDE\n\nLow-Code RAG Project (2025)\n\nBuilt test dataset and integrated graph retrieval system, achieving Recall=0.236, Precision=0.333, F1=0.244\nFine-tuned XX2.1-SPECIAL-XX6 model, achieving 519.86% inference speedup with only 9.87% MAP@5 drop\nDeveloped low-code Codebase, integrated GaussDB database\n\nKnowledge Graph-based Code Agent (2025)\n\nImproved code generation accuracy from 25.22% to 41.30% on CoderEval dataset, achieving best result\nDesigned localized RAG solution architecture, adopted by CBG team, participated in patent application writing\n\nPETAL SEARCH (2021-2023)\n\nAs key coordinator, responsible for HQ technical solution integration and adaptation locally\nOptimized Chinese search ranking model, improved MRR by 23%\nReplaced tokenizer binary tree with Trie tree in iQue project, nearly 2x performance improvement"
+    "objectID": "wiki/access.html#数据字段",
+    "href": "wiki/access.html#数据字段",
+    "title": "数据与引用",
+    "section": "数据字段",
+    "text": "数据字段\nindex.json 的 articles 包含 id、title、summary、topic、bodyMarkdown、url、markdownUrl、updated、papers 和 related。papers 字段关联顶层论文目录中的稳定标识。\n顶层 papers 提供原始题名、完整作者、年份、发表载体、文献类型、状态及文献地址。微博论文目前为出版社的早期在线发表版本，其状态说明保留在 versionNote 中。"
   },
   {
-    "objectID": "index.html#publications",
-    "href": "index.html#publications",
-    "title": "Yulong He",
-    "section": "Publications",
-    "text": "Publications\n\nMapping sentiment dependencies among online influencer communities on Weibo. Y He, AV Proskurnikov, A Sedakov. Social Network Analysis and Mining, 2026. Link\nSocial Life of Code: Modeling Evolution through Code Embedding and Opinion Dynamics. Y He, N Verbin, S Kovalchuk. Journal of Computational Science, 96, 102824, 2026. Link\nLightweight bearing fault diagnosis via decoupled distillation and low rank adaptation. O Petrosian, P Li, Y He, J Liu, Z Sun, G Fu, L Meng. Scientific Reports, 2025. Link\nSemantic vs. Structural Signals: Log-Probability and LLM-as-a-Judge for Reference-Free Code Evaluation. Dmitriy Fedrushkov, Y He, I Smirnov, A Aliev, S Kovalchuk. Proceedings of the Fifth Workshop on Generation, Evaluation and Metrics (GEM), pages 574-581, San Diego, California, USA, 2026. Link\nResearch on Robust Audio-Visual Speech Recognition Algorithms. W Yang, P Li, W Yang, Y Liu, Y He, O Petrosian, A Davydenko. Mathematics, 11(7), 1733, 2023. Link\nОбнаружение аномалий во временных рядах с помощью методов прогнозирования. НЭ ДЕВРИШЕВ, Ю ХЭ, ОЛ ПЕТРОСЯН. Процессы управления и устойчивость, 9(25), 2022. Link\nStyle2Code: A Style-Controllable Code Generation Framework. D Zhang, S Kovalchuk, YL He, NA Arias, B Li. 2025.5 (under review). Link\nOpinion dynamics and mutual influence with LLM agents through dialog simulation. Y He, D Zhang, S Kovalchuk, P Li, A Sedakov. 2026.1 (under review). Link\nArkTS-CodeSearch: A Open-Source ArkTS Dataset for Code Retrieval. Y He, A Ermakov, S Kovalchuk, A Aliev, D Shalymov. 2026.2 (under review). Link\nStructured Multi-Criteria Evaluation of Large Language Models with Fuzzy Analytic Hierarchy Process and DualJudge. Y He, I Smirnov, D Fedrushkov, S Kovalchuk, I Revin. 2026.4 (under review). Link\nModeling Stylistic Co-evolution in Symbolic Music Heritage Collections. Y He, I Smirnov, Y Li. 2026.5 (under review). Link"
+    "objectID": "wiki/access.html#版本与维护",
+    "href": "wiki/access.html#版本与维护",
+    "title": "数据与引用",
+    "section": "版本与维护",
+    "text": "版本与维护\n文章源文件与元数据共同生成网页及数据文件，避免两个版本产生差异。新增研究需要先确认公开发表状态，再纳入此目录。网站代码可在个人主页仓库查看。"
   },
   {
-    "objectID": "index.html#academic-service",
-    "href": "index.html#academic-service",
-    "title": "Yulong He",
-    "section": "Academic Service",
-    "text": "Academic Service\n\nTeaching Assistant, “Statistical Decisions and Econometrics”, Saint Petersburg State University, 2026\nReviewer, Scientific Reports, 2026\nReviewer, Journal of Artificial Societies and Social Simulation (JASSS), 2026\nReviewer, 2026 International Conference on Intelligent Computing (ICIC 2026), 2026"
+    "objectID": "wiki/code-dynamics.html",
+    "href": "wiki/code-dynamics.html",
+    "title": "代码不仅是文本，也是协作留下的轨迹",
+    "section": "",
+    "text": "研究索引已发表论文数据与引用个人主页\n一个代码仓库不仅保存程序，也保存了协作的历史。只看提交次数，很难知道技术方向在怎样变化；只看单个版本的代码，又容易丢失演化过程。"
   },
   {
-    "objectID": "index.html#honors-awards",
-    "href": "index.html#honors-awards",
-    "title": "Yulong He",
-    "section": "Honors & Awards",
-    "text": "Honors & Awards\n\n2023-2025 Excellent Officer, Deputy Director of External Relations, Director of External Relations, Honorary Vice President of Chinese Students Association in Saint Petersburg\n2021, 2023 Chunhui Cup Chinese Overseas Students Innovation Competition Winner\n2022-2025 Huawei Department Timely Incentive Award twice, 2 Inter-departmental Thank-you Letters, Lab Star of the Month\n2024 Wuxi “Taihu Cup” International Elite Innovation Competition Excellent Project\n2023 Youth Creativity and Sports Potential Cooperation Commendation (Vyborg District Government, Saint Petersburg)\n2025 Multicultural Festival Commendation (Strelna District Government, Saint Petersburg)"
+    "objectID": "wiki/code-dynamics.html#把代码表示放回时间中",
+    "href": "wiki/code-dynamics.html#把代码表示放回时间中",
+    "title": "代码不仅是文本，也是协作留下的轨迹",
+    "section": "把代码表示放回时间中",
+    "text": "把代码表示放回时间中\n《Social life of code》将代码变化的语义表示与观点动力学结合，用于分析开源软件项目的演化及潜在协作模式。论文的切入点，是把代码嵌入从静态特征扩展为理解协作变化的工具。已发表论文\n这里的“观点”是建模语言，不意味着一段代码等于一个开发者完整的思想。代码受到需求、接口、既有实现和评审过程的共同约束。它是能够被观测到的技术产物，而不是心理状态的直接读数。"
+  },
+  {
+    "objectID": "wiki/code-dynamics.html#为什么组合两类方法",
+    "href": "wiki/code-dynamics.html#为什么组合两类方法",
+    "title": "代码不仅是文本，也是协作留下的轨迹",
+    "section": "为什么组合两类方法",
+    "text": "为什么组合两类方法\n表示学习擅长处理代码的复杂形式，动力学模型则提供相对清楚的关系结构。两者组合后的吸引力在于：既不完全依赖手工统计，也不把所有变化交给一个难以解释的预测器。\n这也引入了一项责任：必须解释表示空间中的变化意味着什么。两个向量变近，可能与实现方式趋同有关，也可能受到文件类型、任务分工或数据构成变化的影响。嵌入距离需要结合上下文解释，而不应自动被命名为“合作质量”。"
+  },
+  {
+    "objectID": "wiki/code-dynamics.html#从论文结果到工程判断",
+    "href": "wiki/code-dynamics.html#从论文结果到工程判断",
+    "title": "代码不仅是文本，也是协作留下的轨迹",
+    "section": "从论文结果到工程判断",
+    "text": "从论文结果到工程判断\n论文讨论了不同开源仓库中的趋同、分化以及具有不同影响特征的协作模式。出版社摘要\n我更看重的方法启发是：研究软件系统时，代码语义、时间结构和协作关系可以相互补充。只优化一个静态任务，可能看不到演化中的变化；只统计活动量，也可能把“忙碌”误当成“方向上的作用”。"
+  },
+  {
+    "objectID": "wiki/code-dynamics.html#不把分析变成人员标签",
+    "href": "wiki/code-dynamics.html#不把分析变成人员标签",
+    "title": "代码不仅是文本，也是协作留下的轨迹",
+    "section": "不把分析变成人员标签",
+    "text": "不把分析变成人员标签\n我不倾向于把这类模型直接用于开发者绩效排名。模型刻画的是特定观测与假设下的关系，不能完整衡量设计、维护、沟通和知识传递。合理的用途应是提出可继续检查的问题，而不是根据一个权重替代对工程过程的理解。\n这项工作的技术主线，是代码表示与可解释建模的结合；评价模型的标准，则应同时包含表示是否合理、时间结构是否保留，以及解释是否超出了数据。"
+  },
+  {
+    "objectID": "wiki/code-dynamics.html#依据文献",
+    "href": "wiki/code-dynamics.html#依据文献",
+    "title": "代码不仅是文本，也是协作留下的轨迹",
+    "section": "依据文献",
+    "text": "依据文献\n\n代码的社会性：结合代码嵌入与观点动力学理解软件演化\nYulong He, Nikita Verbin, Sergey Kovalchuk. Social life of code: Modeling evolution through code embedding and opinion dynamics. Journal of Computational Science, 96, 102824, 2026.\n期刊论文 · 已发表。 原始文献"
+  },
+  {
+    "objectID": "wiki/code-dynamics.html#延伸阅读",
+    "href": "wiki/code-dynamics.html#延伸阅读",
+    "title": "代码不仅是文本，也是协作留下的轨迹",
+    "section": "延伸阅读",
+    "text": "延伸阅读\n\n评论情绪之外：如何理解社区之间的相互依赖\n评测代码：看起来合理，不等于真的正确"
+  },
+  {
+    "objectID": "wiki/efficient-models.html",
+    "href": "wiki/efficient-models.html",
+    "title": "轻量化不是单纯把模型变小",
+    "section": "",
+    "text": "研究索引已发表论文数据与引用个人主页\n“把模型变小”只是轻量化的一个结果描述。更完整的问题是：在给定资源条件下，哪些能力必须保留，允许付出什么代价，又应怎样证明取舍合理？"
+  },
+  {
+    "objectID": "wiki/efficient-models.html#一个具体任务轴承故障诊断",
+    "href": "wiki/efficient-models.html#一个具体任务轴承故障诊断",
+    "title": "轻量化不是单纯把模型变小",
+    "section": "一个具体任务：轴承故障诊断",
+    "text": "一个具体任务：轴承故障诊断\nScientific Reports 的这篇合著论文面向轴承故障分类，将解耦知识蒸馏与低秩适配结合，构建轻量化模型 DKDL-Net。教师模型提供训练信号，较小的学生模型承担目标任务，再通过适配补偿质量损失。已发表论文\n论文在其 CWRU 实验设置下报告，学生模型参数量为 6,838，教师模型为 69,626，测试准确率为 99.48%。这些数字属于具体数据集和实验协议，不是跨设备、跨工况的通用保证。"
+  },
+  {
+    "objectID": "wiki/efficient-models.html#蒸馏与适配各自解决什么",
+    "href": "wiki/efficient-models.html#蒸馏与适配各自解决什么",
+    "title": "轻量化不是单纯把模型变小",
+    "section": "蒸馏与适配各自解决什么",
+    "text": "蒸馏与适配各自解决什么\n我对这个组合的理解是：蒸馏关注“让小模型从较强模型的输出中学到什么”，适配关注“用受约束的更新改善任务表现”。两者不只是并列的工具名称，而是对应不同的训练职责。\n方法组合是否有必要，需要靠独立对照来判断。只有知道不蒸馏、不适配以及同时采用时的变化，才能讨论收益来自哪里。不能仅因为模块数量增加，就认为方案更完整。"
+  },
+  {
+    "objectID": "wiki/efficient-models.html#参数量不是部署结论",
+    "href": "wiki/efficient-models.html#参数量不是部署结论",
+    "title": "轻量化不是单纯把模型变小",
+    "section": "参数量不是部署结论",
+    "text": "参数量不是部署结论\n参数减少通常值得关注，但它不直接等于相同比例的推理加速。算子实现、内存访问、批量大小和目标硬件都会影响实际体验。这一段是我从轻量化研究延伸出的工程判断，并非上述论文已经完成的所有部署验证。\n在真实落地中，我希望看到质量、时延和资源占用放在同一张评估表里。故障诊断还应考虑噪声、工况变化和漏检风险，而不能只盯着一个准确率。"
+  },
+  {
+    "objectID": "wiki/efficient-models.html#对我的研究方式的影响",
+    "href": "wiki/efficient-models.html#对我的研究方式的影响",
+    "title": "轻量化不是单纯把模型变小",
+    "section": "对我的研究方式的影响",
+    "text": "对我的研究方式的影响\n这项工作使我更倾向于从约束出发选择方法：先说清楚为什么需要小模型，再讨论减少了什么、保留了什么，以及证据是否足以支持部署。轻量化的目标是实现有用的能力与成本平衡，而不是单独追求一个更小的数字。"
+  },
+  {
+    "objectID": "wiki/efficient-models.html#依据文献",
+    "href": "wiki/efficient-models.html#依据文献",
+    "title": "轻量化不是单纯把模型变小",
+    "section": "依据文献",
+    "text": "依据文献\n\n解耦蒸馏与低秩适配下的轻量化轴承故障诊断\nOvanes Petrosian, Pengyi Li, Yulong He, Jiarui Liu, Zhaoruikun Sun, Guofeng Fu, Liping Meng. Lightweight bearing fault diagnosis via decoupled distillation and low rank adaptation. Scientific Reports, 15, 36136, 2025.\n期刊论文 · 已发表。 原始文献"
+  },
+  {
+    "objectID": "wiki/efficient-models.html#延伸阅读",
+    "href": "wiki/efficient-models.html#延伸阅读",
+    "title": "轻量化不是单纯把模型变小",
+    "section": "延伸阅读",
+    "text": "延伸阅读\n\n多一个模态，什么时候才真正有用\n从数据到判断：我的研究方法"
+  },
+  {
+    "objectID": "wiki/multimodal-robustness.html",
+    "href": "wiki/multimodal-robustness.html",
+    "title": "多一个模态，什么时候才真正有用",
+    "section": "",
+    "text": "研究索引已发表论文数据与引用个人主页\n在嘈杂环境里，声音可能不够可靠，嘴唇运动却仍然携带信息。视听语音识别的吸引力来自这种互补性，但把两种输入交给模型，并不等于互补性已经被有效利用。"
+  },
+  {
+    "objectID": "wiki/multimodal-robustness.html#从复现与比较开始",
+    "href": "wiki/multimodal-robustness.html#从复现与比较开始",
+    "title": "多一个模态，什么时候才真正有用",
+    "section": "从复现与比较开始",
+    "text": "从复现与比较开始\n这篇发表于 Mathematics 的合著论文，对视听语音识别方法进行了复现、实验比较和分析，涉及 LRS2、LRS3 数据及不同噪声条件。研究讨论了特征提取与域泛化等问题。已发表论文\n这里值得强调的是工作类型：重点是对已有方法的研究和比较，而不是声称论文中的所有基础架构都是我们提出的。能否复现、是否在一致条件下比较，同样是技术工作的核心部分。"
+  },
+  {
+    "objectID": "wiki/multimodal-robustness.html#融合之前先检查信息是否对齐",
+    "href": "wiki/multimodal-robustness.html#融合之前先检查信息是否对齐",
+    "title": "多一个模态，什么时候才真正有用",
+    "section": "融合之前，先检查信息是否对齐",
+    "text": "融合之前，先检查信息是否对齐\n音频与视频有不同的采样和时间结构。融合效果不仅由网络结构决定，也与预处理、时间对齐和单模态输入的质量有关。模型若主要依赖其中一个模态，名义上的多模态系统未必就具备期待中的鲁棒性。\n我的方法认识是：应先理解各模态能单独提供什么，再研究联合输入改善了什么。如果跳过单模态对照，很难判断增益来自互补信息，还是来自训练设置的其他差异。"
+  },
+  {
+    "objectID": "wiki/multimodal-robustness.html#鲁棒性需要带着条件说",
+    "href": "wiki/multimodal-robustness.html#鲁棒性需要带着条件说",
+    "title": "多一个模态，什么时候才真正有用",
+    "section": "鲁棒性需要带着条件说",
+    "text": "鲁棒性需要带着条件说\n在一个数据集上有效，与面对新录制环境、说话人或噪声时仍然有效，不是同一个结论。论文中的跨数据条件比较，使我更加关注结果背后的输入分布。论文实验与讨论\n因此，我不会把“多模态”当成稳健性的自动保证。更有价值的问题是：哪类退化被补偿了，哪类变化仍然导致失败，加入额外模态的采集与处理代价是否合理？这些需要在具体应用中重新验证。"
+  },
+  {
+    "objectID": "wiki/multimodal-robustness.html#可迁移的技术认识",
+    "href": "wiki/multimodal-robustness.html#可迁移的技术认识",
+    "title": "多一个模态，什么时候才真正有用",
+    "section": "可迁移的技术认识",
+    "text": "可迁移的技术认识\n这项工作与我的其他方向有一条共同线索：模型输出的意义取决于输入条件。讨论模型优劣时，不能把数据处理和评估设置当作无关背景。一个能够解释失败条件的比较，通常比脱离条件的排行榜结论更有工程价值。"
+  },
+  {
+    "objectID": "wiki/multimodal-robustness.html#依据文献",
+    "href": "wiki/multimodal-robustness.html#依据文献",
+    "title": "多一个模态，什么时候才真正有用",
+    "section": "依据文献",
+    "text": "依据文献\n\n鲁棒视听语音识别算法研究\nWenfeng Yang, Pengyi Li, Wei Yang, Yuxing Liu, Yulong He, Ovanes Petrosian, Aleksandr Davydenko. Research on Robust Audio-Visual Speech Recognition Algorithms. Mathematics, 11(7), 1733, 2023.\n期刊论文 · 已发表。 原始文献"
+  },
+  {
+    "objectID": "wiki/multimodal-robustness.html#延伸阅读",
+    "href": "wiki/multimodal-robustness.html#延伸阅读",
+    "title": "多一个模态，什么时候才真正有用",
+    "section": "延伸阅读",
+    "text": "延伸阅读\n\n轻量化不是单纯把模型变小\n预测得准，为什么仍可能找错异常"
+  },
+  {
+    "objectID": "wiki/research-approach.html",
+    "href": "wiki/research-approach.html",
+    "title": "从数据到判断：我的研究方法",
+    "section": "",
+    "text": "研究索引已发表论文数据与引用个人主页\n我关注的问题，可以概括为一句话：如何把复杂数据转化成有意义的表示，再用能够检验的方法支持判断。 文本、代码、音频和时间序列的形式不同，但研究不能停留在“模型能处理这些数据”。还需要回答：输出代表什么，实验检验了什么，哪些解释超出了证据？\n这里从六篇已发表的合著论文出发，整理我的方法认识。具体论文的结果属于共同作者的合作成果；下面的归纳是技术思考，不是额外的实验结论。"
+  },
+  {
+    "objectID": "wiki/research-approach.html#先定义状态再选择模型",
+    "href": "wiki/research-approach.html#先定义状态再选择模型",
+    "title": "从数据到判断：我的研究方法",
+    "section": "先定义状态，再选择模型",
+    "text": "先定义状态，再选择模型\n在微博研究中，输入是评论，研究对象却是社区情感的变化；在软件演化研究中，输入是代码变化，关注点却是协作过程中的技术状态。这两类问题都需要把原始数据转化成可比较的时间轨迹。表示学习和动力学模型因此承担不同职责：前者处理复杂观测，后者描述状态之间的关系。微博论文、软件演化论文是这条研究线的两个实例。\n我的取舍是：不因为能算出一个向量，就默认它已经是有意义的研究变量。变量的定义、聚合尺度和时间窗口，会共同决定模型能够回答的问题。"
+  },
+  {
+    "objectID": "wiki/research-approach.html#指标是测量工具不是任务本身",
+    "href": "wiki/research-approach.html#指标是测量工具不是任务本身",
+    "title": "从数据到判断：我的研究方法",
+    "section": "指标是测量工具，不是任务本身",
+    "text": "指标是测量工具，不是任务本身\n代码评测研究比较了两类信号：让大模型直接评价代码，以及计算任务条件下代码的对数概率。它们并不是可以随意替换的分数。GEM 论文中的差异提醒我，评测工具也需要被评测。\n早期的时间序列异常检测研究有一个相似的问题：预测误差与异常识别表现不是同一个目标。把中间指标做得更漂亮，不一定就改善了最终决策。设计实验时，我会先问“这个指标在哪些情况下会失灵”，再解释它的平均值。"
+  },
+  {
+    "objectID": "wiki/research-approach.html#模型选择要带着约束讨论",
+    "href": "wiki/research-approach.html#模型选择要带着约束讨论",
+    "title": "从数据到判断：我的研究方法",
+    "section": "模型选择要带着约束讨论",
+    "text": "模型选择要带着约束讨论\n轻量化故障诊断关注质量与模型规模的平衡；视听语音识别关注噪声与数据分布变化。这些工作让我更重视条件化的结论：一个方法适合什么输入、什么资源条件、什么评价协议。\n落到工程上，我倾向于把三个问题一起讨论：效果有没有提升，代价发生了什么变化，在哪些条件下会退化。参数量、实验室准确率和真实系统体验之间，仍有需要验证的距离。"
+  },
+  {
+    "objectID": "wiki/research-approach.html#我希望持续保持的工作方式",
+    "href": "wiki/research-approach.html#我希望持续保持的工作方式",
+    "title": "从数据到判断：我的研究方法",
+    "section": "我希望持续保持的工作方式",
+    "text": "我希望持续保持的工作方式\n\n把业务或研究问题拆成明确的数据对象、模型输出和判断目标。\n保留能够解释问题的基线，让复杂度的增加有证据支持。\n分开报告观测事实、模型推断与个人解释。\n用适用范围说明结果，而不是把单一实验改写成普遍能力。\n\n对我而言，技术深度不仅体现在会用多少模型，也体现在能否说清楚为什么这样建模，以及什么时候不该相信它。"
+  },
+  {
+    "objectID": "wiki/research-approach.html#依据文献",
+    "href": "wiki/research-approach.html#依据文献",
+    "title": "从数据到判断：我的研究方法",
+    "section": "依据文献",
+    "text": "依据文献\n\n微博影响者社区之间的情感依赖关系\nYulong He, Anton V. Proskurnikov, Artem Sedakov. Mapping sentiment dependencies among online influencer communities on Weibo. Social Network Analysis and Mining, 2026.\n期刊论文 · 已在线发表。2026 年 9 月 1 日在线发表；出版社目前标记为早期在线版本，已具有永久 DOI。 原始文献\n\n\n代码的社会性：结合代码嵌入与观点动力学理解软件演化\nYulong He, Nikita Verbin, Sergey Kovalchuk. Social life of code: Modeling evolution through code embedding and opinion dynamics. Journal of Computational Science, 96, 102824, 2026.\n期刊论文 · 已发表。 原始文献\n\n\n语义与结构信号：无参考答案的代码评测\nDmitriy Fedrushkov, Yulong He, Ivan Smirnov, Artem Aliev, Sergey Kovalchuk. Semantic vs. Structural Signals: Log-Probability and LLM-as-a-Judge for Reference-Free Code Evaluation. Proceedings of the Fifth Workshop on Generation, Evaluation and Metrics (GEM), 574–581, 2026.\n研讨会论文 · 已发表。 原始文献\n\n\n解耦蒸馏与低秩适配下的轻量化轴承故障诊断\nOvanes Petrosian, Pengyi Li, Yulong He, Jiarui Liu, Zhaoruikun Sun, Guofeng Fu, Liping Meng. Lightweight bearing fault diagnosis via decoupled distillation and low rank adaptation. Scientific Reports, 15, 36136, 2025.\n期刊论文 · 已发表。 原始文献\n\n\n鲁棒视听语音识别算法研究\nWenfeng Yang, Pengyi Li, Wei Yang, Yuxing Liu, Yulong He, Ovanes Petrosian, Aleksandr Davydenko. Research on Robust Audio-Visual Speech Recognition Algorithms. Mathematics, 11(7), 1733, 2023.\n期刊论文 · 已发表。 原始文献\n\n\n利用预测方法检测时间序列异常\nН. Э. Девришев, Ю. Хэ, О. Л. Петросян. Обнаружение аномалий во временных рядах с помощью методов прогнозирования. Процессы управления и устойчивость, 9(25), 2022.\n会议论文集论文 · 已发表。 原始文献 · 机构书目"
+  },
+  {
+    "objectID": "wiki/research-approach.html#延伸阅读",
+    "href": "wiki/research-approach.html#延伸阅读",
+    "title": "从数据到判断：我的研究方法",
+    "section": "延伸阅读",
+    "text": "延伸阅读\n\n评测代码：看起来合理，不等于真的正确\n代码不仅是文本，也是协作留下的轨迹\n轻量化不是单纯把模型变小"
   }
 ]

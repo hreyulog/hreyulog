@@ -1,0 +1,27 @@
+# 贺育隆 · 研究与技术思考
+
+> 全中文研究 Wiki。仅收录已发表论文及相关技术思考；不包含未发表项目、内部材料或原始对话。
+
+更新：2026-09-06
+
+## 入口
+
+- [网页](https://hreyulog.github.io/wiki/)
+- [结构化索引](https://hreyulog.github.io/wiki/index.json)
+- [完整纯文本](https://hreyulog.github.io/llms-full.txt)
+- [论文目录](https://hreyulog.github.io/wiki/raw/publications.md)
+- [公开范围与引用](https://hreyulog.github.io/wiki/access.html)
+
+## 文章
+
+- [从数据到判断：我的研究方法](https://hreyulog.github.io/wiki/raw/research-approach.md): 将表示学习、可解释建模与可靠评测串起来：先定义问题，再讨论模型是否真的解决了问题。
+- [评论情绪之外：如何理解社区之间的相互依赖](https://hreyulog.github.io/wiki/raw/weibo-dynamics.md): 把评论文本变成社区状态，再用动力学模型理解情绪变化。关键在于明确观测对象与解释边界。
+- [代码不仅是文本，也是协作留下的轨迹](https://hreyulog.github.io/wiki/raw/code-dynamics.md): 代码嵌入不只服务检索。把它放回时间和协作关系中，可以研究软件演化中的趋同与分化。
+- [评测代码：看起来合理，不等于真的正确](https://hreyulog.github.io/wiki/raw/code-evaluation.md): 为什么大模型打分与代码对数概率会给出不同判断？从已发表实验理解评测信号的适用范围。
+- [轻量化不是单纯把模型变小](https://hreyulog.github.io/wiki/raw/efficient-models.md): 从轴承故障诊断出发，理解知识蒸馏、低秩适配与质量约束之间的关系。
+- [多一个模态，什么时候才真正有用](https://hreyulog.github.io/wiki/raw/multimodal-robustness.md): 从视听语音识别的复现与比较出发，讨论信息互补、噪声条件和跨数据集泛化。
+- [预测得准，为什么仍可能找错异常](https://hreyulog.github.io/wiki/raw/anomaly-detection.md): 时间序列预测与异常检测有不同的目标。模型选择需要对齐最终任务，而不是只优化中间指标。
+
+## 归属
+
+论文结果属于完整作者名单中的共同作者。中文解读中的方法认识不是新增的实证结果。发表信息和结果以原始论文为准。

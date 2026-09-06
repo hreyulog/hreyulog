@@ -1,0 +1,51 @@
+# 已发表论文
+
+这里只收录已发表的合作成果，按年份列出。中文标题用于导读，引用时请使用原始题名与完整作者名单。
+
+### 微博影响者社区之间的情感依赖关系
+
+Yulong He, Anton V. Proskurnikov, Artem Sedakov. **Mapping sentiment dependencies among online influencer communities on Weibo**. *Social Network Analysis and Mining*, 2026.
+
+期刊论文 · 已在线发表。2026 年 9 月 1 日在线发表；出版社目前标记为早期在线版本，已具有永久 DOI。 [原始文献](https://doi.org/10.1007/s13278-026-01645-w)
+
+[中文解读](https://hreyulog.github.io/wiki/weibo-dynamics.html)
+
+### 代码的社会性：结合代码嵌入与观点动力学理解软件演化
+
+Yulong He, Nikita Verbin, Sergey Kovalchuk. **Social life of code: Modeling evolution through code embedding and opinion dynamics**. *Journal of Computational Science, 96, 102824*, 2026.
+
+期刊论文 · 已发表。 [原始文献](https://doi.org/10.1016/j.jocs.2026.102824)
+
+[中文解读](https://hreyulog.github.io/wiki/code-dynamics.html)
+
+### 语义与结构信号：无参考答案的代码评测
+
+Dmitriy Fedrushkov, Yulong He, Ivan Smirnov, Artem Aliev, Sergey Kovalchuk. **Semantic vs. Structural Signals: Log-Probability and LLM-as-a-Judge for Reference-Free Code Evaluation**. *Proceedings of the Fifth Workshop on Generation, Evaluation and Metrics (GEM), 574–581*, 2026.
+
+研讨会论文 · 已发表。 [原始文献](https://aclanthology.org/2026.gem-main.55/)
+
+[中文解读](https://hreyulog.github.io/wiki/code-evaluation.html)
+
+### 解耦蒸馏与低秩适配下的轻量化轴承故障诊断
+
+Ovanes Petrosian, Pengyi Li, Yulong He, Jiarui Liu, Zhaoruikun Sun, Guofeng Fu, Liping Meng. **Lightweight bearing fault diagnosis via decoupled distillation and low rank adaptation**. *Scientific Reports, 15, 36136*, 2025.
+
+期刊论文 · 已发表。 [原始文献](https://doi.org/10.1038/s41598-025-06734-y)
+
+[中文解读](https://hreyulog.github.io/wiki/efficient-models.html)
+
+### 鲁棒视听语音识别算法研究
+
+Wenfeng Yang, Pengyi Li, Wei Yang, Yuxing Liu, Yulong He, Ovanes Petrosian, Aleksandr Davydenko. **Research on Robust Audio-Visual Speech Recognition Algorithms**. *Mathematics, 11(7), 1733*, 2023.
+
+期刊论文 · 已发表。 [原始文献](https://doi.org/10.3390/math11071733)
+
+[中文解读](https://hreyulog.github.io/wiki/multimodal-robustness.html)
+
+### 利用预测方法检测时间序列异常
+
+Н. Э. Девришев, Ю. Хэ, О. Л. Петросян. **Обнаружение аномалий во временных рядах с помощью методов прогнозирования**. *Процессы управления и устойчивость, 9(25)*, 2022.
+
+会议论文集论文 · 已发表。 [原始文献](https://pureportal.spbu.ru/files/97617692/Time_series_anomaly_detection_CPS2022.pdf) · [机构书目](https://pureportal.spbu.ru/en/publications/--------%281a491a09-e1c5-4d31-b3f1-958b306970e2%29.html)
+
+[中文解读](https://hreyulog.github.io/wiki/anomaly-detection.html)

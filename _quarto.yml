@@ -1,26 +1,40 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - index.qmd
+    - Chinese.qmd
+    - Russian.qmd
+    - wiki/*.qmd
+  pre-render: node scripts/build-wiki.mjs
+  resources:
+    - llms.txt
+    - llms-full.txt
+    - robots.txt
+    - wiki/index.json
+    - wiki/raw/*.md
   
 website:
   page-navigation: true
   title: "Yulong He"
-  site-url: https://yulong1.github.io
-  favicon: images/site-logo.png
-  repo-url: https://github.com/hreyulog/yulong1.github.io
+  site-url: https://hreyulog.github.io
+  favicon: images/yulong.jpg
+  repo-url: https://github.com/hreyulog/hreyulog.github.io
   search: false
   
   page-footer:
     left: |
-      [Yulong He](https://yulong1.github.io)<br>
+      [Yulong He](https://hreyulog.github.io)<br>
     center: |
       PV <span id="busuanzi_site_pv">-</span> · UV <span id="busuanzi_site_uv">-</span><br>
     right: |
-      [贺育隆](https://yulong1.github.io)<br>
+      [贺育隆](https://hreyulog.github.io)<br>
     
   navbar: 
     background: "#90a9d1"
     right: 
+      - text: "研究与技术思考"
+        href: wiki/index.qmd
       - text: "English"
         href: index.qmd
       - text: "中文"
@@ -30,6 +44,7 @@ website:
 
 format:
   html:
+    canonical-url: true
     theme: styles.scss
     include-after-body: _includes/busuanzi.html
     toc: true            # 启用目录

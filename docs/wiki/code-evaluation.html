@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN" xml:lang="zh-CN"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="为什么大模型打分与代码对数概率会给出不同判断？从已发表实验理解评测信号的适用范围。">
 
-<title>贺育隆 – Yulong He</title>
+<title>评测代码：看起来合理，不等于真的正确 – Yulong He</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,70 +24,72 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<link href="./images/yulong.jpg" rel="icon" type="image/jpeg">
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-d7fcc3ff7e490f12cb1c45aad4d93599.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-19714133e70e38bcc17ffc719090a730.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<link href="../images/yulong.jpg" rel="icon" type="image/jpeg">
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-d7fcc3ff7e490f12cb1c45aad4d93599.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-8649822c2764226d50282a5db0fee678.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "没有结果",
+    "search-matching-documents-text": "匹配的文档",
+    "search-copy-link-title": "复制搜索链接",
+    "search-hide-matches-text": "隐藏其它匹配结果",
+    "search-more-match-text": "更多匹配结果",
+    "search-more-matches-text": "更多匹配结果",
+    "search-clear-button-title": "清除",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "取消",
+    "search-submit-button-title": "提交",
+    "search-label": "搜索"
   }
 }</script>
 
 
-<link rel="canonical" href="https://hreyulog.github.io/Chinese.html">
+<link rel="stylesheet" href="wiki.css">
+<link rel="canonical" href="https://hreyulog.github.io/wiki/code-evaluation.html">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed research-wiki quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Yulong He</span>
     </a>
   </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="展开或折叠导航栏" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./wiki/index.html"> 
+    <a class="nav-link" href="../wiki/index.html"> 
 <span class="menu-text">研究与技术思考</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">English</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./Chinese.html" aria-current="page"> 
+    <a class="nav-link" href="../Chinese.html"> 
 <span class="menu-text">中文</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Russian.html"> 
+    <a class="nav-link" href="../Russian.html"> 
 <span class="menu-text">Русский</span></a>
   </li>  
 </ul>
@@ -102,149 +105,122 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-  <ul>
-  <li><a href="#教育经历" id="toc-教育经历" class="nav-link active" data-scroll-target="#教育经历">教育经历</a></li>
-  <li><a href="#工作经历" id="toc-工作经历" class="nav-link" data-scroll-target="#工作经历">工作经历</a></li>
-  <li><a href="#研究兴趣" id="toc-研究兴趣" class="nav-link" data-scroll-target="#研究兴趣">研究兴趣</a></li>
-  <li><a href="#项目经历" id="toc-项目经历" class="nav-link" data-scroll-target="#项目经历">项目经历</a></li>
-  <li><a href="#发表论文" id="toc-发表论文" class="nav-link" data-scroll-target="#发表论文">发表论文</a></li>
-  <li><a href="#学术服务" id="toc-学术服务" class="nav-link" data-scroll-target="#学术服务">学术服务</a></li>
-  <li><a href="#荣誉奖项" id="toc-荣誉奖项" class="nav-link" data-scroll-target="#荣誉奖项">荣誉奖项</a></li>
+    <h2 id="toc-title">本文目录</h2>
+   
+  <ul class="collapse">
+  <li><a href="#两种信号两种观察角度" id="toc-两种信号两种观察角度" class="nav-link active" data-scroll-target="#两种信号两种观察角度">两种信号，两种观察角度</a></li>
+  <li><a href="#一个总体分数会隐藏什么" id="toc-一个总体分数会隐藏什么" class="nav-link" data-scroll-target="#一个总体分数会隐藏什么">一个总体分数会隐藏什么</a></li>
+  <li><a href="#如何把这种认识带入评测设计" id="toc-如何把这种认识带入评测设计" class="nav-link" data-scroll-target="#如何把这种认识带入评测设计">如何把这种认识带入评测设计</a></li>
+  <li><a href="#我从这项工作中更重视什么" id="toc-我从这项工作中更重视什么" class="nav-link" data-scroll-target="#我从这项工作中更重视什么">我从这项工作中更重视什么</a></li>
+  <li><a href="#依据文献" id="toc-依据文献" class="nav-link" data-scroll-target="#依据文献">依据文献</a></li>
+  <li><a href="#延伸阅读" id="toc-延伸阅读" class="nav-link" data-scroll-target="#延伸阅读">延伸阅读</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<div class="quarto-about-jolla">
-  <img src="images/yulong.jpg" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">贺育隆</h1>
+<h1 class="title">评测代码：看起来合理，不等于真的正确</h1>
 </div>
-<div class="quarto-title-meta">
+
+<div>
+  <div class="description">
+    为什么大模型打分与代码对数概率会给出不同判断？从已发表实验理解评测信号的适用范围。
   </div>
-</header><main class="content" id="quarto-document-content">
-
-<p>贺育隆，圣彼得堡国立大学理论计算机科学与控制论方向博士在读（2024.9-2027.6）。本科、硕士均就读于圣彼得堡国立大学应用数学与计算机科学专业，硕士、博士获国家留学基金委第一批公派资助。</p>
-<p>现为华为圣彼得堡切比雪夫研究所机器学习与算法工程师，曾任ITMO大学人工智能实验室软件开发工程师。研究方向包括代码嵌入模型、RAG系统、知识图谱与大语言模型应用。在CoIR Hybrid Code Benchmark 2024基准测试中取得最佳成绩（61.22），开发的轻量级代码模型实现5倍推理加速。</p>
-<p>在 <em>Journal of Computational Science</em> 、<em>Scientific Reports</em> 、<em>Mathematics</em> 等期刊发表论文，多篇论文在审。曾担任 <em>Scientific Reports</em> 、<em>JASSS</em>、<em>ICIC 2026</em> 审稿人。曾获春晖杯中国留学人员创新创业大赛优胜奖两次（2021、2023）。</p>
-<section id="教育经历" class="level2">
-<h2 data-anchor-id="教育经历">教育经历</h2>
-<ul>
-<li>2024.9-2027.6 圣彼得堡国立大学 理论计算机科学、控制论（博士），国家留学基金委第一批公派留学</li>
-<li>2022.9-2024.6 圣彼得堡国立大学 应用数学与计算机科学（硕士），国家留学基金委第一批公派留学</li>
-<li>2018.9-2022.6 圣彼得堡国立大学 应用数学与计算机科学（学士）</li>
-</ul>
-</section>
-<section id="工作经历" class="level2">
-<h2 data-anchor-id="工作经历">工作经历</h2>
-<ul>
-<li>2025.11-2026.8 圣彼得堡国立信息技术机械与光学大学（ITMO）人工智能实验室 软件开发工程师（兼职）</li>
-<li>2021.8-今 华为圣彼得堡切比雪夫研究所 机器学习与算法工程师</li>
-</ul>
-</section>
-<section id="研究兴趣" class="level2">
-<h2 data-anchor-id="研究兴趣">研究兴趣</h2>
-<p>观点动力学、代码嵌入模型（知识蒸馏、量化、数据增强）、RAG系统与知识图谱、大语言模型应用与微调、多智能体系统</p>
-</section>
-<section id="项目经历" class="level2">
-<h2 data-anchor-id="项目经历">项目经历</h2>
-<ul>
-<li><strong>代码嵌入模型</strong>（2023-2025）
-<ul>
-<li>实现知识蒸馏与数据增强，在CoIR Hybrid Code Benchmark 2024取得最佳成绩（61.22）</li>
-<li>构建多层级模型评估体系，基于tree-sitter开发ArkTS语言解析器，收集清洗ArkTS数据集</li>
-<li>设计训练XX-2.2-25M和XX-2.4-14M模型，精度仅下降16%和21%，实现3倍和5倍推理加速</li>
-<li>对模型进行量化处理，成功交付至DevEco和CodeArts IDE</li>
-</ul></li>
-<li><strong>低码RAG项目</strong>（2025）
-<ul>
-<li>构建测试数据集并集成图检索系统，达到Recall=0.236, Precision=0.333, F1=0.244</li>
-<li>对XX2.1-SPECIAL-XX6模型进行微调，在MAP@5仅下降9.87%的前提下，推理速度提升519.86%</li>
-<li>开发低码Codebase，集成gaussdb数据库</li>
-</ul></li>
-<li><strong>结合知识图谱的代码agent</strong>（2025）
-<ul>
-<li>在CoderEval数据集上将代码生成准确率从25.22%提升至41.30%，成为最佳结果</li>
-<li>设计本地化RAG解决方案架构，获得CBG团队采纳，参与撰写专利申请</li>
-</ul></li>
-<li><strong>PETAL SEARCH搜索排序</strong>（2021-2023）
-<ul>
-<li>作为关键协调人，负责总部技术方案在本地的技术集成与适配</li>
-<li>优化中文搜索排序模型，MRR提升23%</li>
-<li>在iQue项目中将分词器二叉树替换为Trie树，性能提升近2倍</li>
-</ul></li>
-</ul>
-</section>
-<section id="发表论文" class="level2">
-<h2 data-anchor-id="发表论文">发表论文</h2>
-<ul>
-<li><strong>Mapping sentiment dependencies among online influencer communities on Weibo</strong>.<br> <strong>Y He</strong>, AV Proskurnikov, A Sedakov. <em>Social Network Analysis and Mining</em>, 2026. <a href="https://doi.org/10.1007/s13278-026-01645-w">Link</a></li>
-<li><strong>Social Life of Code: Modeling Evolution through Code Embedding and Opinion Dynamics</strong>.<br> <strong>Y He</strong>, N Verbin, S Kovalchuk. <em>Journal of Computational Science</em>, 96, 102824, 2026. <a href="https://doi.org/10.1016/j.jocs.2026.102824">Link</a></li>
-<li><strong>Lightweight bearing fault diagnosis via decoupled distillation and low rank adaptation</strong>.<br> O Petrosian, P Li, <strong>Y He</strong>, J Liu, Z Sun, G Fu, L Meng. <em>Scientific Reports</em>, 2025. <a href="https://doi.org/10.1038/s41598-025-06734-y">Link</a></li>
-<li><strong>Semantic vs.&nbsp;Structural Signals: Log-Probability and LLM-as-a-Judge for Reference-Free Code Evaluation</strong>.<br> Dmitriy Fedrushkov, <strong>Y He</strong>, I Smirnov, A Aliev, S Kovalchuk. <em>Proceedings of the Fifth Workshop on Generation, Evaluation and Metrics (GEM)</em>, pages 574–581, San Diego, California, USA, 2026. <a href="https://aclanthology.org/2026.gem-main.55/">Link</a></li>
-<li><strong>Research on Robust Audio-Visual Speech Recognition Algorithms</strong>.<br> W Yang, P Li, W Yang, Y Liu, <strong>Y He</strong>, O Petrosian, A Davydenko. <em>Mathematics</em>, 11(7), 1733, 2023. <a href="https://doi.org/10.3390/math11071733">Link</a></li>
-<li><strong>Обнаружение аномалий во временных рядах с помощью методов прогнозирования</strong>.<br> НЭ ДЕВРИШЕВ, <strong>Ю ХЭ</strong>, ОЛ ПЕТРОСЯН. <em>Процессы управления и устойчивость</em>, 9(25), 2022. <a href="https://dspace.spbu.ru/bitstream/11701/37048/1/cps2022.pdf">Link</a></li>
-<li><strong>Style2Code: A Style-Controllable Code Generation Framework</strong>.<br> D Zhang, S Kovalchuk, <strong>YL He</strong>, NA Arias, B Li. 2025.5 (under review). <a href="https://arxiv.org/abs/2505.19442">Link</a></li>
-<li><strong>Opinion dynamics and mutual influence with LLM agents through dialog simulation</strong>.<br> <strong>Y He</strong>, D Zhang, S Kovalchuk, P Li, A Sedakov. 2026.1 (under review). <a href="https://arxiv.org/abs/2602.12583">Link</a></li>
-<li><strong>ArkTS-CodeSearch: A Open-Source ArkTS Dataset for Code Retrieval</strong>.<br> <strong>Y He</strong>, A Ermakov, S Kovalchuk, A Aliev, D Shalymov. 2026.2 (under review). <a href="https://arxiv.org/abs/2602.05550">Link</a></li>
-<li><strong>Structured Multi-Criteria Evaluation of Large Language Models with Fuzzy Analytic Hierarchy Process and DualJudge</strong>.<br> <strong>Y He</strong>, I Smirnov, D Fedrushkov, S Kovalchuk, I Revin. 2026.4 (under review). <a href="https://arxiv.org/abs/2604.03742">Link</a></li>
-<li><strong>Modeling Stylistic Co-evolution in Symbolic Music Heritage Collections</strong>.<br> <strong>Y He</strong>, I Smirnov, Y Li. 2026.5 (under review). <a href="https://arxiv.org/abs/2607.23957">Link</a></li>
-</ul>
-</section>
-<section id="学术服务" class="level2">
-<h2 data-anchor-id="学术服务">学术服务</h2>
-<ul>
-<li>《Statistical Decisions and Econometrics》课程助教，圣彼得堡国立大学，2026年</li>
-<li>《Scientific Reports》、《Journal of Artificial Societies and Social Simulation (JASSS)》、《2026 International Conference on Intelligent Computing (ICIC 2026)》、审稿，2026年</li>
-</ul>
-</section>
-<section id="荣誉奖项" class="level2">
-<h2 data-anchor-id="荣誉奖项">荣誉奖项</h2>
-<ul>
-<li>2023-2025 圣彼得堡中国留学人员联合会优秀干事、外联部部长、荣誉副主席</li>
-<li>2021、2023 春晖杯中国留学人员创新创业大赛优胜奖</li>
-<li>2022-2025 华为 部门及时激励奖2次、跨部门感谢信2封、实验室月度之星</li>
-<li>2024 无锡”太湖杯”国际精英创新创业大赛高校赛优秀项目</li>
-<li>2023 青年创造力与体育潜力合作表彰状（圣彼得堡市维堡区政府）</li>
-<li>2025 多民族文化节表彰状（圣彼得堡市斯特里尔那镇政府）</li>
-</ul>
-
-
-</section>
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="mailto:heyulong1998@gmail.com" class="about-link" rel="" target="">
-     <span class="about-link-text">heyulong1998@gmail.com</span>
-  </a>
-  <a href="https://github.com/hreyulog" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://huggingface.co/hreyulog" class="about-link" rel="" target="">
-     <span class="about-link-text"><img src="images/huggingface.svg" width="16px" height="16px" style="vertical-align:middle"></span>
-  </a>
-  <a href="https://scholar.google.com/citations?user=q4gQxaIAAAAJ&amp;hl=zh-CN" class="about-link" rel="" target="">
-     <span class="about-link-text"><img src="images/google-scholar.svg" width="16px" height="16px" style="vertical-align:middle"></span>
-  </a>
-  <a href="https://www.linkedin.com/in/yulong-he-7ab337213/" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://www.zhihu.com/people/heyulong1998" class="about-link" rel="" target="">
-     <span class="about-link-text"><img src="images/zhihu.svg" width="16px" height="16px" style="vertical-align:middle"></span>
-  </a>
-  <a href="https://www.researchgate.net/profile/Yulong-He-1" class="about-link" rel="" target="">
-     <span class="about-link-text"><img src="images/researchgate.svg" width="16px" height="16px" style="vertical-align:middle"></span>
-  </a>
 </div>
-</div>
- <!-- /main -->
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<nav class="wiki-nav" aria-label="研究页面导航"><a href="index.html">研究索引</a><a href="publications.html">已发表论文</a><a href="access.html">数据与引用</a><a href="../Chinese.html">个人主页 <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></nav>
+<div class="note-meta"><span>代码智能</span><span>贺育隆</span><time datetime="2026-09-06">2026-09-06</time><span>约 3 分钟</span><a href="raw/code-evaluation.md" download=""><i class="bi bi-file-earmark-text" aria-hidden="true"></i> 纯文本</a></div>
+<p>没有现成参考答案，或者执行测试成本较高时，怎样评价一段生成代码？让另一个大模型给分是一种办法，利用模型对代码的生成概率也是一种办法。问题在于：它们测量的是同一件事吗？</p>
+<section id="两种信号两种观察角度" class="level2">
+<h2 class="anchored" data-anchor-id="两种信号两种观察角度">两种信号，两种观察角度</h2>
+<p>在 GEM 2026 发表的合著论文中，我们比较了显式的大模型评判与任务条件下的代码对数概率。前者直接判断任务和解答是否匹配，后者提供不依赖显式打分指令的统计信号。<a href="https://aclanthology.org/2026.gem-main.55/">论文与公开全文</a></p>
+<p>论文在 HumanEval-X 上观察到，两者对生成代码和最小变异代码的表现不同：显式评判在生成解答上更有优势，却难以稳定区分正确解答与轻微修改后的错误版本；对数概率在后一种成对区分中更有辨别力。这是实验范围内的互补性，不是“概率可以证明代码正确”。</p>
+</section>
+<section id="一个总体分数会隐藏什么" class="level2">
+<h2 class="anchored" data-anchor-id="一个总体分数会隐藏什么">一个总体分数会隐藏什么</h2>
+<p>我的理解是，候选排序与局部错误识别不是同一项能力。模型可能善于选出整体更合理的解答，却漏掉只改动一个边界条件的错误。也可能对局部结构变化敏感，但难以完整理解需求。</p>
+<p>因此，评测器不能仅靠一个相关系数或总准确率来描述。需要区分它面对的是怎样的候选集合、怎样的错误，以及最终要支持哪一种选择。</p>
+</section>
+<section id="如何把这种认识带入评测设计" class="level2">
+<h2 class="anchored" data-anchor-id="如何把这种认识带入评测设计">如何把这种认识带入评测设计</h2>
+<p>我会把代码质量判断拆开讨论：需求语义是否满足，局部逻辑是否正确，结果能否通过执行验证，以及评判在不同输入上是否稳定。不同信号可以提供证据，但不应该未经校准就相加成一个“综合正确率”。</p>
+<p>有测试条件时，应保留执行证据；没有测试条件时，应明确非执行式信号的局限。论文并未证明某一种信号能够普遍替代测试，也没有证明任意组合就一定改善效果。</p>
+</section>
+<section id="我从这项工作中更重视什么" class="level2">
+<h2 class="anchored" data-anchor-id="我从这项工作中更重视什么">我从这项工作中更重视什么</h2>
+<p>评测本身也是一个建模问题。选择评测器，与选择被评测的模型一样，需要理解数据分布、目标和失效方式。对工程决策而言，知道一个分数在什么情况下不可靠，和知道它平均有多高同样重要。</p>
+</section>
+<section id="依据文献" class="level2">
+<h2 class="anchored" data-anchor-id="依据文献">依据文献</h2>
+<section id="语义与结构信号无参考答案的代码评测" class="level3">
+<h3 class="anchored" data-anchor-id="语义与结构信号无参考答案的代码评测">语义与结构信号：无参考答案的代码评测</h3>
+<p>Dmitriy Fedrushkov, Yulong He, Ivan Smirnov, Artem Aliev, Sergey Kovalchuk. <strong>Semantic vs.&nbsp;Structural Signals: Log-Probability and LLM-as-a-Judge for Reference-Free Code Evaluation</strong>. <em>Proceedings of the Fifth Workshop on Generation, Evaluation and Metrics (GEM), 574–581</em>, 2026.</p>
+<p>研讨会论文 · 已发表。 <a href="https://aclanthology.org/2026.gem-main.55/">原始文献</a></p>
+</section>
+</section>
+<section id="延伸阅读" class="level2">
+<h2 class="anchored" data-anchor-id="延伸阅读">延伸阅读</h2>
+<ul>
+<li><a href="../wiki/anomaly-detection.html">预测得准，为什么仍可能找错异常</a></li>
+<li><a href="../wiki/research-approach.html">从数据到判断：我的研究方法</a></li>
+</ul>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "评测代码：看起来合理，不等于真的正确",
+  "description": "为什么大模型打分与代码对数概率会给出不同判断？从已发表实验理解评测信号的适用范围。",
+  "inLanguage": "zh-CN",
+  "author": {
+    "@type": "Person",
+    "name": "贺育隆",
+    "alternateName": "Yulong He",
+    "url": "https://hreyulog.github.io"
+  },
+  "datePublished": "2026-09-06",
+  "dateModified": "2026-09-06",
+  "mainEntityOfPage": "https://hreyulog.github.io/wiki/code-evaluation.html",
+  "url": "https://hreyulog.github.io/wiki/code-evaluation.html",
+  "articleSection": "代码智能",
+  "citation": [
+    "https://aclanthology.org/2026.gem-main.55/"
+  ],
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://hreyulog.github.io/wiki/raw/code-evaluation.md",
+    "encodingFormat": "text/markdown"
+  }
+}</script>
+
+
+</section>
+
+</main> <!-- /main -->
 <script defer="" data-api="https://busuanzi.9420.ltd/api" src="https://busuanzi.9420.ltd/js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -261,12 +237,12 @@ ul.task-list li input[type="checkbox"] {
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
+      button.setAttribute("title", "已复制");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
+        button.setAttribute("data-bs-title", "已复制");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",

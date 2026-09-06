@@ -1,15 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://yulong1.github.io/Russian.html</loc>
+    <loc>https://hreyulog.github.io/wiki/weibo-dynamics.html</loc>
+    <lastmod>2026-09-06T11:55:55.227Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hreyulog.github.io/wiki/publications.html</loc>
+    <lastmod>2026-09-06T11:55:55.234Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hreyulog.github.io/wiki/index.html</loc>
+    <lastmod>2026-09-06T11:55:55.234Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hreyulog.github.io/wiki/code-evaluation.html</loc>
+    <lastmod>2026-09-06T11:55:55.229Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hreyulog.github.io/wiki/anomaly-detection.html</loc>
+    <lastmod>2026-09-06T11:55:55.233Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hreyulog.github.io/Russian.html</loc>
     <lastmod>2026-09-02T04:19:42.149Z</lastmod>
   </url>
   <url>
-    <loc>https://yulong1.github.io/Chinese.html</loc>
+    <loc>https://hreyulog.github.io/index.html</loc>
+    <lastmod>2026-09-02T04:19:42.147Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hreyulog.github.io/Chinese.html</loc>
     <lastmod>2026-09-02T04:19:42.148Z</lastmod>
   </url>
   <url>
-    <loc>https://yulong1.github.io/index.html</loc>
-    <lastmod>2026-09-02T04:19:42.147Z</lastmod>
+    <loc>https://hreyulog.github.io/wiki/access.html</loc>
+    <lastmod>2026-09-06T11:55:55.235Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hreyulog.github.io/wiki/code-dynamics.html</loc>
+    <lastmod>2026-09-06T11:55:55.227Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hreyulog.github.io/wiki/efficient-models.html</loc>
+    <lastmod>2026-09-06T11:55:55.230Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hreyulog.github.io/wiki/multimodal-robustness.html</loc>
+    <lastmod>2026-09-06T11:55:55.232Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hreyulog.github.io/wiki/research-approach.html</loc>
+    <lastmod>2026-09-06T11:55:55.222Z</lastmod>
   </url>
 </urlset>

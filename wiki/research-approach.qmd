@@ -1,0 +1,122 @@
+---
+title: "从数据到判断：我的研究方法"
+description: "将表示学习、可解释建模与可靠评测串起来：先定义问题，再讨论模型是否真的解决了问题。"
+---
+
+```{=html}
+<nav class="wiki-nav" aria-label="研究页面导航"><a href="index.html">研究索引</a><a href="publications.html">已发表论文</a><a href="access.html">数据与引用</a><a href="../Chinese.html">个人主页 <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></nav>
+```
+
+```{=html}
+<div class="note-meta"><span>研究方法</span><span>贺育隆</span><time datetime="2026-09-06">2026-09-06</time><span>约 4 分钟</span><a href="raw/research-approach.md" download><i class="bi bi-file-earmark-text" aria-hidden="true"></i> 纯文本</a></div>
+```
+
+我关注的问题，可以概括为一句话：**如何把复杂数据转化成有意义的表示，再用能够检验的方法支持判断。** 文本、代码、音频和时间序列的形式不同，但研究不能停留在“模型能处理这些数据”。还需要回答：输出代表什么，实验检验了什么，哪些解释超出了证据？
+
+这里从六篇已发表的合著论文出发，整理我的方法认识。具体论文的结果属于共同作者的合作成果；下面的归纳是技术思考，不是额外的实验结论。
+
+## 先定义状态，再选择模型
+
+在微博研究中，输入是评论，研究对象却是社区情感的变化；在软件演化研究中，输入是代码变化，关注点却是协作过程中的技术状态。这两类问题都需要把原始数据转化成可比较的时间轨迹。表示学习和动力学模型因此承担不同职责：前者处理复杂观测，后者描述状态之间的关系。[微博论文](https://doi.org/10.1007/s13278-026-01645-w)、[软件演化论文](https://doi.org/10.1016/j.jocs.2026.102824)是这条研究线的两个实例。
+
+我的取舍是：不因为能算出一个向量，就默认它已经是有意义的研究变量。变量的定义、聚合尺度和时间窗口，会共同决定模型能够回答的问题。
+
+## 指标是测量工具，不是任务本身
+
+代码评测研究比较了两类信号：让大模型直接评价代码，以及计算任务条件下代码的对数概率。它们并不是可以随意替换的分数。[GEM 论文](https://aclanthology.org/2026.gem-main.55/)中的差异提醒我，评测工具也需要被评测。
+
+早期的[时间序列异常检测研究](https://pureportal.spbu.ru/files/97617692/Time_series_anomaly_detection_CPS2022.pdf)有一个相似的问题：预测误差与异常识别表现不是同一个目标。把中间指标做得更漂亮，不一定就改善了最终决策。设计实验时，我会先问“这个指标在哪些情况下会失灵”，再解释它的平均值。
+
+## 模型选择要带着约束讨论
+
+[轻量化故障诊断](https://doi.org/10.1038/s41598-025-06734-y)关注质量与模型规模的平衡；[视听语音识别](https://doi.org/10.3390/math11071733)关注噪声与数据分布变化。这些工作让我更重视条件化的结论：一个方法适合什么输入、什么资源条件、什么评价协议。
+
+落到工程上，我倾向于把三个问题一起讨论：效果有没有提升，代价发生了什么变化，在哪些条件下会退化。参数量、实验室准确率和真实系统体验之间，仍有需要验证的距离。
+
+## 我希望持续保持的工作方式
+
+1. 把业务或研究问题拆成明确的数据对象、模型输出和判断目标。
+2. 保留能够解释问题的基线，让复杂度的增加有证据支持。
+3. 分开报告观测事实、模型推断与个人解释。
+4. 用适用范围说明结果，而不是把单一实验改写成普遍能力。
+
+对我而言，技术深度不仅体现在会用多少模型，也体现在能否说清楚为什么这样建模，以及什么时候不该相信它。
+
+## 依据文献
+
+### 微博影响者社区之间的情感依赖关系
+
+Yulong He, Anton V. Proskurnikov, Artem Sedakov. **Mapping sentiment dependencies among online influencer communities on Weibo**. *Social Network Analysis and Mining*, 2026.
+
+期刊论文 · 已在线发表。2026 年 9 月 1 日在线发表；出版社目前标记为早期在线版本，已具有永久 DOI。 [原始文献](https://doi.org/10.1007/s13278-026-01645-w)
+
+### 代码的社会性：结合代码嵌入与观点动力学理解软件演化
+
+Yulong He, Nikita Verbin, Sergey Kovalchuk. **Social life of code: Modeling evolution through code embedding and opinion dynamics**. *Journal of Computational Science, 96, 102824*, 2026.
+
+期刊论文 · 已发表。 [原始文献](https://doi.org/10.1016/j.jocs.2026.102824)
+
+### 语义与结构信号：无参考答案的代码评测
+
+Dmitriy Fedrushkov, Yulong He, Ivan Smirnov, Artem Aliev, Sergey Kovalchuk. **Semantic vs. Structural Signals: Log-Probability and LLM-as-a-Judge for Reference-Free Code Evaluation**. *Proceedings of the Fifth Workshop on Generation, Evaluation and Metrics (GEM), 574–581*, 2026.
+
+研讨会论文 · 已发表。 [原始文献](https://aclanthology.org/2026.gem-main.55/)
+
+### 解耦蒸馏与低秩适配下的轻量化轴承故障诊断
+
+Ovanes Petrosian, Pengyi Li, Yulong He, Jiarui Liu, Zhaoruikun Sun, Guofeng Fu, Liping Meng. **Lightweight bearing fault diagnosis via decoupled distillation and low rank adaptation**. *Scientific Reports, 15, 36136*, 2025.
+
+期刊论文 · 已发表。 [原始文献](https://doi.org/10.1038/s41598-025-06734-y)
+
+### 鲁棒视听语音识别算法研究
+
+Wenfeng Yang, Pengyi Li, Wei Yang, Yuxing Liu, Yulong He, Ovanes Petrosian, Aleksandr Davydenko. **Research on Robust Audio-Visual Speech Recognition Algorithms**. *Mathematics, 11(7), 1733*, 2023.
+
+期刊论文 · 已发表。 [原始文献](https://doi.org/10.3390/math11071733)
+
+### 利用预测方法检测时间序列异常
+
+Н. Э. Девришев, Ю. Хэ, О. Л. Петросян. **Обнаружение аномалий во временных рядах с помощью методов прогнозирования**. *Процессы управления и устойчивость, 9(25)*, 2022.
+
+会议论文集论文 · 已发表。 [原始文献](https://pureportal.spbu.ru/files/97617692/Time_series_anomaly_detection_CPS2022.pdf) · [机构书目](https://pureportal.spbu.ru/en/publications/--------%281a491a09-e1c5-4d31-b3f1-958b306970e2%29.html)
+
+
+## 延伸阅读
+
+- [评测代码：看起来合理，不等于真的正确](code-evaluation.qmd)
+- [代码不仅是文本，也是协作留下的轨迹](code-dynamics.qmd)
+- [轻量化不是单纯把模型变小](efficient-models.qmd)
+
+```{=html}
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "从数据到判断：我的研究方法",
+  "description": "将表示学习、可解释建模与可靠评测串起来：先定义问题，再讨论模型是否真的解决了问题。",
+  "inLanguage": "zh-CN",
+  "author": {
+    "@type": "Person",
+    "name": "贺育隆",
+    "alternateName": "Yulong He",
+    "url": "https://hreyulog.github.io"
+  },
+  "datePublished": "2026-09-06",
+  "dateModified": "2026-09-06",
+  "mainEntityOfPage": "https://hreyulog.github.io/wiki/research-approach.html",
+  "url": "https://hreyulog.github.io/wiki/research-approach.html",
+  "articleSection": "研究方法",
+  "citation": [
+    "https://doi.org/10.1007/s13278-026-01645-w",
+    "https://doi.org/10.1016/j.jocs.2026.102824",
+    "https://aclanthology.org/2026.gem-main.55/",
+    "https://doi.org/10.1038/s41598-025-06734-y",
+    "https://doi.org/10.3390/math11071733",
+    "https://pureportal.spbu.ru/files/97617692/Time_series_anomaly_detection_CPS2022.pdf"
+  ],
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://hreyulog.github.io/wiki/raw/research-approach.md",
+    "encodingFormat": "text/markdown"
+  }
+}</script>
+```

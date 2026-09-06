@@ -1,0 +1,11 @@
+lang: zh-CN
+format:
+  html:
+    css: wiki.css
+    toc: true
+    toc-title: 本文目录
+    toc-position: right
+    toc-depth: 2
+    body-classes: research-wiki
+    code-copy: true
+    title-block-style: default

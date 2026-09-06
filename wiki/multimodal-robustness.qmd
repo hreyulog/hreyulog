@@ -1,0 +1,79 @@
+---
+title: "多一个模态，什么时候才真正有用"
+description: "从视听语音识别的复现与比较出发，讨论信息互补、噪声条件和跨数据集泛化。"
+---
+
+```{=html}
+<nav class="wiki-nav" aria-label="研究页面导航"><a href="index.html">研究索引</a><a href="publications.html">已发表论文</a><a href="access.html">数据与引用</a><a href="../Chinese.html">个人主页 <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></nav>
+```
+
+```{=html}
+<div class="note-meta"><span>多模态与时序</span><span>贺育隆</span><time datetime="2026-09-06">2026-09-06</time><span>约 3 分钟</span><a href="raw/multimodal-robustness.md" download><i class="bi bi-file-earmark-text" aria-hidden="true"></i> 纯文本</a></div>
+```
+
+在嘈杂环境里，声音可能不够可靠，嘴唇运动却仍然携带信息。视听语音识别的吸引力来自这种互补性，但把两种输入交给模型，并不等于互补性已经被有效利用。
+
+## 从复现与比较开始
+
+这篇发表于 Mathematics 的合著论文，对视听语音识别方法进行了复现、实验比较和分析，涉及 LRS2、LRS3 数据及不同噪声条件。研究讨论了特征提取与域泛化等问题。[已发表论文](https://doi.org/10.3390/math11071733)
+
+这里值得强调的是工作类型：重点是对已有方法的研究和比较，而不是声称论文中的所有基础架构都是我们提出的。能否复现、是否在一致条件下比较，同样是技术工作的核心部分。
+
+## 融合之前，先检查信息是否对齐
+
+音频与视频有不同的采样和时间结构。融合效果不仅由网络结构决定，也与预处理、时间对齐和单模态输入的质量有关。模型若主要依赖其中一个模态，名义上的多模态系统未必就具备期待中的鲁棒性。
+
+我的方法认识是：应先理解各模态能单独提供什么，再研究联合输入改善了什么。如果跳过单模态对照，很难判断增益来自互补信息，还是来自训练设置的其他差异。
+
+## 鲁棒性需要带着条件说
+
+在一个数据集上有效，与面对新录制环境、说话人或噪声时仍然有效，不是同一个结论。论文中的跨数据条件比较，使我更加关注结果背后的输入分布。[论文实验与讨论](https://www.mdpi.com/2227-7390/11/7/1733)
+
+因此，我不会把“多模态”当成稳健性的自动保证。更有价值的问题是：哪类退化被补偿了，哪类变化仍然导致失败，加入额外模态的采集与处理代价是否合理？这些需要在具体应用中重新验证。
+
+## 可迁移的技术认识
+
+这项工作与我的其他方向有一条共同线索：模型输出的意义取决于输入条件。讨论模型优劣时，不能把数据处理和评估设置当作无关背景。一个能够解释失败条件的比较，通常比脱离条件的排行榜结论更有工程价值。
+
+## 依据文献
+
+### 鲁棒视听语音识别算法研究
+
+Wenfeng Yang, Pengyi Li, Wei Yang, Yuxing Liu, Yulong He, Ovanes Petrosian, Aleksandr Davydenko. **Research on Robust Audio-Visual Speech Recognition Algorithms**. *Mathematics, 11(7), 1733*, 2023.
+
+期刊论文 · 已发表。 [原始文献](https://doi.org/10.3390/math11071733)
+
+
+## 延伸阅读
+
+- [轻量化不是单纯把模型变小](efficient-models.qmd)
+- [预测得准，为什么仍可能找错异常](anomaly-detection.qmd)
+
+```{=html}
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "多一个模态，什么时候才真正有用",
+  "description": "从视听语音识别的复现与比较出发，讨论信息互补、噪声条件和跨数据集泛化。",
+  "inLanguage": "zh-CN",
+  "author": {
+    "@type": "Person",
+    "name": "贺育隆",
+    "alternateName": "Yulong He",
+    "url": "https://hreyulog.github.io"
+  },
+  "datePublished": "2026-09-06",
+  "dateModified": "2026-09-06",
+  "mainEntityOfPage": "https://hreyulog.github.io/wiki/multimodal-robustness.html",
+  "url": "https://hreyulog.github.io/wiki/multimodal-robustness.html",
+  "articleSection": "多模态与时序",
+  "citation": [
+    "https://doi.org/10.3390/math11071733"
+  ],
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://hreyulog.github.io/wiki/raw/multimodal-robustness.md",
+    "encodingFormat": "text/markdown"
+  }
+}</script>
+```

@@ -1,0 +1,79 @@
+---
+title: "轻量化不是单纯把模型变小"
+description: "从轴承故障诊断出发，理解知识蒸馏、低秩适配与质量约束之间的关系。"
+---
+
+```{=html}
+<nav class="wiki-nav" aria-label="研究页面导航"><a href="index.html">研究索引</a><a href="publications.html">已发表论文</a><a href="access.html">数据与引用</a><a href="../Chinese.html">个人主页 <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></nav>
+```
+
+```{=html}
+<div class="note-meta"><span>高效机器学习</span><span>贺育隆</span><time datetime="2026-09-06">2026-09-06</time><span>约 3 分钟</span><a href="raw/efficient-models.md" download><i class="bi bi-file-earmark-text" aria-hidden="true"></i> 纯文本</a></div>
+```
+
+“把模型变小”只是轻量化的一个结果描述。更完整的问题是：在给定资源条件下，哪些能力必须保留，允许付出什么代价，又应怎样证明取舍合理？
+
+## 一个具体任务：轴承故障诊断
+
+Scientific Reports 的这篇合著论文面向轴承故障分类，将解耦知识蒸馏与低秩适配结合，构建轻量化模型 DKDL-Net。教师模型提供训练信号，较小的学生模型承担目标任务，再通过适配补偿质量损失。[已发表论文](https://doi.org/10.1038/s41598-025-06734-y)
+
+论文在其 CWRU 实验设置下报告，学生模型参数量为 6,838，教师模型为 69,626，测试准确率为 99.48%。这些数字属于具体数据集和实验协议，不是跨设备、跨工况的通用保证。
+
+## 蒸馏与适配各自解决什么
+
+我对这个组合的理解是：蒸馏关注“让小模型从较强模型的输出中学到什么”，适配关注“用受约束的更新改善任务表现”。两者不只是并列的工具名称，而是对应不同的训练职责。
+
+方法组合是否有必要，需要靠独立对照来判断。只有知道不蒸馏、不适配以及同时采用时的变化，才能讨论收益来自哪里。不能仅因为模块数量增加，就认为方案更完整。
+
+## 参数量不是部署结论
+
+参数减少通常值得关注，但它不直接等于相同比例的推理加速。算子实现、内存访问、批量大小和目标硬件都会影响实际体验。这一段是我从轻量化研究延伸出的工程判断，并非上述论文已经完成的所有部署验证。
+
+在真实落地中，我希望看到质量、时延和资源占用放在同一张评估表里。故障诊断还应考虑噪声、工况变化和漏检风险，而不能只盯着一个准确率。
+
+## 对我的研究方式的影响
+
+这项工作使我更倾向于从约束出发选择方法：先说清楚为什么需要小模型，再讨论减少了什么、保留了什么，以及证据是否足以支持部署。轻量化的目标是实现有用的能力与成本平衡，而不是单独追求一个更小的数字。
+
+## 依据文献
+
+### 解耦蒸馏与低秩适配下的轻量化轴承故障诊断
+
+Ovanes Petrosian, Pengyi Li, Yulong He, Jiarui Liu, Zhaoruikun Sun, Guofeng Fu, Liping Meng. **Lightweight bearing fault diagnosis via decoupled distillation and low rank adaptation**. *Scientific Reports, 15, 36136*, 2025.
+
+期刊论文 · 已发表。 [原始文献](https://doi.org/10.1038/s41598-025-06734-y)
+
+
+## 延伸阅读
+
+- [多一个模态，什么时候才真正有用](multimodal-robustness.qmd)
+- [从数据到判断：我的研究方法](research-approach.qmd)
+
+```{=html}
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "轻量化不是单纯把模型变小",
+  "description": "从轴承故障诊断出发，理解知识蒸馏、低秩适配与质量约束之间的关系。",
+  "inLanguage": "zh-CN",
+  "author": {
+    "@type": "Person",
+    "name": "贺育隆",
+    "alternateName": "Yulong He",
+    "url": "https://hreyulog.github.io"
+  },
+  "datePublished": "2026-09-06",
+  "dateModified": "2026-09-06",
+  "mainEntityOfPage": "https://hreyulog.github.io/wiki/efficient-models.html",
+  "url": "https://hreyulog.github.io/wiki/efficient-models.html",
+  "articleSection": "高效机器学习",
+  "citation": [
+    "https://doi.org/10.1038/s41598-025-06734-y"
+  ],
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://hreyulog.github.io/wiki/raw/efficient-models.md",
+    "encodingFormat": "text/markdown"
+  }
+}</script>
+```
