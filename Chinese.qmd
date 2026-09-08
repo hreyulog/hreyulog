@@ -86,6 +86,13 @@ about:
 - **Modeling Stylistic Co-evolution in Symbolic Music Heritage Collections**.<br> **Y He**, I Smirnov, Y Li. 2026.5 (under review). [Link](https://arxiv.org/abs/2607.23957)
 
 
+## 会议与研讨会
+
+- **[第五届生成、评估与度量研讨会（GEM 2026）](https://aclanthology.org/2026.gem-main.55/)**，美国加利福尼亚州圣迭戈，2026年。
+- **圣彼得堡国立大学博弈论中心研讨会**，俄罗斯圣彼得堡，2026年。
+- **数学优化理论与运筹学会议（MOTOR 2026）**，俄罗斯伊尔库茨克，2026年。
+- **第18届社会网络分析与挖掘进展国际会议（ASONAM 2026）**，摩洛哥拉巴特，2026年。
+
 ## 学术服务
 
 - 《Statistical Decisions and Econometrics》课程助教，圣彼得堡国立大学，2026年

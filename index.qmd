@@ -87,6 +87,13 @@ Opinion Dynamics, Code Embedding Models (Knowledge Distillation, Quantization, D
 
 
 
+## Conferences & Seminars
+
+- **[Fifth Workshop on Generation, Evaluation and Metrics (GEM 2026)](https://aclanthology.org/2026.gem-main.55/)**. San Diego, California, USA, 2026.
+- **Seminar of the Center for Game Theory at St. Petersburg State University**. St. Petersburg, Russia, 2026.
+- **Mathematical Optimization Theory and Operations Research (MOTOR 2026)**. Irkutsk, Russia, 2026.
+- **18th International Conference on Advances in Social Networks Analysis and Mining (ASONAM 2026)**. Rabat, Morocco, 2026.
+
 ## Academic Service
 
 - Teaching Assistant, "Statistical Decisions and Econometrics", Saint Petersburg State University, 2026
