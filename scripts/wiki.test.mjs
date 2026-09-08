@@ -10,6 +10,18 @@ const data = JSON.parse(await read('wiki/index.json'));
 const publishedIds = ['anomaly', 'code', 'compression', 'evaluation', 'multimodal', 'weibo'];
 const pages = ['access', 'index', 'publications', ...data.articles.map(a => a.id)].sort();
 
+test('三个语言版本的学术服务统一为助教与合并审稿两项', async () => {
+  for (const [file, heading] of [['index', 'Academic Service'], ['Chinese', '学术服务'], ['Russian', 'Академическая деятельность']]) {
+    const source = (await read(file + '.qmd')).replaceAll('\r\n', '\n');
+    const section = source.split('## ' + heading + '\n')[1]?.split('\n## ')[0];
+    assert(section, file + ': missing service section');
+    const entries = section.split('\n').filter(line => line.startsWith('- '));
+    assert.equal(entries.length, 2, file);
+    for (const venue of ['Scientific Reports', 'Discover Applied Sciences', 'JASSS', 'ICIC 2026']) assert(entries[1].includes(venue), file + ': ' + venue);
+    assert(entries.every(line => line.includes('2026')), file);
+  }
+});
+
 test('公开目录仅包含确认过的已发表论文', () => {
   assert.deepEqual(data.papers.map(p => p.id).sort(), publishedIds);
   assert(data.papers.every(p => p.status.startsWith('已') && p.authors.length > 1));
