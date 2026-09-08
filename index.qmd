@@ -98,7 +98,7 @@ Opinion Dynamics, Code Embedding Models (Knowledge Distillation, Quantization, D
 
 - Teaching Assistant, "Statistical Decisions and Econometrics", Saint Petersburg State University, 2026
 - Reviewer, *Scientific Reports*, 2026
-- Reviewer, *Discover Applied Sciences*
+- Reviewer, *Discover Applied Sciences*, 2026
 - Reviewer, *Journal of Artificial Societies and Social Simulation (JASSS)*, 2026
 - Reviewer, *2026 International Conference on Intelligent Computing (ICIC 2026)*, 2026
 
