@@ -73,29 +73,30 @@ about:
 
 ## Публикации
 
-- **Mapping sentiment dependencies among online influencer communities on Weibo**.<br> **Y He**, AV Proskurnikov, A Sedakov. *Social Network Analysis and Mining*, 2026. [Link](https://doi.org/10.1007/s13278-026-01645-w)
-- **Social Life of Code: Modeling Evolution through Code Embedding and Opinion Dynamics**.<br> **Y He**, N Verbin, S Kovalchuk. *Journal of Computational Science*, 96, 102824, 2026. [Link](https://doi.org/10.1016/j.jocs.2026.102824)
-- **Lightweight bearing fault diagnosis via decoupled distillation and low rank adaptation**.<br> O Petrosian, P Li, **Y He**, J Liu, Z Sun, G Fu, L Meng. *Scientific Reports*, 2025. [Link](https://doi.org/10.1038/s41598-025-06734-y)
-- **Semantic vs. Structural Signals: Log-Probability and LLM-as-a-Judge for Reference-Free Code Evaluation**.<br> Dmitriy Fedrushkov, **Y He**, I Smirnov, A Aliev, S Kovalchuk. *Proceedings of the Fifth Workshop on Generation, Evaluation and Metrics (GEM)*, pages 574-581, San Diego, California, USA, 2026. [Link](https://aclanthology.org/2026.gem-main.55/)
-- **Research on Robust Audio-Visual Speech Recognition Algorithms**.<br> W Yang, P Li, W Yang, Y Liu, **Y He**, O Petrosian, A Davydenko. *Mathematics*, 11(7), 1733, 2023. [Link](https://doi.org/10.3390/math11071733)
-- **Обнаружение аномалий во временных рядах с помощью методов прогнозирования**.<br> НЭ ДЕВРИШЕВ, **Ю ХЭ**, ОЛ ПЕТРОСЯН. *Процессы управления и устойчивость*, 9(25), 2022. [Link](https://dspace.spbu.ru/bitstream/11701/37048/1/cps2022.pdf)
-- **Style2Code: A Style-Controllable Code Generation Framework**.<br> D Zhang, S Kovalchuk, **YL He**, NA Arias, B Li. 2025.5 (на рассмотрении). [Link](https://arxiv.org/abs/2505.19442)
-- **Opinion dynamics and mutual influence with LLM agents through dialog simulation**.<br> **Y He**, D Zhang, S Kovalchuk, P Li, A Sedakov. 2026.1 (на рассмотрении). [Link](https://arxiv.org/abs/2602.12583)
-- **ArkTS-CodeSearch: A Open-Source ArkTS Dataset for Code Retrieval**.<br> **Y He**, A Ermakov, S Kovalchuk, A Aliev, D Shalymov. 2026.2 (на рассмотрении). [Link](https://arxiv.org/abs/2602.05550)
-- **Structured Multi-Criteria Evaluation of Large Language Models with Fuzzy Analytic Hierarchy Process and DualJudge**.<br> **Y He**, I Smirnov, D Fedrushkov, S Kovalchuk, I Revin. 2026.4 (на рассмотрении). [Link](https://arxiv.org/abs/2604.03742)
-- **Modeling Stylistic Co-evolution in Symbolic Music Heritage Collections**.<br> **Y He**, I Smirnov, Y Li. 2026.5 (на рассмотрении). [Link](https://arxiv.org/abs/2607.23957)
+- **[Mapping sentiment dependencies among online influencer communities on Weibo](https://doi.org/10.1007/s13278-026-01645-w)**.<br> **Y He**, AV Proskurnikov, A Sedakov. *Social Network Analysis and Mining*, 2026.
+- **[Social Life of Code: Modeling Evolution through Code Embedding and Opinion Dynamics](https://doi.org/10.1016/j.jocs.2026.102824)**.<br> **Y He**, N Verbin, S Kovalchuk. *Journal of Computational Science*, 96, 102824, 2026.
+- **[Lightweight bearing fault diagnosis via decoupled distillation and low rank adaptation](https://doi.org/10.1038/s41598-025-06734-y)**.<br> O Petrosian, P Li, **Y He**, J Liu, Z Sun, G Fu, L Meng. *Scientific Reports*, 2025.
+- **[Semantic vs. Structural Signals: Log-Probability and LLM-as-a-Judge for Reference-Free Code Evaluation](https://aclanthology.org/2026.gem-main.55/)**.<br> Dmitriy Fedrushkov, **Y He**, I Smirnov, A Aliev, S Kovalchuk. *Proceedings of the Fifth Workshop on Generation, Evaluation and Metrics (GEM)*, pages 574-581, San Diego, California, USA, 2026.
+- **[Research on Robust Audio-Visual Speech Recognition Algorithms](https://doi.org/10.3390/math11071733)**.<br> W Yang, P Li, W Yang, Y Liu, **Y He**, O Petrosian, A Davydenko. *Mathematics*, 11(7), 1733, 2023.
+- **[Обнаружение аномалий во временных рядах с помощью методов прогнозирования](https://dspace.spbu.ru/bitstream/11701/37048/1/cps2022.pdf)**.<br> НЭ ДЕВРИШЕВ, **Ю ХЭ**, ОЛ ПЕТРОСЯН. *Процессы управления и устойчивость*, 9(25), 2022.
+- **[Style2Code: A Style-Controllable Code Generation Framework](https://arxiv.org/abs/2505.19442)**.<br> D Zhang, S Kovalchuk, **YL He**, NA Arias, B Li. 2025.5 (на рассмотрении).
+- **[Opinion dynamics and mutual influence with LLM agents through dialog simulation](https://arxiv.org/abs/2602.12583)**.<br> **Y He**, D Zhang, S Kovalchuk, P Li, A Sedakov. 2026.1 (на рассмотрении).
+- **[ArkTS-CodeSearch: A Open-Source ArkTS Dataset for Code Retrieval](https://arxiv.org/abs/2602.05550)**.<br> **Y He**, A Ermakov, S Kovalchuk, A Aliev, D Shalymov. 2026.2 (на рассмотрении).
+- **[Structured Multi-Criteria Evaluation of Large Language Models with Fuzzy Analytic Hierarchy Process and DualJudge](https://arxiv.org/abs/2604.03742)**.<br> **Y He**, I Smirnov, D Fedrushkov, S Kovalchuk, I Revin. 2026.4 (на рассмотрении).
+- **[Modeling Stylistic Co-evolution in Symbolic Music Heritage Collections](https://arxiv.org/abs/2607.23957)**.<br> **Y He**, I Smirnov, Y Li. 2026.5 (на рассмотрении).
 
 
 
 ## Конференции и семинары
 
 - **[Пятый семинар по генерации, оценке и метрикам (GEM 2026)](https://aclanthology.org/2026.gem-main.55/)**. Сан-Диего, Калифорния, США, 2026.
-- **Семинар Центра теории игр Санкт-Петербургского государственного университета**. Санкт-Петербург, Россия, 2026.
-- **Mathematical Optimization Theory and Operations Research (MOTOR 2026)**. Иркутск, Россия, 2026.
-- **18-я международная конференция Advances in Social Networks Analysis and Mining (ASONAM 2026)**. Рабат, Марокко, 2026.
+- **[Семинар Центра теории игр Санкт-Петербургского государственного университета](https://apmath.spbu.ru/1416-seminar-tsentra-teorii-igr-spbgu.html)**. Санкт-Петербург, Россия, 2026.
+- **[Mathematical Optimization Theory and Operations Research (MOTOR 2026)](https://conference.icc.ru/event/9/page/66-about)**. Иркутск, Россия, 2026.
+- **[18-я международная конференция Advances in Social Networks Analysis and Mining (ASONAM 2026)](https://asonam.cpsc.ucalgary.ca/2026/)**. Рабат, Марокко, 2026.
 
 ## Академическая деятельность
 
+- Рецензент *Discover Applied Sciences*
 - Ассистент курса «Статистические решения и эконометрика», Санкт-Петербургский государственный университет, 2026
 - Рецензент *Scientific Reports*, *Journal of Artificial Societies and Social Simulation (JASSS)* и *2026 International Conference on Intelligent Computing (ICIC 2026)*, 2026
 
